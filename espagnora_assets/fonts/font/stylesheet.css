@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Pilat Condensed';
+    src: url('PilatCondensed-Thin.eot');
+    src: local('Pilat Condensed Thin'), local('PilatCondensed-Thin'),
+        url('PilatCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PilatCondensed-Thin.woff2') format('woff2'),
+        url('PilatCondensed-Thin.woff') format('woff'),
+        url('PilatCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Condensed Book';
+    src: url('PilatCondensed-Book.eot');
+    src: local('Pilat Condensed Book'), local('PilatCondensed-Book'),
+        url('PilatCondensed-Book.eot?#iefix') format('embedded-opentype'),
+        url('PilatCondensed-Book.woff2') format('woff2'),
+        url('PilatCondensed-Book.woff') format('woff'),
+        url('PilatCondensed-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Condensed';
+    src: url('PilatCondensed-Light.eot');
+    src: local('Pilat Condensed Light'), local('PilatCondensed-Light'),
+        url('PilatCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('PilatCondensed-Light.woff2') format('woff2'),
+        url('PilatCondensed-Light.woff') format('woff'),
+        url('PilatCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Condensed';
+    src: url('PilatCondensed-Bold.eot');
+    src: local('Pilat Condensed Bold'), local('PilatCondensed-Bold'),
+        url('PilatCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PilatCondensed-Bold.woff2') format('woff2'),
+        url('PilatCondensed-Bold.woff') format('woff'),
+        url('PilatCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Condensed';
+    src: url('PilatCondensed-Black.eot');
+    src: local('Pilat Condensed Black'), local('PilatCondensed-Black'),
+        url('PilatCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('PilatCondensed-Black.woff2') format('woff2'),
+        url('PilatCondensed-Black.woff') format('woff'),
+        url('PilatCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Condensed';
+    src: url('PilatCondensed-Regular.eot');
+    src: local('Pilat Condensed Regular'), local('PilatCondensed-Regular'),
+        url('PilatCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PilatCondensed-Regular.woff2') format('woff2'),
+        url('PilatCondensed-Regular.woff') format('woff'),
+        url('PilatCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Condensed Demi';
+    src: url('PilatCondensed-DemiBold.eot');
+    src: local('Pilat Condensed DemiBold'), local('PilatCondensed-DemiBold'),
+        url('PilatCondensed-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PilatCondensed-DemiBold.woff2') format('woff2'),
+        url('PilatCondensed-DemiBold.woff') format('woff'),
+        url('PilatCondensed-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Condensed';
+    src: url('PilatCondensed-Heavy.eot');
+    src: local('Pilat Condensed Heavy'), local('PilatCondensed-Heavy'),
+        url('PilatCondensed-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('PilatCondensed-Heavy.woff2') format('woff2'),
+        url('PilatCondensed-Heavy.woff') format('woff'),
+        url('PilatCondensed-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+

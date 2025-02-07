@@ -1,0 +1,107 @@
+/* Fixed positioning for the audio player */
+.audio-player {
+    position: fixed;
+    bottom: 0; /* Distance from the bottom of the screen */
+    left: 0;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .audio-player button {
+    background-color: var(--color-red);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+  }
+  .audio-player button.close-player {
+    color: var(--color-white);
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  .audio-player button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .audio-player .progress {
+    width: 100%;
+    height: 10px;
+    background-color: #555;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .audio-player .progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+    border-radius: 5px;
+  }
+  
+  .volume {
+    margin-left: 10px;
+  }
+  .audio-player-tag {
+    display: flex;
+    align-items: start;
+  }
+  .audio-player-tag .audio-player-tag-image {
+    max-width: 80px;
+  }
+  .audio-player-tag .audio-player-tag-title {
+    width: 400px;
+    margin-left: 20px;
+  }
+  .audio-manager {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex: 2;
+  }
+  .podcast-container {
+    width: 100%;
+    background-color: var(--color-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  .podcast-container .podcast-image {
+    max-width: 80px;
+  }
+  .podcast-container .podcast-title {
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 1em ;
+    width: 200px;
+  }
+  .podcast-container .podcast-playbutton {
+    background-color: var(--color-red);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    /* padding: 15px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+  

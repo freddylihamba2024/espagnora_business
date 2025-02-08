@@ -54,7 +54,9 @@ class Home extends BaseController
         $data['active_data']['active_status'] = ($param == null) ? "actualites" : $param;
         $data['active_data']['categories'] = $this->mediaCategoryModel->get_menu_categorie_list();
         if ($obj == 'direct-tv') {
+            $media_types = "'Videos'";
             $data['media'] = $this->mediaModel->get_media_direct();
+            $data['last_videos']=$this->webMediaModel->get_media_list_by_media_type($media_types,null,8);
             return view('Modules\Web\Views\direct_tv', $data);
         } elseif ($obj == 'login') {
             return view('Modules\Web\Views\login', $this->data);
@@ -62,7 +64,8 @@ class Home extends BaseController
             $this->session->destroy();
             return redirect()->to(base_url("web/login"));
         } elseif ($obj == "podcasts") {
-            $data['podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios');
+            $data['caroussel_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios',8);
+            $data['original_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios');
             return view('Modules\Web\Views\podcasts', $data);
         }  elseif ($obj == "magazines") {
             $data['active_data']['active_status'] = ($param == null) ? "magazines" : $param;

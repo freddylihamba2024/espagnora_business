@@ -27,7 +27,7 @@
         if (typeof Didomi !== undefined) {
           __tcfapi("addEventListener", 2, (tcData, success) => {
             if (tcData && (tcData.eventStatus === "tcloaded" || tcData.eventStatus ===
-              "useractioncomplete")) {
+                "useractioncomplete")) {
               callback()
             }
           }, [vendorId])
@@ -143,7 +143,7 @@
           let firstid;
           const utiqPass = localStorage.utiqPass && JSON.parse(localStorage.utiqPass);
           if (utiqPass && utiqPass.connectId && utiqPass.connectId.idGraph && utiqPass.connectId.idGraph[
-            0]) {
+              0]) {
             atid = utiqPass.connectId.idGraph[0].atid;
             mtid = utiqPass.connectId.idGraph[0].mtid
           }

@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/smartadserver.46fde1b8c71a46ead3e8.css')?>">
   <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/home.09a6da4e980ef8d762a1.css')?>">
   <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/rubrique.7f0323db7055666601f6.css')?>">
-
+  <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/podcasts_mosaique.ec77eb141c9eeddb830d.css')?>">
   <script>
     window.didomiNextConsent = function (vendorId, callback) {
       window.didomiOnReady = window.didomiOnReady || [];

@@ -35,11 +35,11 @@ if (isset($active_data)) {
                 target="_blank">Replay</a> <a class="direct_radio" href="en-direct/bfm-radio/index.html" title="Direct Radio"
                 onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation','clickchapter1':'header', 'clickchapter2':'CTA-direct', 'clickname':'radio_ESPAGNORA'});">
                 <div class="direct_radio_bouton"><img width="21" height="20"
-                        src="assets/v11/images/radio.dee6a7c951465a8cbb208e64f4c09ff6.svg" alt="Direct Radio"></div>Radio
-            </a><a class="direct_tv" href="direct_tv.html" title="Direct tv"
+                        src="<?=base_url('templates/news/assets/v11/images/radio.dee6a7c951465a8cbb208e64f4c09ff6.svg')?>" alt="Direct Radio"></div>Radio
+            </a><a class="direct_tv" href="<?=base_url('web/direct-tv')?>" title="Direct tv"
                 onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation', 'clickchapter1':'header', 'clickchapter2':'CTA-direct', 'clickname':'direct-tv_ESPAGNORA'});">
                 <div class="direct_tv_bouton"><img width="16" height="14"
-                        src="assets/v11/images/direct_tv.a04f54365fdb12eef5ce900c03db08d4.svg" alt="Direct tv"></div><span
+                        src="<?=base_url('templates/news/assets/v11/images/direct_tv.a04f54365fdb12eef5ce900c03db08d4.svg')?>" alt="Direct tv"></div><span
                     class="span_tv">Direct</span>
             </a></div>
     </div>
@@ -80,9 +80,9 @@ if (isset($active_data)) {
         <div class="menu_nav">
             <div class="menu_right">
                 <div class="menu_center_left">
-                    <div class="menu_center_left_radio"><a href="en-direct/index.html" title="Regarder ESPAGNORA"
+                    <div class="menu_center_left_radio"><a href="<?=base_url('web/direct-tv')?>" title="Regarder ESPAGNORA"
                             onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation','clickchapter1':'menu-burger', 'clickchapter2':'CTA-direct', 'clickname':'direct-tv_ESPAGNORA'});">
-                            <div class="menu_center_left_radio_img"><img width="32" height="26" src="assets/images/icon_blanc.png"
+                            <div class="menu_center_left_radio_img"><img width="32" height="26" src="<?=base_url('espagnora_assets/images/icon_blanc.png')?>"
                                     alt="Regarder ESPAGNORA"></div>
                             <span>Regarder ESPAGNORA TV</span>
                             <div class="menu_center_left_radio_picto"><svg width="10" height="11" fill="#FF2A00">
@@ -91,7 +91,7 @@ if (isset($active_data)) {
                         </a><span class="live_wrapper_infos"
                             data-hls-source="https://hls-bfmradio.nextradiotv.com/ssai/master.m3u8" data-epg-chaine="bfm-radio"
                             data-direct-title="LE DIRECT BFM RADIO" data-channel-name="BFMRadio" title="Écouter BFM Radio">
-                            <div class="menu_center_left_radio_img"><img width="32" height="20" src="<?=base_url('templates/bfmtv/assets/images/icon_blanc.png')?>"
+                            <div class="menu_center_left_radio_img"><img width="32" height="20" src="<?=base_url('espagnora_assets/images/icon_blanc.png')?>"
                                     alt="Écouter BFM Radio">
                             </div><span>Écouter la Radio</span>
                             <div class="menu_center_left_radio_picto"><svg width="10" height="11" fill="#051EFF">
@@ -99,7 +99,7 @@ if (isset($active_data)) {
                                 </svg></div>
                         </span><a href="https://www.rmcbfmplay.com/chaine/bfm-tv?subMenuId=RefMenuItem::rmcgo_home_ESPAGNORA"
                             title="Replay ESPAGNORA" target="_blank">
-                            <div class="menu_center_left_radio_img"><img width="40" height="17" src="assets/images/icon_blanc.png"
+                            <div class="menu_center_left_radio_img"><img width="40" height="17" src="<?=base_url('espagnora_assets/images/icon_blanc.png')?>"
                                     alt="Replay ESPAGNORA">
                             </div><span>Replay ESPAGNORA</span>
                             <div class="menu_center_left_radio_picto"><svg width="17" height="17" fill="#FFFF">
@@ -110,7 +110,7 @@ if (isset($active_data)) {
                     <ul id="menu_category_links_left">
                         <li><a href="videos/index.html" title="Vidéos"><span>Vidéos</span></a></li>
                         <li><a href="replay-emissions/index.html" title="Émissions"><span>Magazines</span></a></li>
-                        <li><a href="podcasts/index.html" title="Podcasts"><span>Podcasts</span></a></li>
+                        <li><a href="<?=base_url('web/podcasts')?>" title="Podcasts"><span>Podcasts</span></a></li>
                         <li>
                             <div class="menu_label_header">
                                 <div class="menu_label">Services</div><span class="show_menu">Voir plus</span>

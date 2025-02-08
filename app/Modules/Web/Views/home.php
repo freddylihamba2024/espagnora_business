@@ -56,130 +56,140 @@
                         <div class="flag_article flag_color">Alerte info</div>
                         <picture class="content_item_cover with-js">
                             <source media="(min-width: 441px)" width="2" height="1"
-                                srcset="https://images.bfmtv.com/AF-kAB2ASUb-MwCeFHrrvZHjnjs=/0x170:1024x682/800x0/images/-198707.jpg, https://images.bfmtv.com/0CkJh56iKmZ6vVX-MYxVby7opnA=/0x170:1024x682/1600x0/images/-198707.jpg 2x"
+                                srcset="<?= base_url('uploads/' . $latest_news[0]['Media_Image_4']) ?>, <?= base_url('uploads/' . $latest_news[0]['Media_Image_4']) ?> 2x"
                                 type="image/jpeg">
                             <source media="(min-width: 361px)" width="4" height="3"
-                                srcset="https://images.bfmtv.com/jpPovUMlT8QeXCfUD5IvzED1zA8=/58x0:966x681/840x0/images/-198707.jpg 2x"
+                                srcset="<?= base_url('uploads/' . $latest_news[0]['Media_Image_4']) ?> 2x"
                                 type="image/jpeg">
                             <source media="(min-width: 321px)" width="4" height="3"
-                                srcset="https://images.bfmtv.com/r8JCWgW2Aqx7zrMImpfLc0UVW4Y=/58x0:966x681/736x0/images/-198707.jpg 2x"
+                                srcset="<?= base_url('uploads/' . $latest_news[0]['Media_Image_4']) ?> 2x"
                                 type="image/jpeg">
                             <source media="(min-width: 300px)" width="4" height="3"
-                                srcset="https://images.bfmtv.com/3tjw5SRVssBWRF9WdJKdwkWgB2Y=/58x0:966x681/640x0/images/-198707.jpg 2x"
+                                srcset="<?= base_url('uploads/' . $latest_news[0]['Media_Image_4']) ?> 2x"
                                 type="image/jpeg"><img width="2" height="1"
-                                src="https://images.bfmtv.com/AF-kAB2ASUb-MwCeFHrrvZHjnjs=/0x170:1024x682/800x0/images/-198707.jpg"
+                                src="<?= base_url('uploads/' . $latest_news[0]['Media_Image_4']) ?>"
                                 alt="Un fourgon de police devant la préfecture de police de Paris (photo d&#39;illustration)">
                         </picture>
                         <div class="une_caption">
-                            <h2 class="title_une_item">Paris: un homme tente de prendre l&#39;arme d&#39;un policier devant la
-                                préfecture de police, deux agents légèrement blessés</h2>
+                            <h2 class="title_une_item"><?= $latest_news[0]['Title_2'] ?></h2>
                         </div>
                     </a></article>
-                <p class="content_description"><span class="item_chapo item_chapo_une">L&#39;homme a essayé de prendre
-                        l&#39;arme d&#39;un policier qui se trouvait devant la préfecture de police. Il a été maîtrisé et placé en
-                        garde à vue.</span></p>
+                <p class="content_description"><span class="item_chapo item_chapo_une"><?= $latest_news[0]['Title_2'] ?></span></p>
             </div>
             <div id="before_duo"></div>
             <div class="block_fleuve icon_middle" id="bloc_duo_home_fleuve_1579094701695">
-                <article class="duo_liste content_item content_type content_type_video"><a
-                        href="international/europe/suede-cinq-personnes-touchees-par-des-tirs-dans-une-ecole_AD-202502040509.html"
-                        title="Suède: cinq personnes touchées par des tirs lors d&#39;une fusillade dans une école">
-                        <figure class="duo_caption">
-                            <div class="flag_article flag_color">Alerte info</div>
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/9nfe6CqdB4KnPkMmAdLtdrBUgw8=/0x53:1024x629/385x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp, https://images.bfmtv.com/x9GBjIzrhpn2akREdrzkHdCeN_M=/0x53:1024x629/770x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/yv9I2PooTGp3A5fs2m4H9YjbDLo=/0x53:1024x629/385x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg, https://images.bfmtv.com/m5wFDtklr42zJpyPP0aBMYU-80U=/0x53:1024x629/770x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/mDO8EItoO4kVAocICqDe1ePqkJI=/0x53:1024x629/840x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/yfdbQnuUO2PY-GN1JJQW5ADwzz8=/0x53:1024x629/840x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Nx9XOaYUdxk43SSx3___oyBTtrk=/0x53:1024x629/736x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/12yK3IaoONDOg1Kwgt0zBO4GS3k=/0x53:1024x629/736x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/M6oazldBFnV9nBBQ-w5OGzMn-sE=/0x53:1024x629/640x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/jbI2avhCtS73rUekRCC1wLB2mDM=/0x53:1024x629/640x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/yv9I2PooTGp3A5fs2m4H9YjbDLo=/0x53:1024x629/385x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg"
-                                    src="https://images.bfmtv.com/yv9I2PooTGp3A5fs2m4H9YjbDLo=/0x53:1024x629/385x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg"
-                                    alt="Un officier de police délimite une zone près de l&#39;école Risbergska à Orebro, Suède, où a eu lieu une fusillade le 4 février 2025.">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/9nfe6CqdB4KnPkMmAdLtdrBUgw8=/0x53:1024x629/385x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp, https://images.bfmtv.com/x9GBjIzrhpn2akREdrzkHdCeN_M=/0x53:1024x629/770x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/yv9I2PooTGp3A5fs2m4H9YjbDLo=/0x53:1024x629/385x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg, https://images.bfmtv.com/m5wFDtklr42zJpyPP0aBMYU-80U=/0x53:1024x629/770x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/3LsoCo5WRCTZFL3K83YeGpDrU8w=/0x53:1024x629/420x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp, https://images.bfmtv.com/mDO8EItoO4kVAocICqDe1ePqkJI=/0x53:1024x629/840x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/z5oAVF4V2_vF7zzaHJDEbDNcrrI=/0x53:1024x629/420x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg, https://images.bfmtv.com/yfdbQnuUO2PY-GN1JJQW5ADwzz8=/0x53:1024x629/840x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/QXN5hNFZyxSZ873QzR9vvW99ssY=/0x53:1024x629/368x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp, https://images.bfmtv.com/Nx9XOaYUdxk43SSx3___oyBTtrk=/0x53:1024x629/736x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/voRHY4UCpz-BBW074_69U-69xHs=/0x53:1024x629/368x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg, https://images.bfmtv.com/12yK3IaoONDOg1Kwgt0zBO4GS3k=/0x53:1024x629/736x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/I2753ZwryvgieBP-y-lS9LFfUrk=/0x53:1024x629/320x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp, https://images.bfmtv.com/M6oazldBFnV9nBBQ-w5OGzMn-sE=/0x53:1024x629/640x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/n2RSDi6-Ds9RHCWkXYTPLZGpTdw=/0x53:1024x629/320x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg, https://images.bfmtv.com/jbI2avhCtS73rUekRCC1wLB2mDM=/0x53:1024x629/640x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/yv9I2PooTGp3A5fs2m4H9YjbDLo=/0x53:1024x629/385x0/images/Un-officier-de-police-delimite-une-zone-pres-de-l-ecole-Risbergska-a-Orebro-Suede-ou-a-eu-lieu-une-fusillade-le-4-fevrier-2025-2027086.jpg"
-                                        alt="Un officier de police délimite une zone près de l&#39;école Risbergska à Orebro, Suède, où a eu lieu une fusillade le 4 février 2025.">
-                                </picture>
-                            </noscript>
-                        </figure>
-                        <h3 class="content_item_title">Suède: cinq personnes touchées par des tirs lors d&#39;une fusillade dans
-                            une école</h3>
-                    </a></article>
-                <article class="duo_liste content_item content_type content_type_article"><a
-                        href="international/le-francais-serge-atlaoui-condamne-a-mort-en-indonesie-attendu-a-paris-mercredi_AN-202502040539.html"
-                        title="Le Français Serge Atlaoui, condamné à mort en Indonésie, attendu à Paris mercredi">
-                        <figure class="duo_caption">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/YwcSyCcd5aujrsE7hlyv9GxrF-A=/4x3:1252x705/385x0/images/1242081.jpg, https://images.bfmtv.com/7OAoHAShiuffUenff3R1ERt9UC4=/4x3:1252x705/770x0/images/1242081.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/__WbKSqonR1Mh9INBPUmV38ao2k=/4x3:1252x705/840x0/images/1242081.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/b5hDn12iIcutTMQdDnqlge_LHaY=/4x3:1252x705/736x0/images/1242081.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/zZ44XHV4LF32Z2GmeVPmEA3Jj3M=/4x3:1252x705/640x0/images/1242081.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/YwcSyCcd5aujrsE7hlyv9GxrF-A=/4x3:1252x705/385x0/images/1242081.jpg"
-                                    src="https://images.bfmtv.com/YwcSyCcd5aujrsE7hlyv9GxrF-A=/4x3:1252x705/385x0/images/1242081.jpg"
-                                    alt="Serge Atlaoui, à son arrivée au tribunal le 1er avril dernier.">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/YwcSyCcd5aujrsE7hlyv9GxrF-A=/4x3:1252x705/385x0/images/1242081.jpg, https://images.bfmtv.com/7OAoHAShiuffUenff3R1ERt9UC4=/4x3:1252x705/770x0/images/1242081.jpg 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/-vPvF2PvktbeXb31X8L2ago670I=/4x3:1252x705/420x0/images/1242081.jpg, https://images.bfmtv.com/__WbKSqonR1Mh9INBPUmV38ao2k=/4x3:1252x705/840x0/images/1242081.jpg 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/wgzaVTGNuJhGz92sj9PE7IhtUIY=/4x3:1252x705/368x0/images/1242081.jpg, https://images.bfmtv.com/b5hDn12iIcutTMQdDnqlge_LHaY=/4x3:1252x705/736x0/images/1242081.jpg 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/7036H8JVnFcKpCN3koRThc_hX54=/4x3:1252x705/320x0/images/1242081.jpg, https://images.bfmtv.com/zZ44XHV4LF32Z2GmeVPmEA3Jj3M=/4x3:1252x705/640x0/images/1242081.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/YwcSyCcd5aujrsE7hlyv9GxrF-A=/4x3:1252x705/385x0/images/1242081.jpg"
-                                        alt="Serge Atlaoui, à son arrivée au tribunal le 1er avril dernier.">
-                                </picture>
-                            </noscript>
-                        </figure>
-                        <h3 class="content_item_title">Le Français Serge Atlaoui, condamné à mort en Indonésie, attendu à Paris
-                            mercredi</h3>
-                    </a></article>
+                <?php foreach ($latest_news as $news): ?>
+                    <?php if ($news['Media_type_10'] == "Videos"): ?>
+                        <article class="duo_liste content_item content_type content_type_video"><a
+                                href="economie/entreprises/ni-entente-ni-connivence-macron-nie-avoir-autorise-nestle-a-commercialiser-des-eaux-non-conformes_AD-202502040523.html"
+                                title="<?= $news['Title_2'] ?>">
+                                <figure class="duo_caption">
+                                    <picture class="content_item_cover with-js">
+                                        <source media="(min-width: 441px)" width="16" height="9" class="lozad"
+                                            srcset="https://images.bfmtv.com/5wrotqKAEgIckQeB96KYLqUFgpE=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/9FYUgp7MJiA8bE2wPfdlV57Ir7Y=/14x31:2046x1174/770x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x"
+                                            type="image/webp">
+                                        <source media="(min-width: 441px)" width="16" height="9" class="lozad"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                            type="image/jpeg">
+                                        <source media="(min-width: 361px)" width="16" height="9" class="lozad"
+                                            srcset="https://images.bfmtv.com/rnelHiHJLhC7FGGlj5Td1gB0TW0=/14x31:2046x1174/840x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x"
+                                            type="image/webp">
+                                        <source media="(min-width: 361px)" width="16" height="9" class="lozad"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                            type="image/jpeg">
+                                        <source media="(min-width: 321px)" width="16" height="9" class="lozad"
+                                            srcset="https://images.bfmtv.com/Iv6oZ_yzpEynLWocER0lnd7ec3w=/14x31:2046x1174/736x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x"
+                                            type="image/webp">
+                                        <source media="(min-width: 321px)" width="16" height="9" class="lozad"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                            type="image/jpeg">
+                                        <source media="(min-width: 300px)" width="16" height="9" class="lozad"
+                                            srcset="https://images.bfmtv.com/MNSX2zyrDn5DvOBZn_HjuKY5Sx4=/14x31:2046x1174/640x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x"
+                                            type="image/webp">
+                                        <source media="(min-width: 300px)" width="16" height="9" class="lozad"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                            type="image/jpeg"><img width="16" height="9" class="lozad"
+                                            data-srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                            src="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                            alt="Le président Emmanuel Macron à l&#39;Élysée le 23 octobre 2024 ">
+                                    </picture><noscript>
+                                        <picture class="content_item_cover">
+                                            <source type="image/webp" media="(min-width: 441px)"
+                                                srcset="https://images.bfmtv.com/5wrotqKAEgIckQeB96KYLqUFgpE=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/9FYUgp7MJiA8bE2wPfdlV57Ir7Y=/14x31:2046x1174/770x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x">
+                                            <source type="image/jpeg" media="(min-width: 441px)"
+                                                srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                            <source type="image/webp" media="(min-width: 361px)"
+                                                srcset="https://images.bfmtv.com/tsCkEmHBWJVhg8hU3IdHWFHrq3Y=/14x31:2046x1174/420x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/rnelHiHJLhC7FGGlj5Td1gB0TW0=/14x31:2046x1174/840x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x">
+                                            <source type="image/jpeg" media="(min-width: 361px)"
+                                                srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                            <source type="image/webp" media="(min-width: 321px)"
+                                                srcset="https://images.bfmtv.com/Q7qiZ_fXnSkk_Vx7tbwFqYTebf4=/14x31:2046x1174/368x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/Iv6oZ_yzpEynLWocER0lnd7ec3w=/14x31:2046x1174/736x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x">
+                                            <source type="image/jpeg" media="(min-width: 321px)"
+                                                srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                            <source type="image/webp" media="(min-width: 300px)"
+                                                srcset="https://images.bfmtv.com/R-zGeCKSAnxAVP1JJ1ilB940ibY=/14x31:2046x1174/320x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/MNSX2zyrDn5DvOBZn_HjuKY5Sx4=/14x31:2046x1174/640x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x">
+                                            <source type="image/jpeg" media="(min-width: 300px)"
+                                                srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                            <img
+                                                src="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                                alt="<?= $news['Title_2'] ?>">
+                                        </picture>
+                                    </noscript>
+                                </figure>
+                                <h3 class="content_item_title"><?= $news['Title_2'] ?></h3>
+                            </a>
+                            <div class="item_related_block">
+                                <h3 class="item_related content_type"><a
+                                        href="economie/consommation/eaux-minerales-traitees-nestle-a-t-il-ete-autorise-a-utiliser-des-filtres-illegaux-par-l-executif_AD-202502040394.html"
+                                        title="
+    Eaux minérales traitées: Nestlé a-t-il été autorisé à utiliser des filtres illégaux par l&#39;exécutif?
+  ">Eaux minérales traitées: Nestlé a-t-il été autorisé à utiliser des filtres illégaux par l&#39;exécutif?</a></h3>
+                            </div>
+                        </article>
+                    <?php elseif ($news['Media_type_10'] == "Actualites") : ?>
+                        <article class="duo_liste content_item content_type content_type_article"><a
+                                href="international/le-francais-serge-atlaoui-condamne-a-mort-en-indonesie-attendu-a-paris-mercredi_AN-202502040539.html"
+                                title="<?= $news['Title_2'] ?>">
+                                <figure class="duo_caption">
+                                    <picture class="content_item_cover with-js">
+                                        <source media="(min-width: 441px)" width="16" height="9" class="lozad"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                            type="image/jpeg">
+                                        <source media="(min-width: 361px)" width="16" height="9" class="lozad"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                            type="image/jpeg">
+                                        <source media="(min-width: 321px)" width="16" height="9" class="lozad"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                            type="image/jpeg">
+                                        <source media="(min-width: 300px)" width="16" height="9" class="lozad"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                            type="image/jpeg"><img width="16" height="9" class="lozad"
+                                            data-srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                            src="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                            alt="<?= $news['Title_2'] ?>">
+                                    </picture><noscript>
+                                        <picture class="content_item_cover">
+                                            <source type="image/jpeg" media="(min-width: 441px)"
+                                                srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                            <source type="image/jpeg" media="(min-width: 361px)"
+                                                srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                            <source type="image/jpeg" media="(min-width: 321px)"
+                                                srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                            <source type="image/jpeg" media="(min-width: 300px)"
+                                                srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                            <img
+                                                src="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                                alt="<?= $news['Title_2'] ?>">
+                                        </picture>
+                                    </noscript>
+                                </figure>
+                                <h3 class="content_item_title"><?= $news['Title_2'] ?></h3>
+                            </a>
+                        </article>
+                    <?php endif; ?>
+                <?php endforeach ?>
+
+
                 <div id="sas_120870_s" class="bloc_center_full">
                     <div id="sas_120870_container">
                         <div id="sas_120870" class="display_ad"></div>
@@ -196,134 +206,10 @@
                         </script>
                     </div>
                 </div>
-                <article class="duo_liste content_item content_type content_type_video"><a
-                        href="economie/entreprises/ni-entente-ni-connivence-macron-nie-avoir-autorise-nestle-a-commercialiser-des-eaux-non-conformes_AD-202502040523.html"
-                        title="&quot;Ni entente ni connivence&quot;: Macron nie avoir autorisé Nestlé à commercialiser des eaux non conformes">
-                        <figure class="duo_caption">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/5wrotqKAEgIckQeB96KYLqUFgpE=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/9FYUgp7MJiA8bE2wPfdlV57Ir7Y=/14x31:2046x1174/770x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/yzWKLNxN95c-tigLELVmRHYXpQg=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg, https://images.bfmtv.com/bFIp689pKQKPGE53onookZuuWzA=/14x31:2046x1174/770x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/rnelHiHJLhC7FGGlj5Td1gB0TW0=/14x31:2046x1174/840x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/-td5nsWeOgowxfjJUQg_JxrrGPg=/14x31:2046x1174/840x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Iv6oZ_yzpEynLWocER0lnd7ec3w=/14x31:2046x1174/736x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/GDqMIWSI-CoJrQ9xB9VMbKy7Vz0=/14x31:2046x1174/736x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/MNSX2zyrDn5DvOBZn_HjuKY5Sx4=/14x31:2046x1174/640x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/ll7A3_tpIMBLbHDXBgwIIllVFpw=/14x31:2046x1174/640x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/yzWKLNxN95c-tigLELVmRHYXpQg=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg"
-                                    src="https://images.bfmtv.com/yzWKLNxN95c-tigLELVmRHYXpQg=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg"
-                                    alt="Le président Emmanuel Macron à l&#39;Élysée le 23 octobre 2024 ">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/5wrotqKAEgIckQeB96KYLqUFgpE=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/9FYUgp7MJiA8bE2wPfdlV57Ir7Y=/14x31:2046x1174/770x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/yzWKLNxN95c-tigLELVmRHYXpQg=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg, https://images.bfmtv.com/bFIp689pKQKPGE53onookZuuWzA=/14x31:2046x1174/770x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/tsCkEmHBWJVhg8hU3IdHWFHrq3Y=/14x31:2046x1174/420x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/rnelHiHJLhC7FGGlj5Td1gB0TW0=/14x31:2046x1174/840x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/HDu8eqfHsCbLb2N32ZyJUtWSXUI=/14x31:2046x1174/420x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg, https://images.bfmtv.com/-td5nsWeOgowxfjJUQg_JxrrGPg=/14x31:2046x1174/840x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/Q7qiZ_fXnSkk_Vx7tbwFqYTebf4=/14x31:2046x1174/368x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/Iv6oZ_yzpEynLWocER0lnd7ec3w=/14x31:2046x1174/736x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/I9kdBouOQOHpXKWNOc_p1nLH0t0=/14x31:2046x1174/368x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg, https://images.bfmtv.com/GDqMIWSI-CoJrQ9xB9VMbKy7Vz0=/14x31:2046x1174/736x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/R-zGeCKSAnxAVP1JJ1ilB940ibY=/14x31:2046x1174/320x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp, https://images.bfmtv.com/MNSX2zyrDn5DvOBZn_HjuKY5Sx4=/14x31:2046x1174/640x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/8W7uqTJxPvI1oxPPkfOHTkbfA20=/14x31:2046x1174/320x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg, https://images.bfmtv.com/ll7A3_tpIMBLbHDXBgwIIllVFpw=/14x31:2046x1174/640x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/yzWKLNxN95c-tigLELVmRHYXpQg=/14x31:2046x1174/385x0/images/Le-president-Emmanuel-Macron-a-l-Elysee-le-23-octobre-2024-2015160.jpg"
-                                        alt="Le président Emmanuel Macron à l&#39;Élysée le 23 octobre 2024 ">
-                                </picture>
-                            </noscript>
-                        </figure>
-                        <h3 class="content_item_title">&quot;Ni entente ni connivence&quot;: Macron nie avoir autorisé Nestlé à
-                            commercialiser des eaux non conformes</h3>
-                    </a>
-                    <div class="item_related_block">
-                        <h3 class="item_related content_type"><a
-                                href="economie/consommation/eaux-minerales-traitees-nestle-a-t-il-ete-autorise-a-utiliser-des-filtres-illegaux-par-l-executif_AD-202502040394.html"
-                                title="
-    Eaux minérales traitées: Nestlé a-t-il été autorisé à utiliser des filtres illégaux par l&#39;exécutif?
-  ">Eaux minérales traitées: Nestlé a-t-il été autorisé à utiliser des filtres illégaux par l&#39;exécutif?</a></h3>
-                    </div>
-                </article>
+
                 <div class="bloc_evenement_haut_mobile" id="bloc_evenement_haut_mobile"></div>
-                <article class="duo_liste content_item content_type content_type_article"><a href="single_video.html"
-                        title="Affaire Abbé Pierre: aucune enquête ne sera ouverte en raison de la prescription des faits">
-                        <figure class="duo_caption">
-                            <div class="flag_article flag_color">Alerte info</div>
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/kdeaCie4m5Sowd3vmi8DFMNGpjs=/0x0:1920x1080/385x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp, https://images.bfmtv.com/VnfKa2fETXBoUFs_p4snRuzcRf0=/0x0:1920x1080/770x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/rJc_3w-JYQBnak9buEVRMnm_ZJg=/0x0:1920x1080/385x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg, https://images.bfmtv.com/4xGJdTzKl0zq5CUDGa4ozvrRKRU=/0x0:1920x1080/770x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Q2-pM_nWuSh1hBtj4WyLU8yfCJ8=/0x0:1920x1080/840x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/EJBaGW7TrfnEuCzMu3FYI1e7Zew=/0x0:1920x1080/840x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/KKm0518blo-6vDxGe0yA6rQr-PM=/0x0:1920x1080/736x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/VCG2amPFSI89prOiQOIMMIbflQ8=/0x0:1920x1080/736x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/0sPYR8FfFxyp9LuNefzjuqb6UWg=/0x0:1920x1080/640x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/ltkruGcIfSmWduD36zV23NLFXHo=/0x0:1920x1080/640x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/rJc_3w-JYQBnak9buEVRMnm_ZJg=/0x0:1920x1080/385x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg"
-                                    src="https://images.bfmtv.com/rJc_3w-JYQBnak9buEVRMnm_ZJg=/0x0:1920x1080/385x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg"
-                                    alt="La figure de l&#39;abbé Pierre effacée de la devanture de la fondation Emmaüs de Villeurbanne, le 7 janvier 2025.">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/kdeaCie4m5Sowd3vmi8DFMNGpjs=/0x0:1920x1080/385x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp, https://images.bfmtv.com/VnfKa2fETXBoUFs_p4snRuzcRf0=/0x0:1920x1080/770x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/rJc_3w-JYQBnak9buEVRMnm_ZJg=/0x0:1920x1080/385x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg, https://images.bfmtv.com/4xGJdTzKl0zq5CUDGa4ozvrRKRU=/0x0:1920x1080/770x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/XuySACijhLElt2BO9NYarOiMyCs=/0x0:1920x1080/420x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp, https://images.bfmtv.com/Q2-pM_nWuSh1hBtj4WyLU8yfCJ8=/0x0:1920x1080/840x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/5Mny3KFCo63LWNe_sAo0kccXP2A=/0x0:1920x1080/420x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg, https://images.bfmtv.com/EJBaGW7TrfnEuCzMu3FYI1e7Zew=/0x0:1920x1080/840x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/63bmLgnTOm0XidgilOonYOItvyo=/0x0:1920x1080/368x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp, https://images.bfmtv.com/KKm0518blo-6vDxGe0yA6rQr-PM=/0x0:1920x1080/736x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/uYZV8z-4bNcTI5OKxpPiC_gE1Yg=/0x0:1920x1080/368x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg, https://images.bfmtv.com/VCG2amPFSI89prOiQOIMMIbflQ8=/0x0:1920x1080/736x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/qpMIn4q29PXK8h4dUPCyfDNIjnc=/0x0:1920x1080/320x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp, https://images.bfmtv.com/0sPYR8FfFxyp9LuNefzjuqb6UWg=/0x0:1920x1080/640x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/AuBsHGsH7V2quJQjIJQPv14KOBw=/0x0:1920x1080/320x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg, https://images.bfmtv.com/ltkruGcIfSmWduD36zV23NLFXHo=/0x0:1920x1080/640x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/rJc_3w-JYQBnak9buEVRMnm_ZJg=/0x0:1920x1080/385x0/images/La-figure-de-l-abbe-Pierre-effacee-de-la-devanture-de-la-fondation-Emmaues-de-Villeurbanne-le-7-janvier-2025-2009019.jpg"
-                                        alt="La figure de l&#39;abbé Pierre effacée de la devanture de la fondation Emmaüs de Villeurbanne, le 7 janvier 2025.">
-                                </picture>
-                            </noscript>
-                        </figure>
-                        <h3 class="content_item_title">Affaire Abbé Pierre: aucune enquête ne sera ouverte en raison de la
-                            prescription des faits</h3>
-                    </a></article>
-                <article class="duo_liste content_item content_type content_type_article"><a
+
+                <!-- <article class="duo_liste content_item content_type content_type_article"><a
                         href="police-justice/viols-de-mazan-le-proces-en-appel-se-tiendra-a-partir-du-6-octobre-2025_AN-202502040561.html"
                         title="INFO BFMTV. Viols de Mazan: le procès en appel se tiendra à partir du 6 octobre 2025">
                         <figure class="duo_caption">
@@ -383,66 +269,68 @@
                         <h3 class="content_item_title">INFO BFMTV. Viols de Mazan: le procès en appel se tiendra à partir du 6
                             octobre 2025</h3>
                     </a>
-                </article>
-                <article class="duo_liste content_item content_type content_type_video"><a
-                        href="sante/aspartame-une-petition-europeenne-pour-interdire-le-produit-potentiellement-cancerogene_AN-202502040025.html"
-                        title="Cancer: faut-il interdire l&#39;aspartame? Une pétition européenne lancée face à des &quot;risques inacceptables&quot;">
-                        <figure class="duo_caption">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/7GCxA4_DdQ5cgZvPIVIwNJAofOU=/0x106:2048x1258/385x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/GmixjHI3GaapxzUEWDxnTbzAlig=/0x106:2048x1258/770x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/1vWBGtZVbPmJBH2l1pMaz1tq_Vg=/0x106:2048x1258/385x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg, https://images.bfmtv.com/f0W_-3sckd2IZibJdaEMilFh5Ls=/0x106:2048x1258/770x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/NYPSNDSrtR5l6JGUaiBHxvAyDkI=/0x106:2048x1258/840x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Zj0kIC6T7rQLY2U-GJlaNnnNsjw=/0x106:2048x1258/840x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/k1kBm6QDZKlbvaPQMbw-xdVdhlw=/0x106:2048x1258/736x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Z410gYuKRz1tqmD_9FHlIjPkkSk=/0x106:2048x1258/736x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/C1iVD4QHU3fbkAD-EJN5tlP7eyk=/0x106:2048x1258/640x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/rho_HxZaWk0JPTmFzwzgo3kqLiA=/0x106:2048x1258/640x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/1vWBGtZVbPmJBH2l1pMaz1tq_Vg=/0x106:2048x1258/385x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg"
-                                    src="https://images.bfmtv.com/1vWBGtZVbPmJBH2l1pMaz1tq_Vg=/0x106:2048x1258/385x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg"
-                                    alt="Des produits alimentaires contenant l&#39;édulcorant artificiel aspartame, dont Equal, Crystal Light, Diet Coke et Royal Jello, sont exposés le 14 juillet 2023 à New York. ">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/7GCxA4_DdQ5cgZvPIVIwNJAofOU=/0x106:2048x1258/385x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/GmixjHI3GaapxzUEWDxnTbzAlig=/0x106:2048x1258/770x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/1vWBGtZVbPmJBH2l1pMaz1tq_Vg=/0x106:2048x1258/385x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg, https://images.bfmtv.com/f0W_-3sckd2IZibJdaEMilFh5Ls=/0x106:2048x1258/770x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/ML5z3FDudDz4iuenoIZEQRC5rKQ=/0x106:2048x1258/420x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/NYPSNDSrtR5l6JGUaiBHxvAyDkI=/0x106:2048x1258/840x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/YHaWCxxsUYYcFckC1UxTvXEOUUA=/0x106:2048x1258/420x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg, https://images.bfmtv.com/Zj0kIC6T7rQLY2U-GJlaNnnNsjw=/0x106:2048x1258/840x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/Qi5Ugz6fst8qlOoqTwUCf0D4giY=/0x106:2048x1258/368x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/k1kBm6QDZKlbvaPQMbw-xdVdhlw=/0x106:2048x1258/736x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/rcun6v-SmRnmiLiTraJcQvXkY9Y=/0x106:2048x1258/368x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg, https://images.bfmtv.com/Z410gYuKRz1tqmD_9FHlIjPkkSk=/0x106:2048x1258/736x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/sxap2hRSQgZ-JX3afWuQqvr5mqY=/0x106:2048x1258/320x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/C1iVD4QHU3fbkAD-EJN5tlP7eyk=/0x106:2048x1258/640x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/ZnH9w8vNtqjh4epdsL8XjErLVdc=/0x106:2048x1258/320x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg, https://images.bfmtv.com/rho_HxZaWk0JPTmFzwzgo3kqLiA=/0x106:2048x1258/640x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/1vWBGtZVbPmJBH2l1pMaz1tq_Vg=/0x106:2048x1258/385x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.jpg"
-                                        alt="Des produits alimentaires contenant l&#39;édulcorant artificiel aspartame, dont Equal, Crystal Light, Diet Coke et Royal Jello, sont exposés le 14 juillet 2023 à New York. ">
-                                </picture>
-                            </noscript>
-                        </figure>
-                        <h3 class="content_item_title">Cancer: faut-il interdire l&#39;aspartame? Une pétition européenne lancée
-                            face à des &quot;risques inacceptables&quot;</h3>
-                    </a></article>
+                </article> -->
+                <?php foreach ($lat_videos as $news): ?>
+                    <article class="duo_liste content_item content_type content_type_video"><a
+                            href="sante/aspartame-une-petition-europeenne-pour-interdire-le-produit-potentiellement-cancerogene_AN-202502040025.html"
+                            title="<?= $news['Title_2'] ?>">
+                            <figure class="duo_caption">
+                                <picture class="content_item_cover with-js">
+                                    <source media="(min-width: 441px)" width="16" height="9" class="lozad"
+                                        srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 441px)" width="16" height="9" class="lozad"
+                                        srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg">
+                                    <source media="(min-width: 361px)" width="16" height="9" class="lozad"
+                                        srcset="https://images.bfmtv.com/NYPSNDSrtR5l6JGUaiBHxvAyDkI=/0x106:2048x1258/840x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 361px)" width="16" height="9" class="lozad"
+                                        srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg">
+                                    <source media="(min-width: 321px)" width="16" height="9" class="lozad"
+                                        srcset="https://images.bfmtv.com/k1kBm6QDZKlbvaPQMbw-xdVdhlw=/0x106:2048x1258/736x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 321px)" width="16" height="9" class="lozad"
+                                        srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg">
+                                    <source media="(min-width: 300px)" width="16" height="9" class="lozad"
+                                        srcset="https://images.bfmtv.com/C1iVD4QHU3fbkAD-EJN5tlP7eyk=/0x106:2048x1258/640x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 300px)" width="16" height="9" class="lozad"
+                                        srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg"><img width="16" height="9" class="lozad"
+                                        data-srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                        src="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                        alt="<?= $news['Title_2'] ?>">
+                                </picture><noscript>
+                                    <picture class="content_item_cover">
+                                        <source type="image/webp" media="(min-width: 441px)"
+                                            srcset="https://images.bfmtv.com/7GCxA4_DdQ5cgZvPIVIwNJAofOU=/0x106:2048x1258/385x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/GmixjHI3GaapxzUEWDxnTbzAlig=/0x106:2048x1258/770x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x">
+                                        <source type="image/jpeg" media="(min-width: 441px)"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                        <source type="image/webp" media="(min-width: 361px)"
+                                            srcset="https://images.bfmtv.com/ML5z3FDudDz4iuenoIZEQRC5rKQ=/0x106:2048x1258/420x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/NYPSNDSrtR5l6JGUaiBHxvAyDkI=/0x106:2048x1258/840x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x">
+                                        <source type="image/jpeg" media="(min-width: 361px)"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                        <source type="image/webp" media="(min-width: 321px)"
+                                            srcset="https://images.bfmtv.com/Qi5Ugz6fst8qlOoqTwUCf0D4giY=/0x106:2048x1258/368x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/k1kBm6QDZKlbvaPQMbw-xdVdhlw=/0x106:2048x1258/736x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x">
+                                        <source type="image/jpeg" media="(min-width: 321px)"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                        <source type="image/webp" media="(min-width: 300px)"
+                                            srcset="https://images.bfmtv.com/sxap2hRSQgZ-JX3afWuQqvr5mqY=/0x106:2048x1258/320x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp, https://images.bfmtv.com/C1iVD4QHU3fbkAD-EJN5tlP7eyk=/0x106:2048x1258/640x0/images/Des-produits-alimentaires-contenant-l-edulcorant-artificiel-aspartame-dont-Equal-Crystal-Light-Diet-Coke-et-Royal-Jello-sont-exposes-le-14-juillet-2023-a-New-York-2026348.webp 2x">
+                                        <source type="image/jpeg" media="(min-width: 300px)"
+                                            srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
+                                        <img
+                                            src="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
+                                            alt="<?= $news['Title_2'] ?> ">
+                                    </picture>
+                                </noscript>
+                            </figure>
+                            <h3 class="content_item_title"><?= $news['Title_2'] ?></h3>
+                        </a>
+                    </article>
+                <?php endforeach; ?>
 
                 <article class="content_item content_item_small content_type content_type_article"><a
                         href="societe/immigration-titres-de-sejour-expulsions-demande-d-asile-les-chiffres-pour-2024-devoiles_AD-202502040450.html"
@@ -632,9 +520,11 @@
                         <video-js id="player_6321040605112" data-embed="default" data-application-id="undefined"
                             data-autoplay="true" data-account="876450610001" adjustplayer="ddff4JxPe" data-video-id="6321040605112"
                             data-video-type="live" pip="false" disablevisibilityhandler="false" adjustfrommediasize="false"
-                            preload="none" position="home_droite" playsinline tags=""><img fetchpriority="high"
-                                src="assets/v11/images/BFMTV_placeholder_direct.e94f748ec9b56a41f0d4f8c0fa86253a.webp" width="800"
-                                height="450" alt="placeholder video"></video-js>
+                            preload="none" position="home_droite" playsinline tags="">
+                            <img fetchpriority="high"
+                                src="<?= base_url('uploads/' . $direct_tv[0]['Media_Image_4']) ?>" width="800"
+                                height="450" alt="placeholder video">
+                            </video-js>
                     </div>
                 </a></div>
             <script>
@@ -1682,467 +1572,67 @@
             </div>
             <div class="slider_wrapper">
                 <div class="slider_container">
-                    <article class="content_item carousel_item content_type content_type_video"><a href="single_video.html"
-                            title="Paris: deux policiers légèrement blessés par un homme devant la préfecture de police">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/0rQEg6z4JTzuZcphmf69cuuvcmg=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp, https://images.bfmtv.com/EhKHaHEt7qNn8Ny1s7GVezYiI4Y=/0x0:1280x720/570x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/3_4yIiwlfWzgacHwgjVtS7FZIvs=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg, https://images.bfmtv.com/Wsi8OEU2RIz15hzhlZtNtDhOgLI=/0x0:1280x720/570x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/Ln8Uex7RHXLf--EgErrET_VSBao=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/Ln8Uex7RHXLf--EgErrET_VSBao=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/Ln8Uex7RHXLf--EgErrET_VSBao=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered"><img width="16" height="9" class="lozad entered loaded"
-                                    data-srcset="https://images.bfmtv.com/3_4yIiwlfWzgacHwgjVtS7FZIvs=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg"
-                                    src="https://images.bfmtv.com/3_4yIiwlfWzgacHwgjVtS7FZIvs=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg"
-                                    alt="Paris: deux policiers légèrement blessés par un homme devant la préfecture de police"
-                                    data-ll-status="loaded"
-                                    srcset="https://images.bfmtv.com/3_4yIiwlfWzgacHwgjVtS7FZIvs=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/0rQEg6z4JTzuZcphmf69cuuvcmg=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp, https://images.bfmtv.com/EhKHaHEt7qNn8Ny1s7GVezYiI4Y=/0x0:1280x720/570x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/3_4yIiwlfWzgacHwgjVtS7FZIvs=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg, https://images.bfmtv.com/Wsi8OEU2RIz15hzhlZtNtDhOgLI=/0x0:1280x720/570x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/-NsAaWVxCzh-5G7rV1YGdmUGozE=/0x0:1280x720/214x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp, https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/eCHvmCGQsJxmAAdUrgPxDnOoLhs=/0x0:1280x720/214x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg, https://images.bfmtv.com/Ln8Uex7RHXLf--EgErrET_VSBao=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/-NsAaWVxCzh-5G7rV1YGdmUGozE=/0x0:1280x720/214x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp, https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/eCHvmCGQsJxmAAdUrgPxDnOoLhs=/0x0:1280x720/214x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg, https://images.bfmtv.com/Ln8Uex7RHXLf--EgErrET_VSBao=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/-NsAaWVxCzh-5G7rV1YGdmUGozE=/0x0:1280x720/214x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp, https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/eCHvmCGQsJxmAAdUrgPxDnOoLhs=/0x0:1280x720/214x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg, https://images.bfmtv.com/Ln8Uex7RHXLf--EgErrET_VSBao=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/3_4yIiwlfWzgacHwgjVtS7FZIvs=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.jpg"
-                                        alt="Paris: deux policiers légèrement blessés par un homme devant la préfecture de police">
-                                </picture>
-                            </noscript>
-                            <h3 class="content_item_title">Paris: deux policiers légèrement blessés par un homme devant la
-                                préfecture de police</h3>
-                        </a></article>
-                    <article class="content_item carousel_item content_type content_type_video"><a
-                            href="economie/replay-emissions/bfm-bourse/culture-bourse-st-micro-faut-il-profiter-de-la-correction-par-antoine-larigaudrie-04-02_VN-202502040604.html"
-                            title="Culture Bourse : &quot;ST Micro, faut-il profiter de la correction ?&quot;, par Antoine Larigaudrie - 04/02">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/GN4H_ofTfltCS3_Sa0yeZ035Fi4=/0x0:1280x720/285x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp, https://images.bfmtv.com/Up99kKnF5abvhNCOiyVTf5YhUVE=/0x0:1280x720/570x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/v27334eN6A7hYoE-Ph-5szad04I=/0x0:1280x720/285x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg, https://images.bfmtv.com/fboSl3lAsZQj2jZ_CkdqE_ZE46A=/0x0:1280x720/570x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/aoRwszu5Ri5UJRj3EOw0IMWTjhE=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/vaGwGpPk3VW9NxH422YdEb-uq0Q=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/aoRwszu5Ri5UJRj3EOw0IMWTjhE=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/vaGwGpPk3VW9NxH422YdEb-uq0Q=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/aoRwszu5Ri5UJRj3EOw0IMWTjhE=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/vaGwGpPk3VW9NxH422YdEb-uq0Q=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered"><img width="16" height="9" class="lozad entered loaded"
-                                    data-srcset="https://images.bfmtv.com/v27334eN6A7hYoE-Ph-5szad04I=/0x0:1280x720/285x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg"
-                                    src="https://images.bfmtv.com/v27334eN6A7hYoE-Ph-5szad04I=/0x0:1280x720/285x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg"
-                                    alt="Culture Bourse : &quot;ST Micro, faut-il profiter de la correction ?&quot;, par Antoine Larigaudrie - 04/02"
-                                    data-ll-status="loaded"
-                                    srcset="https://images.bfmtv.com/v27334eN6A7hYoE-Ph-5szad04I=/0x0:1280x720/285x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/GN4H_ofTfltCS3_Sa0yeZ035Fi4=/0x0:1280x720/285x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp, https://images.bfmtv.com/Up99kKnF5abvhNCOiyVTf5YhUVE=/0x0:1280x720/570x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/v27334eN6A7hYoE-Ph-5szad04I=/0x0:1280x720/285x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg, https://images.bfmtv.com/fboSl3lAsZQj2jZ_CkdqE_ZE46A=/0x0:1280x720/570x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/1mmwerxIXcc2b7Shz5Wtl3eZ3AE=/0x0:1280x720/214x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp, https://images.bfmtv.com/aoRwszu5Ri5UJRj3EOw0IMWTjhE=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/bTGTABmGrdd62xXS-qwevU0iD00=/0x0:1280x720/214x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg, https://images.bfmtv.com/vaGwGpPk3VW9NxH422YdEb-uq0Q=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/1mmwerxIXcc2b7Shz5Wtl3eZ3AE=/0x0:1280x720/214x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp, https://images.bfmtv.com/aoRwszu5Ri5UJRj3EOw0IMWTjhE=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/bTGTABmGrdd62xXS-qwevU0iD00=/0x0:1280x720/214x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg, https://images.bfmtv.com/vaGwGpPk3VW9NxH422YdEb-uq0Q=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/1mmwerxIXcc2b7Shz5Wtl3eZ3AE=/0x0:1280x720/214x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp, https://images.bfmtv.com/aoRwszu5Ri5UJRj3EOw0IMWTjhE=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/bTGTABmGrdd62xXS-qwevU0iD00=/0x0:1280x720/214x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg, https://images.bfmtv.com/vaGwGpPk3VW9NxH422YdEb-uq0Q=/0x0:1280x720/428x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/v27334eN6A7hYoE-Ph-5szad04I=/0x0:1280x720/285x0/images/Culture-Bourse-ST-Micro-faut-il-profiter-de-la-correction-par-Antoine-Larigaudrie-04-02-2027136.jpg"
-                                        alt="Culture Bourse : &quot;ST Micro, faut-il profiter de la correction ?&quot;, par Antoine Larigaudrie - 04/02">
-                                </picture>
-                            </noscript>
-                            <h3 class="content_item_title">Culture Bourse : "ST Micro, faut-il profiter de la correction ?", par
-                                Antoine Larigaudrie - 04/02</h3>
-                        </a></article>
-                    <article class="content_item carousel_item content_type content_type_video"><a
-                            href="economie/une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite_VN-202502040599.html"
-                            title="Une fois les quotas atteints, les politiques de mixité seront elles encore une priorité ?">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/jcwNKv70129U8OQ2MfGSKuD9C4c=/0x0:1280x720/285x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp, https://images.bfmtv.com/kObLgQnSNPBa8VCVPOMYOjtb8Kg=/0x0:1280x720/570x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/38tRnXyA7H-oqe_sbj4JUAu2UgA=/0x0:1280x720/285x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg, https://images.bfmtv.com/-To3q4dcd2ccQyVnLmMA6GaEdIg=/0x0:1280x720/570x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/AiKUQQ6zsU3Y_mma0ChGwa6vGLM=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/4JLP2rMrZtpWwwM8g8JO7Tif9ow=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/AiKUQQ6zsU3Y_mma0ChGwa6vGLM=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/4JLP2rMrZtpWwwM8g8JO7Tif9ow=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/AiKUQQ6zsU3Y_mma0ChGwa6vGLM=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/4JLP2rMrZtpWwwM8g8JO7Tif9ow=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered"><img width="16" height="9" class="lozad entered loaded"
-                                    data-srcset="https://images.bfmtv.com/38tRnXyA7H-oqe_sbj4JUAu2UgA=/0x0:1280x720/285x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg"
-                                    src="https://images.bfmtv.com/38tRnXyA7H-oqe_sbj4JUAu2UgA=/0x0:1280x720/285x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg"
-                                    alt="Une fois les quotas atteints, les politiques de mixité seront elles encore une priorité ?"
-                                    data-ll-status="loaded"
-                                    srcset="https://images.bfmtv.com/38tRnXyA7H-oqe_sbj4JUAu2UgA=/0x0:1280x720/285x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/jcwNKv70129U8OQ2MfGSKuD9C4c=/0x0:1280x720/285x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp, https://images.bfmtv.com/kObLgQnSNPBa8VCVPOMYOjtb8Kg=/0x0:1280x720/570x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/38tRnXyA7H-oqe_sbj4JUAu2UgA=/0x0:1280x720/285x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg, https://images.bfmtv.com/-To3q4dcd2ccQyVnLmMA6GaEdIg=/0x0:1280x720/570x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/z4hzfmiyP2TfM5TLwpjDWyzBMtc=/0x0:1280x720/214x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp, https://images.bfmtv.com/AiKUQQ6zsU3Y_mma0ChGwa6vGLM=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/J-JGyxDVTO7YWxCwiFuYef4ggjc=/0x0:1280x720/214x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg, https://images.bfmtv.com/4JLP2rMrZtpWwwM8g8JO7Tif9ow=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/z4hzfmiyP2TfM5TLwpjDWyzBMtc=/0x0:1280x720/214x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp, https://images.bfmtv.com/AiKUQQ6zsU3Y_mma0ChGwa6vGLM=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/J-JGyxDVTO7YWxCwiFuYef4ggjc=/0x0:1280x720/214x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg, https://images.bfmtv.com/4JLP2rMrZtpWwwM8g8JO7Tif9ow=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/z4hzfmiyP2TfM5TLwpjDWyzBMtc=/0x0:1280x720/214x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp, https://images.bfmtv.com/AiKUQQ6zsU3Y_mma0ChGwa6vGLM=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/J-JGyxDVTO7YWxCwiFuYef4ggjc=/0x0:1280x720/214x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg, https://images.bfmtv.com/4JLP2rMrZtpWwwM8g8JO7Tif9ow=/0x0:1280x720/428x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/38tRnXyA7H-oqe_sbj4JUAu2UgA=/0x0:1280x720/285x0/images/Une-fois-les-quotas-atteints-les-politiques-de-mixite-seront-elles-encore-une-priorite-2027131.jpg"
-                                        alt="Une fois les quotas atteints, les politiques de mixité seront elles encore une priorité ?">
-                                </picture>
-                            </noscript>
-                            <h3 class="content_item_title">Une fois les quotas atteints, les politiques de mixité seront elles
-                                encore une priorité ?</h3>
-                        </a></article>
-                    <article class="content_item carousel_item content_type content_type_video"><a
-                            href="economie/replay-emissions/bfm-bourse/usa-today-palantir-s-envole-une-nouvelle-fois-par-eric-lafreniere-04-02_VN-202502040589.html"
-                            title="USA Today : &quot;Palantir s'envole une nouvelle fois !&quot; par Éric Lafrenière - 04/02">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/7EvFaC6Ww3OT-2SNyx6s9gi4mkQ=/0x0:1280x720/285x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp, https://images.bfmtv.com/BwVHZQJZwHLehzIaOyFzbjn4KAQ=/0x0:1280x720/570x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/80kdgM5OyH6GhCu_c78DrXHg9sM=/0x0:1280x720/285x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg, https://images.bfmtv.com/CECw5tnxZCgqI4ENWF7kZY6eK2o=/0x0:1280x720/570x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/ZXoOTdz8ZhpqlLH0UsHpWJCQtTM=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/jItKr1gu3SnI5x5hJ9KvUR5g2JE=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/ZXoOTdz8ZhpqlLH0UsHpWJCQtTM=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/jItKr1gu3SnI5x5hJ9KvUR5g2JE=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/ZXoOTdz8ZhpqlLH0UsHpWJCQtTM=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp 2x"
-                                    type="image/webp" data-ll-status="entered">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                    srcset="https://images.bfmtv.com/jItKr1gu3SnI5x5hJ9KvUR5g2JE=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg 2x"
-                                    type="image/jpeg" data-ll-status="entered"><img width="16" height="9" class="lozad entered loaded"
-                                    data-srcset="https://images.bfmtv.com/80kdgM5OyH6GhCu_c78DrXHg9sM=/0x0:1280x720/285x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg"
-                                    src="https://images.bfmtv.com/80kdgM5OyH6GhCu_c78DrXHg9sM=/0x0:1280x720/285x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg"
-                                    alt="USA Today : &quot;Palantir s'envole une nouvelle fois !&quot; par Éric Lafrenière - 04/02"
-                                    data-ll-status="loaded"
-                                    srcset="https://images.bfmtv.com/80kdgM5OyH6GhCu_c78DrXHg9sM=/0x0:1280x720/285x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/7EvFaC6Ww3OT-2SNyx6s9gi4mkQ=/0x0:1280x720/285x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp, https://images.bfmtv.com/BwVHZQJZwHLehzIaOyFzbjn4KAQ=/0x0:1280x720/570x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/80kdgM5OyH6GhCu_c78DrXHg9sM=/0x0:1280x720/285x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg, https://images.bfmtv.com/CECw5tnxZCgqI4ENWF7kZY6eK2o=/0x0:1280x720/570x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/sdRsjllb0k31qEE1y3NDwIbXWXE=/0x0:1280x720/214x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp, https://images.bfmtv.com/ZXoOTdz8ZhpqlLH0UsHpWJCQtTM=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/Tmxl_gS6x3r55oFAyaubpRlr0g0=/0x0:1280x720/214x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg, https://images.bfmtv.com/jItKr1gu3SnI5x5hJ9KvUR5g2JE=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/sdRsjllb0k31qEE1y3NDwIbXWXE=/0x0:1280x720/214x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp, https://images.bfmtv.com/ZXoOTdz8ZhpqlLH0UsHpWJCQtTM=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/Tmxl_gS6x3r55oFAyaubpRlr0g0=/0x0:1280x720/214x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg, https://images.bfmtv.com/jItKr1gu3SnI5x5hJ9KvUR5g2JE=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/sdRsjllb0k31qEE1y3NDwIbXWXE=/0x0:1280x720/214x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp, https://images.bfmtv.com/ZXoOTdz8ZhpqlLH0UsHpWJCQtTM=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/Tmxl_gS6x3r55oFAyaubpRlr0g0=/0x0:1280x720/214x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg, https://images.bfmtv.com/jItKr1gu3SnI5x5hJ9KvUR5g2JE=/0x0:1280x720/428x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/80kdgM5OyH6GhCu_c78DrXHg9sM=/0x0:1280x720/285x0/images/USA-Today-Palantir-s-envole-une-nouvelle-fois-par-Eric-Lafreniere-04-02-2027125.jpg"
-                                        alt="USA Today : &quot;Palantir s&#39;envole une nouvelle fois !&quot; par Éric Lafrenière - 04/02">
-                                </picture>
-                            </noscript>
-                            <h3 class="content_item_title">USA Today : "Palantir s'envole une nouvelle fois !" par Éric Lafrenière -
-                                04/02</h3>
-                        </a></article>
-                    <article class="content_item carousel_item content_type content_type_video"><a
-                            href="police-justice/policiers-blesses-a-paris-l-identite-de-l-auteur-presume-en-cours-de-verification_VN-202502040585.html"
-                            title="Policiers blessés à Paris: l'identité de l'auteur présumé en cours de vérification">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Y8TN-Pmg6yPuIwy7EBMIn8E04Ms=/0x0:1280x720/285x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/_MOGgZUhQepHsW6FluoqpHmL2Bc=/0x0:1280x720/570x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/LIKVKOQqPK--XmQ8bKZiCVfLHyE=/0x0:1280x720/285x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/8Mw0VRx_VqXLXNoBXAUW4E4JojI=/0x0:1280x720/570x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/bJtidDOMVuTkSjt0gwPdfPQy4k8=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Qw_ymBR48h4wgr4p0VjVLtal7MQ=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/bJtidDOMVuTkSjt0gwPdfPQy4k8=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Qw_ymBR48h4wgr4p0VjVLtal7MQ=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/bJtidDOMVuTkSjt0gwPdfPQy4k8=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/Qw_ymBR48h4wgr4p0VjVLtal7MQ=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/LIKVKOQqPK--XmQ8bKZiCVfLHyE=/0x0:1280x720/285x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg"
-                                    src="https://images.bfmtv.com/LIKVKOQqPK--XmQ8bKZiCVfLHyE=/0x0:1280x720/285x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg"
-                                    alt="Policiers blessés à Paris: l'identité de l'auteur présumé en cours de vérification">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/Y8TN-Pmg6yPuIwy7EBMIn8E04Ms=/0x0:1280x720/285x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/_MOGgZUhQepHsW6FluoqpHmL2Bc=/0x0:1280x720/570x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/LIKVKOQqPK--XmQ8bKZiCVfLHyE=/0x0:1280x720/285x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/8Mw0VRx_VqXLXNoBXAUW4E4JojI=/0x0:1280x720/570x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/hCYkQYpbCDcs1Gx6Ii0aH7FSEZg=/0x0:1280x720/214x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/bJtidDOMVuTkSjt0gwPdfPQy4k8=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/lBLsiofTOCspPTWU01BA_Du6vGA=/0x0:1280x720/214x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/Qw_ymBR48h4wgr4p0VjVLtal7MQ=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/hCYkQYpbCDcs1Gx6Ii0aH7FSEZg=/0x0:1280x720/214x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/bJtidDOMVuTkSjt0gwPdfPQy4k8=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/lBLsiofTOCspPTWU01BA_Du6vGA=/0x0:1280x720/214x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/Qw_ymBR48h4wgr4p0VjVLtal7MQ=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/hCYkQYpbCDcs1Gx6Ii0aH7FSEZg=/0x0:1280x720/214x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/bJtidDOMVuTkSjt0gwPdfPQy4k8=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/lBLsiofTOCspPTWU01BA_Du6vGA=/0x0:1280x720/214x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/Qw_ymBR48h4wgr4p0VjVLtal7MQ=/0x0:1280x720/428x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/LIKVKOQqPK--XmQ8bKZiCVfLHyE=/0x0:1280x720/285x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg"
-                                        alt="Policiers blessés à Paris: l&#39;identité de l&#39;auteur présumé en cours de vérification">
-                                </picture>
-                            </noscript>
-                            <h3 class="content_item_title">Policiers blessés à Paris: l'identité de l'auteur présumé en cours de
-                                vérification</h3>
-                        </a></article>
-                    <article class="content_item carousel_item content_type content_type_video"><a
-                            href="https://rmcsport.bfmtv.com/football/om-ibrahimovic-detaille-les-coulisses-du-depart-de-bennacer_VN-202502040580.html"
-                            title="OM : Ibrahimovic détaille les coulisses du départ de Bennacer">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/O9PvbPa-XtR3ozR3afNTV4ZgTOQ=/0x0:1280x720/285x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp, https://images.bfmtv.com/hv0MKFXIx3IlJW2fwBTcL73iCQA=/0x0:1280x720/570x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/jvi1IGf0HL5hPyvlMEbrWaGZz1E=/0x0:1280x720/285x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg, https://images.bfmtv.com/fDPbNZk-ExviHvyA5oYM8Wc82hU=/0x0:1280x720/570x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/mqVFY2zM86I0zjYC3MsrEdz_Xxk=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/YVuGhEyQSuWghEe8p9L3eTH1FSA=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/mqVFY2zM86I0zjYC3MsrEdz_Xxk=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/YVuGhEyQSuWghEe8p9L3eTH1FSA=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/mqVFY2zM86I0zjYC3MsrEdz_Xxk=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/YVuGhEyQSuWghEe8p9L3eTH1FSA=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/jvi1IGf0HL5hPyvlMEbrWaGZz1E=/0x0:1280x720/285x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg"
-                                    src="https://images.bfmtv.com/jvi1IGf0HL5hPyvlMEbrWaGZz1E=/0x0:1280x720/285x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg"
-                                    alt="OM : Ibrahimovic détaille les coulisses du départ de Bennacer">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/O9PvbPa-XtR3ozR3afNTV4ZgTOQ=/0x0:1280x720/285x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp, https://images.bfmtv.com/hv0MKFXIx3IlJW2fwBTcL73iCQA=/0x0:1280x720/570x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/jvi1IGf0HL5hPyvlMEbrWaGZz1E=/0x0:1280x720/285x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg, https://images.bfmtv.com/fDPbNZk-ExviHvyA5oYM8Wc82hU=/0x0:1280x720/570x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/Gvvpfz-fQC9OMYkvJgoGIY6dyzU=/0x0:1280x720/214x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp, https://images.bfmtv.com/mqVFY2zM86I0zjYC3MsrEdz_Xxk=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/WjwNWPrMVBFHFBPvg-UMECwirro=/0x0:1280x720/214x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg, https://images.bfmtv.com/YVuGhEyQSuWghEe8p9L3eTH1FSA=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/Gvvpfz-fQC9OMYkvJgoGIY6dyzU=/0x0:1280x720/214x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp, https://images.bfmtv.com/mqVFY2zM86I0zjYC3MsrEdz_Xxk=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/WjwNWPrMVBFHFBPvg-UMECwirro=/0x0:1280x720/214x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg, https://images.bfmtv.com/YVuGhEyQSuWghEe8p9L3eTH1FSA=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/Gvvpfz-fQC9OMYkvJgoGIY6dyzU=/0x0:1280x720/214x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp, https://images.bfmtv.com/mqVFY2zM86I0zjYC3MsrEdz_Xxk=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/WjwNWPrMVBFHFBPvg-UMECwirro=/0x0:1280x720/214x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg, https://images.bfmtv.com/YVuGhEyQSuWghEe8p9L3eTH1FSA=/0x0:1280x720/428x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/jvi1IGf0HL5hPyvlMEbrWaGZz1E=/0x0:1280x720/285x0/images/OM-Ibrahimovic-detaille-les-coulisses-du-depart-de-Bennacer-2027119.jpg"
-                                        alt="OM : Ibrahimovic détaille les coulisses du départ de Bennacer">
-                                </picture>
-                            </noscript>
-                            <h3 class="content_item_title">OM : Ibrahimovic détaille les coulisses du départ de Bennacer</h3>
-                        </a></article>
-                    <article class="content_item carousel_item content_type content_type_video"><a
-                            href="international/amerique-nord/etats-unis/jean-noel-barrot-il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines_VN-202502040574.html"
-                            title="Jean-Noël Barrot: &quot;Il faut garder notre sang froid&quot; face aux craintes de taxes douanières américaines">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/W9f1srfDMpPMK5q5yawpXgQvXTo=/0x0:1280x720/285x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp, https://images.bfmtv.com/P0sh2hh8CssFi08WRx9GGyrLnIA=/0x0:1280x720/570x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/WUgXz8JvAl16QVXfEe-4SFOtg0U=/0x0:1280x720/285x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg, https://images.bfmtv.com/RgdQHq5i3PAkSfSAQiCBZDHJ1XE=/0x0:1280x720/570x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/_-piGdoCJt5DuRLg3OxYFj3ElEo=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/klFgScsQRKV2xsr5pCTjMQpLzZE=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/_-piGdoCJt5DuRLg3OxYFj3ElEo=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/klFgScsQRKV2xsr5pCTjMQpLzZE=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/_-piGdoCJt5DuRLg3OxYFj3ElEo=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/klFgScsQRKV2xsr5pCTjMQpLzZE=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/WUgXz8JvAl16QVXfEe-4SFOtg0U=/0x0:1280x720/285x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg"
-                                    src="https://images.bfmtv.com/WUgXz8JvAl16QVXfEe-4SFOtg0U=/0x0:1280x720/285x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg"
-                                    alt="Jean-Noël Barrot: &quot;Il faut garder notre sang froid&quot; face aux craintes de taxes douanières américaines">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/W9f1srfDMpPMK5q5yawpXgQvXTo=/0x0:1280x720/285x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp, https://images.bfmtv.com/P0sh2hh8CssFi08WRx9GGyrLnIA=/0x0:1280x720/570x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/WUgXz8JvAl16QVXfEe-4SFOtg0U=/0x0:1280x720/285x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg, https://images.bfmtv.com/RgdQHq5i3PAkSfSAQiCBZDHJ1XE=/0x0:1280x720/570x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/sA5-pVGqyfOlkSQjZRCvILBXH6E=/0x0:1280x720/214x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp, https://images.bfmtv.com/_-piGdoCJt5DuRLg3OxYFj3ElEo=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/mGAwG4NMsND98zXtBT6MB_tNprA=/0x0:1280x720/214x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg, https://images.bfmtv.com/klFgScsQRKV2xsr5pCTjMQpLzZE=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/sA5-pVGqyfOlkSQjZRCvILBXH6E=/0x0:1280x720/214x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp, https://images.bfmtv.com/_-piGdoCJt5DuRLg3OxYFj3ElEo=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/mGAwG4NMsND98zXtBT6MB_tNprA=/0x0:1280x720/214x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg, https://images.bfmtv.com/klFgScsQRKV2xsr5pCTjMQpLzZE=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/sA5-pVGqyfOlkSQjZRCvILBXH6E=/0x0:1280x720/214x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp, https://images.bfmtv.com/_-piGdoCJt5DuRLg3OxYFj3ElEo=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/mGAwG4NMsND98zXtBT6MB_tNprA=/0x0:1280x720/214x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg, https://images.bfmtv.com/klFgScsQRKV2xsr5pCTjMQpLzZE=/0x0:1280x720/428x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/WUgXz8JvAl16QVXfEe-4SFOtg0U=/0x0:1280x720/285x0/images/Jean-Noel-Barrot-Il-faut-garder-notre-sang-froid-face-aux-craintes-de-taxes-douanieres-americaines-2027117.jpg"
-                                        alt="Jean-Noël Barrot: &quot;Il faut garder notre sang froid&quot; face aux craintes de taxes douanières américaines">
-                                </picture>
-                            </noscript>
-                            <h3 class="content_item_title">Jean-Noël Barrot: "Il faut garder notre sang froid" face aux craintes de
-                                taxes douanières américaines</h3>
-                        </a></article>
-                    <article class="content_item carousel_item content_type content_type_video"><a
-                            href="economie/replay-emissions/bfm-crypto-le-club/bfm-crypto-le-club-web3-feuille-de-route-de-l-adan-04-02_VN-202502040577.html"
-                            title="BFM Crypto, le Club : Web3, feuille de route de l'ADAN - 04/02">
-                            <picture class="content_item_cover with-js">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/CI02mb08lbiTite447zK5BzZjIk=/0x0:1280x720/285x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp, https://images.bfmtv.com/n_aurYPKrcxTT3NHiL21JaKgXUU=/0x0:1280x720/570x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/wsRi-VBoiftMNuhSoi2wDu25yQE=/0x0:1280x720/285x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg, https://images.bfmtv.com/yzwKrcjKM3uWKIfnQSniaum0vpo=/0x0:1280x720/570x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/tM6HTtQqBL3uqxdV1gASBK7yPhg=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/qraQdP2IMldKZ3t_ymTLkuANs-4=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/tM6HTtQqBL3uqxdV1gASBK7yPhg=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/qraQdP2IMldKZ3t_ymTLkuANs-4=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/tM6HTtQqBL3uqxdV1gASBK7yPhg=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                    srcset="https://images.bfmtv.com/qraQdP2IMldKZ3t_ymTLkuANs-4=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg 2x"
-                                    type="image/jpeg"><img width="16" height="9" class="lozad"
-                                    data-srcset="https://images.bfmtv.com/wsRi-VBoiftMNuhSoi2wDu25yQE=/0x0:1280x720/285x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg"
-                                    src="https://images.bfmtv.com/wsRi-VBoiftMNuhSoi2wDu25yQE=/0x0:1280x720/285x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg"
-                                    alt="BFM Crypto, le Club : Web3, feuille de route de l'ADAN - 04/02">
-                            </picture><noscript>
-                                <picture class="content_item_cover">
-                                    <source type="image/webp" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/CI02mb08lbiTite447zK5BzZjIk=/0x0:1280x720/285x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp, https://images.bfmtv.com/n_aurYPKrcxTT3NHiL21JaKgXUU=/0x0:1280x720/570x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 441px)"
-                                        srcset="https://images.bfmtv.com/wsRi-VBoiftMNuhSoi2wDu25yQE=/0x0:1280x720/285x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg, https://images.bfmtv.com/yzwKrcjKM3uWKIfnQSniaum0vpo=/0x0:1280x720/570x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/0USiscxcYz5D5KNNNuiJ1qzQy2k=/0x0:1280x720/214x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp, https://images.bfmtv.com/tM6HTtQqBL3uqxdV1gASBK7yPhg=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 361px)"
-                                        srcset="https://images.bfmtv.com/aB6Ic1zOAjabYsArbtT9qlFong4=/0x0:1280x720/214x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg, https://images.bfmtv.com/qraQdP2IMldKZ3t_ymTLkuANs-4=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/0USiscxcYz5D5KNNNuiJ1qzQy2k=/0x0:1280x720/214x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp, https://images.bfmtv.com/tM6HTtQqBL3uqxdV1gASBK7yPhg=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 321px)"
-                                        srcset="https://images.bfmtv.com/aB6Ic1zOAjabYsArbtT9qlFong4=/0x0:1280x720/214x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg, https://images.bfmtv.com/qraQdP2IMldKZ3t_ymTLkuANs-4=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg 2x">
-                                    <source type="image/webp" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/0USiscxcYz5D5KNNNuiJ1qzQy2k=/0x0:1280x720/214x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp, https://images.bfmtv.com/tM6HTtQqBL3uqxdV1gASBK7yPhg=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.webp 2x">
-                                    <source type="image/jpeg" media="(min-width: 300px)"
-                                        srcset="https://images.bfmtv.com/aB6Ic1zOAjabYsArbtT9qlFong4=/0x0:1280x720/214x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg, https://images.bfmtv.com/qraQdP2IMldKZ3t_ymTLkuANs-4=/0x0:1280x720/428x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg 2x">
-                                    <img
-                                        src="https://images.bfmtv.com/wsRi-VBoiftMNuhSoi2wDu25yQE=/0x0:1280x720/285x0/images/BFM-Crypto-le-Club-Web3-feuille-de-route-de-l-ADAN-04-02-2027118.jpg"
-                                        alt="BFM Crypto, le Club : Web3, feuille de route de l&#39;ADAN - 04/02">
-                                </picture>
-                            </noscript>
-                            <h3 class="content_item_title">BFM Crypto, le Club : Web3, feuille de route de l'ADAN - 04/02</h3>
-                        </a></article>
+                    <?php foreach ($latest_videos as $video): ?>
+                        <article class="content_item carousel_item content_type content_type_video"><a href="single_video.html"
+                                title="<?= $video['Title_2'] ?>">
+                                <picture class="content_item_cover with-js">
+                                    <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
+                                        srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
+                                        type="image/webp" data-ll-status="entered">
+                                    <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
+                                        srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg" data-ll-status="entered">
+                                    <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
+                                        srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
+                                        type="image/webp" data-ll-status="entered">
+                                    <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
+                                        srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg" data-ll-status="entered">
+                                    <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
+                                        srcset="https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x"
+                                        type="image/webp" data-ll-status="entered">
+                                    <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
+                                        srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg" data-ll-status="entered">
+                                    <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
+                                        srcset="https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x"
+                                        type="image/webp" data-ll-status="entered">
+                                    <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
+                                        srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg" data-ll-status="entered"><img width="16" height="9" class="lozad entered loaded"
+                                        data-srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>"
+                                        src="<?= base_url('uploads/' . $video['Media_Image_4']) ?>"
+                                        alt="<?= $video['Title_2'] ?>"
+                                        data-ll-status="loaded"
+                                        srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>">
+                                </picture><noscript>
+                                    <picture class="content_item_cover">
+                                        <source type="image/webp" media="(min-width: 441px)"
+                                            srcset="https://images.bfmtv.com/0rQEg6z4JTzuZcphmf69cuuvcmg=/0x0:1280x720/285x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp, https://images.bfmtv.com/EhKHaHEt7qNn8Ny1s7GVezYiI4Y=/0x0:1280x720/570x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x">
+                                        <source type="image/jpeg" media="(min-width: 441px)"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>,<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
+                                        <source type="image/webp" media="(min-width: 361px)"
+                                            srcset="https://images.bfmtv.com/-NsAaWVxCzh-5G7rV1YGdmUGozE=/0x0:1280x720/214x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp, https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x">
+                                        <source type="image/jpeg" media="(min-width: 361px)"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
+                                        <source type="image/webp" media="(min-width: 321px)"
+                                            srcset="https://images.bfmtv.com/-NsAaWVxCzh-5G7rV1YGdmUGozE=/0x0:1280x720/214x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp, https://images.bfmtv.com/HJhNOXPPWuhJNiN6utpSei3qmdU=/0x0:1280x720/428x0/images/Paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police-2027137.webp 2x">
+                                        <source type="image/jpeg" media="(min-width: 321px)"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
+                                        <source type="image/webp" media="(min-width: 300px)"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?>2x">
+                                        <source type="image/jpeg" media="(min-width: 300px)"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
+                                        <img
+                                            src="<?= base_url('uploads/' . $video['Media_Image_4']) ?>"
+                                            alt="Paris: deux policiers légèrement blessés par un homme devant la préfecture de police">
+                                    </picture>
+                                </noscript>
+                                <h3 class="content_item_title"><?= $video['Title_2'] ?></h3>
+                            </a>
+                        </article>
+                    <?php endforeach; ?>
+
                 </div>
                 <div class="nav_holder" id="list_slider_slider_media_1579614731850"></div>
             </div>
@@ -2171,328 +1661,66 @@
         </div>
         <div class="slider_wrapper_podcast">
             <div class="slider_container small-slide">
-                <article class="content_item carousel_item">
-                    <div class="content_top_episode"><a
-                            href="podcasts/le-titre-a-la-une/affaire-adele-haenel-le-realisateur-christophe-ruggia-condamne-pour-agressions-sexuelles-sur-mineure_EN-202502030832.html"
-                            title="Affaire Adèle Haenel: le réalisateur Christophe Ruggia condamné pour agressions sexuelles sur mineure">
-                            <picture class="content_item_picture with-js">
-                                <source media="(min-width: 441px)" width="1" height="1"
-                                    srcset="https://images.bfmtv.com/25-_DEba_bWlDV8gsNZGGkCoBTc=/0x0:1400x1400/90x0/images/Le-titre-a-la-une-2026561.webp, https://images.bfmtv.com/UQbUM3H_xTZELFML8ImKdt3Y0Zo=/0x0:1400x1400/180x0/images/Le-titre-a-la-une-2026561.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 441px)" width="1" height="1"
-                                    srcset="https://images.bfmtv.com/wZ6GBHNjE0Q9U2Xd1o-lPQ6vwCo=/0x0:1400x1400/90x0/images/Le-titre-a-la-une-2026561.jpg, https://images.bfmtv.com/AsAlee3RfcXJmaiVM3Mn5XBjyw4=/0x0:1400x1400/180x0/images/Le-titre-a-la-une-2026561.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 361px)" width="1" height="1"
-                                    srcset="https://images.bfmtv.com/UQbUM3H_xTZELFML8ImKdt3Y0Zo=/0x0:1400x1400/180x0/images/Le-titre-a-la-une-2026561.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 361px)" width="1" height="1"
-                                    srcset="https://images.bfmtv.com/AsAlee3RfcXJmaiVM3Mn5XBjyw4=/0x0:1400x1400/180x0/images/Le-titre-a-la-une-2026561.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 321px)" width="1" height="1"
-                                    srcset="https://images.bfmtv.com/4Q7PPOwGbCw22Z_y-1Qkeglu63E=/0x0:1400x1400/456x0/images/Le-titre-a-la-une-2026561.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 321px)" width="1" height="1"
-                                    srcset="https://images.bfmtv.com/Zek9om14sqYP2L-JXjVO-77gHf0=/0x0:1400x1400/456x0/images/Le-titre-a-la-une-2026561.jpg 2x"
-                                    type="image/jpeg">
-                                <source media="(min-width: 300px)" width="1" height="1"
-                                    srcset="https://images.bfmtv.com/4Q7PPOwGbCw22Z_y-1Qkeglu63E=/0x0:1400x1400/456x0/images/Le-titre-a-la-une-2026561.webp 2x"
-                                    type="image/webp">
-                                <source media="(min-width: 300px)" width="1" height="1"
-                                    srcset="https://images.bfmtv.com/Zek9om14sqYP2L-JXjVO-77gHf0=/0x0:1400x1400/456x0/images/Le-titre-a-la-une-2026561.jpg 2x"
-                                    type="image/jpeg"><img width="1" height="1"
-                                    src="https://images.bfmtv.com/wZ6GBHNjE0Q9U2Xd1o-lPQ6vwCo=/0x0:1400x1400/90x0/images/Le-titre-a-la-une-2026561.jpg"
-                                    alt="">
-                            </picture>
-                        </a>
-                        <div class="content_picto">
-                            <div class="podcast_item_infos podcast_wrapper_infos"
-                                data-audio-src="https://altice.simplecastaudio.com/bfb6c6be-eeaf-454f-884e-13f3561bb06d/episodes/a2322e3f-0f09-41a1-8d76-9c471cf98031/audio/128/default.mp3?awCollectionId=bfb6c6be-eeaf-454f-884e-13f3561bb06d&amp;awEpisodeId=a2322e3f-0f09-41a1-8d76-9c471cf98031&amp;category=News&amp;episode_published_at=2025-02-03T17%3A57%3A18&amp;episode_title=Affaire+Ad%C3%A8le+Haenel%3A+le+r%C3%A9alisateur+Christophe+Ruggia+condamn%C3%A9+pour+agressions+sexuelles+sur+mineure&amp;network=228028218708&amp;podcast_title=Le+titre+%C3%A0+la+une"
-                                data-img-src="https://images.bfmtv.com/AsAlee3RfcXJmaiVM3Mn5XBjyw4=/0x0:1400x1400/180x0/images/Le-titre-a-la-une-2026561.jpg"
-                                data-title="Affaire Adèle Haenel: le réalisateur Christophe Ruggia condamné pour agressions sexuelles sur mineure"
-                                data-id="202502030832" data-podcast-nom="Le titre à la une">
-                                <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
-                                        fill="#FFF" class="pausing">
-                                        <use xlink:href="/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play"></use>
-                                    </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
-                                        <use xlink:href="/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause"></use>
-                                    </svg></div>
-                                <div class="podcast_item_duration">19:31</div><a
-                                    href="podcasts/le-titre-a-la-une/affaire-adele-haenel-le-realisateur-christophe-ruggia-condamne-pour-agressions-sexuelles-sur-mineure_EN-202502030832.html"
-                                    class="podcast_title_container"
-                                    title="Affaire Adèle Haenel: le réalisateur Christophe Ruggia condamné pour agressions sexuelles sur mineure">
-                                    <h3 class="content_item_title episode_title">Affaire Adèle Haenel: le réalisateur Christophe Ruggia
-                                        condamné pour agressions sexuelles sur mineure</h3>
-                                </a>
+                <?php foreach ($latest_podcasts as $podcast): ?>
+                    <article class="content_item carousel_item">
+                        <div class="content_top_episode"><a
+                                href="podcasts/le-titre-a-la-une/affaire-adele-haenel-le-realisateur-christophe-ruggia-condamne-pour-agressions-sexuelles-sur-mineure_EN-202502030832.html"
+                                title="Affaire Adèle Haenel: le réalisateur Christophe Ruggia condamné pour agressions sexuelles sur mineure">
+                                <picture class="content_item_picture with-js">
+                                    <source media="(min-width: 441px)" width="1" height="1"
+                                        srcset="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?>, <?= base_url('uploads/' . $podcast['Media_Image_4']) ?> 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 441px)" width="1" height="1"
+                                        srcset="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?>, <?= base_url('uploads/' . $podcast['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg">
+                                    <source media="(min-width: 361px)" width="1" height="1"
+                                        srcset="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?> 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 361px)" width="1" height="1"
+                                        srcset="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg">
+                                    <source media="(min-width: 321px)" width="1" height="1"
+                                        srcset="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?> 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 321px)" width="1" height="1"
+                                        srcset="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg">
+                                    <source media="(min-width: 300px)" width="1" height="1"
+                                        srcset="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?> 2x"
+                                        type="image/webp">
+                                    <source media="(min-width: 300px)" width="1" height="1"
+                                        srcset="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?> 2x"
+                                        type="image/jpeg"><img width="1" height="1"
+                                        src="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?>"
+                                        alt="">
+                                </picture>
+                            </a>
+                            <div class="content_picto">
+
+                                <div class="podcast_item_infos podcast_wrapper_infos"
+                                    data-audio-src="https://altice.simplecastaudio.com/bfb6c6be-eeaf-454f-884e-13f3561bb06d/episodes/a2322e3f-0f09-41a1-8d76-9c471cf98031/audio/128/default.mp3?awCollectionId=bfb6c6be-eeaf-454f-884e-13f3561bb06d&amp;awEpisodeId=a2322e3f-0f09-41a1-8d76-9c471cf98031&amp;category=News&amp;episode_published_at=2025-02-03T17%3A57%3A18&amp;episode_title=Affaire+Ad%C3%A8le+Haenel%3A+le+r%C3%A9alisateur+Christophe+Ruggia+condamn%C3%A9+pour+agressions+sexuelles+sur+mineure&amp;network=228028218708&amp;podcast_title=Le+titre+%C3%A0+la+une"
+                                    data-img-src="<?= base_url('uploads/' . $podcast['Media_Image_4']) ?>"
+                                    data-title="<?= $podcast['Title_2'] ?>"
+                                    data-id="202502030832" data-podcast-nom="Le titre à la une">
+                                    <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
+                                            fill="#FFF" class="pausing">
+                                            <use xlink:href="<? base_url('templates/news/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play') ?>"></use>
+                                        </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
+                                            <use xlink:href="<? base_url('templates/news/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause') ?>"></use>
+                                        </svg></div>
+                                    <div class="podcast_item_duration">19:31</div><a
+                                        href="podcasts/le-titre-a-la-une/affaire-adele-haenel-le-realisateur-christophe-ruggia-condamne-pour-agressions-sexuelles-sur-mineure_EN-202502030832.html"
+                                        class="podcast_title_container"
+                                        title="<?= $podcast['Title_2'] ?>">
+                                        <h3 class="content_item_title episode_title"><?= $podcast['Title_2'] ?></h3>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-                <article class="content_item carousel_item">
-                    <div class="content_top_episode"><a
-                            href="podcasts/la-question-info/culture-agriculture-enseignement-que-contient-le-budget-2025_EN-202502030841.html"
-                            title="Culture, agriculture, enseignement… Que contient le budget 2025?">
-                            <picture class="content_item_picture">
-                                <source media="(min-width: 992px)"
-                                    srcset="https://images.bfmtv.com/hg6obA4Nnwk832yBZHdMyC8ezOc=/0x0:0x0/90x0/podcast/podcasts/principale-24_1.png, https://images.bfmtv.com/sy5tSQpKAaOwsKEmZMUXjWqsTrs=/0x0:0x0/180x0/podcast/podcasts/principale-24_1.png 2x">
-                                <source media="(min-width: 641px)"
-                                    srcset="https://images.bfmtv.com/hg6obA4Nnwk832yBZHdMyC8ezOc=/0x0:0x0/90x0/podcast/podcasts/principale-24_1.png, https://images.bfmtv.com/sy5tSQpKAaOwsKEmZMUXjWqsTrs=/0x0:0x0/180x0/podcast/podcasts/principale-24_1.png 2x">
-                                <img
-                                    src="https://images.bfmtv.com/nqeWWXgCQ6EgMMAp31D_NmXayEQ=/0x0:0x0/228x0/podcast/podcasts/principale-24_1.png"
-                                    srcset="https://images.bfmtv.com/nqeWWXgCQ6EgMMAp31D_NmXayEQ=/0x0:0x0/228x0/podcast/podcasts/principale-24_1.png, https://images.bfmtv.com/p40sScHhi9L5cu4RiqPpcnaMTdo=/0x0:0x0/456x0/podcast/podcasts/principale-24_1.png 2x"
-                                    alt="Culture, agriculture, enseignement… Que contient le budget 2025?"
-                                    title="Culture, agriculture, enseignement… Que contient le budget 2025?">
-                            </picture>
-                        </a>
-                        <div class="content_picto">
-                            <div class="podcast_item_infos podcast_wrapper_infos"
-                                data-audio-src="https://altice.simplecastaudio.com/d5c49a09-d2c9-4bd6-936c-564b5af336d7/episodes/144f5c49-fd5f-473d-8612-f6ce09a83717/audio/128/default.mp3?awCollectionId=d5c49a09-d2c9-4bd6-936c-564b5af336d7&amp;awEpisodeId=144f5c49-fd5f-473d-8612-f6ce09a83717&amp;category=News&amp;episode_published_at=2025-02-03T18%3A06%3A33&amp;episode_title=Culture%2C+agriculture%2C+enseignement%E2%80%A6+Que+contient+le+budget+2025%3F&amp;network=228028218708&amp;podcast_title=La+question+info"
-                                data-img-src="https://images.bfmtv.com/sy5tSQpKAaOwsKEmZMUXjWqsTrs=/0x0:0x0/180x0/podcast/podcasts/principale-24_1.png"
-                                data-title="Culture, agriculture, enseignement… Que contient le budget 2025?" data-id="202502030841"
-                                data-podcast-nom="La question info">
-                                <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
-                                        fill="#FFF" class="pausing">
-                                        <use xlink:href="/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play"></use>
-                                    </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
-                                        <use xlink:href="/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause"></use>
-                                    </svg></div>
-                                <div class="podcast_item_duration">3:08</div><a
-                                    href="podcasts/la-question-info/culture-agriculture-enseignement-que-contient-le-budget-2025_EN-202502030841.html"
-                                    class="podcast_title_container"
-                                    title="Culture, agriculture, enseignement… Que contient le budget 2025?">
-                                    <h3 class="content_item_title episode_title">Culture, agriculture, enseignement… Que contient le
-                                        budget 2025?</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="content_item carousel_item">
-                    <div class="content_top_episode"><a
-                            href="podcasts/la-question-eco/taxe-soda-a-quelle-augmentation-doit-on-s-attendre_EN-202502030842.html"
-                            title="Taxe soda: à quelle augmentation doit-on s'attendre?">
-                            <picture class="content_item_picture">
-                                <source media="(min-width: 992px)"
-                                    srcset="https://images.bfmtv.com/DPCn7u4ROJzOAF1ebxkXscKjSow=/0x0:0x0/90x0/podcast/podcasts/principale-26_1.png, https://images.bfmtv.com/Ae4nYI8YzttO-aARBTn4tvtUhco=/0x0:0x0/180x0/podcast/podcasts/principale-26_1.png 2x">
-                                <source media="(min-width: 641px)"
-                                    srcset="https://images.bfmtv.com/DPCn7u4ROJzOAF1ebxkXscKjSow=/0x0:0x0/90x0/podcast/podcasts/principale-26_1.png, https://images.bfmtv.com/Ae4nYI8YzttO-aARBTn4tvtUhco=/0x0:0x0/180x0/podcast/podcasts/principale-26_1.png 2x">
-                                <img
-                                    src="https://images.bfmtv.com/Z-zoTDeYBi92432VbSP1zdrTrdk=/0x0:0x0/228x0/podcast/podcasts/principale-26_1.png"
-                                    srcset="https://images.bfmtv.com/Z-zoTDeYBi92432VbSP1zdrTrdk=/0x0:0x0/228x0/podcast/podcasts/principale-26_1.png, https://images.bfmtv.com/Z5er-com65m7sF71u320ZsQGIZ4=/0x0:0x0/456x0/podcast/podcasts/principale-26_1.png 2x"
-                                    alt="Taxe soda: à quelle augmentation doit-on s'attendre?"
-                                    title="Taxe soda: à quelle augmentation doit-on s'attendre?">
-                            </picture>
-                        </a>
-                        <div class="content_picto">
-                            <div class="podcast_item_infos podcast_wrapper_infos"
-                                data-audio-src="https://altice.simplecastaudio.com/b1116d2c-044a-4ebc-a3cb-6472bad39c1b/episodes/97a49c8a-f808-4510-869c-89e89acdf1fc/audio/128/default.mp3?awCollectionId=b1116d2c-044a-4ebc-a3cb-6472bad39c1b&amp;awEpisodeId=97a49c8a-f808-4510-869c-89e89acdf1fc&amp;category=News%2CBusiness&amp;episode_published_at=2025-02-03T18%3A07%3A39&amp;episode_title=Taxe+soda%3A+%C3%A0+quelle+augmentation+doit-on+s%27attendre%3F&amp;network=228028218708&amp;podcast_title=La+question+%C3%A9co"
-                                data-img-src="https://images.bfmtv.com/Ae4nYI8YzttO-aARBTn4tvtUhco=/0x0:0x0/180x0/podcast/podcasts/principale-26_1.png"
-                                data-title="Taxe soda: à quelle augmentation doit-on s'attendre?" data-id="202502030842"
-                                data-podcast-nom="La question éco">
-                                <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
-                                        fill="#FFF" class="pausing">
-                                        <use xlink:href="/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play"></use>
-                                    </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
-                                        <use xlink:href="/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause"></use>
-                                    </svg></div>
-                                <div class="podcast_item_duration">2:59</div><a
-                                    href="podcasts/la-question-eco/taxe-soda-a-quelle-augmentation-doit-on-s-attendre_EN-202502030842.html"
-                                    class="podcast_title_container" title="Taxe soda: à quelle augmentation doit-on s'attendre?">
-                                    <h3 class="content_item_title episode_title">Taxe soda: à quelle augmentation doit-on s'attendre?
-                                    </h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="content_item carousel_item">
-                    <div class="content_top_episode"><a
-                            href="replay-emissions/face-a-duhamel/face-a-duhamel-segolene-royal-budget-le-ps-fait-il-le-bon-choix-03-02_EN-202502030816.html"
-                            title="Face à Duhamel: Ségolène Royal - Budget, le PS fait-il le bon choix ? – 03/02">
-                            <picture class="content_item_picture">
-                                <source media="(min-width: 992px)"
-                                    srcset="https://images.bfmtv.com/Rmm_7D6z7g1DY5ieT5y9-GuZ9Y0=/0x0:0x0/90x0/podcast/podcasts/principale-84_4.jpg, https://images.bfmtv.com/3YJvjLYvJcbbsEY5J3ARQl-CXLQ=/0x0:0x0/180x0/podcast/podcasts/principale-84_4.jpg 2x">
-                                <source media="(min-width: 641px)"
-                                    srcset="https://images.bfmtv.com/Rmm_7D6z7g1DY5ieT5y9-GuZ9Y0=/0x0:0x0/90x0/podcast/podcasts/principale-84_4.jpg, https://images.bfmtv.com/3YJvjLYvJcbbsEY5J3ARQl-CXLQ=/0x0:0x0/180x0/podcast/podcasts/principale-84_4.jpg 2x">
-                                <img
-                                    src="https://images.bfmtv.com/wZGteFnbXLhjRBuCboHEMruDdsM=/0x0:0x0/228x0/podcast/podcasts/principale-84_4.jpg"
-                                    srcset="https://images.bfmtv.com/wZGteFnbXLhjRBuCboHEMruDdsM=/0x0:0x0/228x0/podcast/podcasts/principale-84_4.jpg, https://images.bfmtv.com/3PHu8l3gjQMH01Y0d9U5N48uMQ8=/0x0:0x0/456x0/podcast/podcasts/principale-84_4.jpg 2x"
-                                    alt="Face à Duhamel: Ségolène Royal - Budget, le PS fait-il le bon choix ? – 03/02"
-                                    title="Face à Duhamel: Ségolène Royal - Budget, le PS fait-il le bon choix ? – 03/02">
-                            </picture>
-                        </a>
-                        <div class="content_picto">
-                            <div class="podcast_item_infos podcast_wrapper_infos"
-                                data-audio-src="https://altice.simplecastaudio.com/e249d7ed-eefb-4f15-bcd9-adfcec238e21/episodes/ff0a9828-4200-438d-8716-ff26462f1641/audio/128/default.mp3?awCollectionId=e249d7ed-eefb-4f15-bcd9-adfcec238e21&amp;awEpisodeId=ff0a9828-4200-438d-8716-ff26462f1641&amp;category=News&amp;episode_published_at=2025-02-03T17%3A49%3A51&amp;episode_title=Face+%C3%A0+Duhamel%3A+S%C3%A9gol%C3%A8ne+Royal+-+Budget%2C+le+PS+fait-il+le+bon+choix+%3F+%E2%80%93+03%2F02&amp;network=228028218708&amp;podcast_title=Face+%C3%A0++Duhamel"
-                                data-img-src="https://images.bfmtv.com/3YJvjLYvJcbbsEY5J3ARQl-CXLQ=/0x0:0x0/180x0/podcast/podcasts/principale-84_4.jpg"
-                                data-title="Face à Duhamel: Ségolène Royal - Budget, le PS fait-il le bon choix ? – 03/02"
-                                data-id="202502030816" data-podcast-nom="Face à Duhamel">
-                                <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
-                                        fill="#FFF" class="pausing">
-                                        <use xlink:href="/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play"></use>
-                                    </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
-                                        <use xlink:href="/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause"></use>
-                                    </svg></div>
-                                <div class="podcast_item_duration">16:04</div><a
-                                    href="replay-emissions/face-a-duhamel/face-a-duhamel-segolene-royal-budget-le-ps-fait-il-le-bon-choix-03-02_EN-202502030816.html"
-                                    class="podcast_title_container"
-                                    title="Face à Duhamel: Ségolène Royal - Budget, le PS fait-il le bon choix ? – 03/02">
-                                    <h3 class="content_item_title episode_title">Face à Duhamel: Ségolène Royal - Budget, le PS fait-il
-                                        le bon choix ? – 03/02</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="content_item carousel_item">
-                    <div class="content_top_episode"><a
-                            href="replay-emissions/focus-premiere/des-actions-symboliques-partout-en-france-18-11_EN-202411180277.html"
-                            title="Des actions symboliques partout en France - 18/11">
-                            <picture class="content_item_picture">
-                                <source media="(min-width: 992px)"
-                                    srcset="https://images.bfmtv.com/4NMeNjX22_SmZtK51kuauuWOocw=/0x0:0x0/90x0/podcast/podcasts/principale-49_3.png, https://images.bfmtv.com/1HaFmIFQCVJe-Y1Xw67K-J_nRek=/0x0:0x0/180x0/podcast/podcasts/principale-49_3.png 2x">
-                                <source media="(min-width: 641px)"
-                                    srcset="https://images.bfmtv.com/4NMeNjX22_SmZtK51kuauuWOocw=/0x0:0x0/90x0/podcast/podcasts/principale-49_3.png, https://images.bfmtv.com/1HaFmIFQCVJe-Y1Xw67K-J_nRek=/0x0:0x0/180x0/podcast/podcasts/principale-49_3.png 2x">
-                                <img
-                                    src="https://images.bfmtv.com/ftNOszcmYa0IpxEreS_6pra4ZHk=/0x0:0x0/228x0/podcast/podcasts/principale-49_3.png"
-                                    srcset="https://images.bfmtv.com/ftNOszcmYa0IpxEreS_6pra4ZHk=/0x0:0x0/228x0/podcast/podcasts/principale-49_3.png, https://images.bfmtv.com/hS9vdWwyT4QgKOHPNW911t0ipck=/0x0:0x0/456x0/podcast/podcasts/principale-49_3.png 2x"
-                                    alt="Des actions symboliques partout en France - 18/11"
-                                    title="Des actions symboliques partout en France - 18/11">
-                            </picture>
-                        </a>
-                        <div class="content_picto">
-                            <div class="podcast_item_infos podcast_wrapper_infos"
-                                data-audio-src="https://altice.simplecastaudio.com/03c12730-eff7-4a0c-ac1d-d7a541c52ab4/episodes/e0babca2-82e6-4c9b-87ae-aeedae7e016e/audio/128/default.mp3?awCollectionId=03c12730-eff7-4a0c-ac1d-d7a541c52ab4&amp;awEpisodeId=e0babca2-82e6-4c9b-87ae-aeedae7e016e&amp;category=News&amp;episode_published_at=2024-11-18T07%3A28%3A12&amp;episode_title=Des+actions+symboliques+partout+en+France+-+18%2F11&amp;network=228028218708&amp;podcast_title=7+minutes+pour+comprendre"
-                                data-img-src="https://images.bfmtv.com/1HaFmIFQCVJe-Y1Xw67K-J_nRek=/0x0:0x0/180x0/podcast/podcasts/principale-49_3.png"
-                                data-title="Des actions symboliques partout en France - 18/11" data-id="202411180277"
-                                data-podcast-nom="7 minutes pour comprendre">
-                                <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
-                                        fill="#FFF" class="pausing">
-                                        <use xlink:href="/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play"></use>
-                                    </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
-                                        <use xlink:href="/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause"></use>
-                                    </svg></div>
-                                <div class="podcast_item_duration">11:28</div><a
-                                    href="replay-emissions/focus-premiere/des-actions-symboliques-partout-en-france-18-11_EN-202411180277.html"
-                                    class="podcast_title_container" title="Des actions symboliques partout en France - 18/11">
-                                    <h3 class="content_item_title episode_title">Des actions symboliques partout en France - 18/11</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="content_item carousel_item">
-                    <div class="content_top_episode"><a
-                            href="podcasts/les-dents-et-dodo/le-refuge-des-reptiles_EN-202502030752.html"
-                            title="Le refuge des reptiles">
-                            <picture class="content_item_picture">
-                                <source media="(min-width: 992px)"
-                                    srcset="https://images.bfmtv.com/CkA8O9YUtTkwOB0nf30AKY_MwVo=/0x0:0x0/90x0/podcast/podcasts/principale-20.png, https://images.bfmtv.com/8ziFm2rb200YcFbls0xoyUcnrl0=/0x0:0x0/180x0/podcast/podcasts/principale-20.png 2x">
-                                <source media="(min-width: 641px)"
-                                    srcset="https://images.bfmtv.com/CkA8O9YUtTkwOB0nf30AKY_MwVo=/0x0:0x0/90x0/podcast/podcasts/principale-20.png, https://images.bfmtv.com/8ziFm2rb200YcFbls0xoyUcnrl0=/0x0:0x0/180x0/podcast/podcasts/principale-20.png 2x">
-                                <img
-                                    src="https://images.bfmtv.com/S8rPrKOyxsNb510Yh_7x3caR3E4=/0x0:0x0/228x0/podcast/podcasts/principale-20.png"
-                                    srcset="https://images.bfmtv.com/S8rPrKOyxsNb510Yh_7x3caR3E4=/0x0:0x0/228x0/podcast/podcasts/principale-20.png, https://images.bfmtv.com/CYXG9c9wwwx9NVjUFg_dJeYDnwc=/0x0:0x0/456x0/podcast/podcasts/principale-20.png 2x"
-                                    alt="Le refuge des reptiles" title="Le refuge des reptiles">
-                            </picture>
-                        </a>
-                        <div class="content_picto">
-                            <div class="podcast_item_infos podcast_wrapper_infos"
-                                data-audio-src="https://altice.simplecastaudio.com/bf002fcb-4d79-4baa-8587-0a6e30243f85/episodes/9cd7e82c-1476-4d21-a7bb-3b707fa2743c/audio/128/default.mp3?awCollectionId=bf002fcb-4d79-4baa-8587-0a6e30243f85&amp;awEpisodeId=9cd7e82c-1476-4d21-a7bb-3b707fa2743c&amp;category=Education%2CKids+%26+Family&amp;episode_published_at=2025-02-03T17%3A00%3A02&amp;episode_title=Le+refuge+des+reptiles&amp;network=228028218708&amp;podcast_title=Les+dents+et+dodo"
-                                data-img-src="https://images.bfmtv.com/8ziFm2rb200YcFbls0xoyUcnrl0=/0x0:0x0/180x0/podcast/podcasts/principale-20.png"
-                                data-title="Le refuge des reptiles" data-id="202502030752" data-podcast-nom="Les dents et dodo">
-                                <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
-                                        fill="#FFF" class="pausing">
-                                        <use xlink:href="/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play"></use>
-                                    </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
-                                        <use xlink:href="/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause"></use>
-                                    </svg></div>
-                                <div class="podcast_item_duration">2:53</div><a
-                                    href="podcasts/les-dents-et-dodo/le-refuge-des-reptiles_EN-202502030752.html"
-                                    class="podcast_title_container" title="Le refuge des reptiles">
-                                    <h3 class="content_item_title episode_title">Le refuge des reptiles</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="content_item carousel_item">
-                    <div class="content_top_episode"><a
-                            href="podcasts/le-podcast-royal/pourquoi-l-ex-famille-royale-grecque-a-t-elle-retrouve-sa-nationalite-30-ans-apres-l-avoir-perdue_EN-202502010046.html"
-                            title="Pourquoi l'ex-famille royale grecque a-t-elle retrouvé sa nationalité, 30 ans après l'avoir perdue?">
-                            <picture class="content_item_picture">
-                                <source media="(min-width: 992px)"
-                                    srcset="https://images.bfmtv.com/-UpMxL8P391680ttt5f4U9OxWoY=/0x0:0x0/90x0/podcast/podcasts/principale-255_2.png, https://images.bfmtv.com/PZqlCdxroB-AXUpX_stGvQLmyUg=/0x0:0x0/180x0/podcast/podcasts/principale-255_2.png 2x">
-                                <source media="(min-width: 641px)"
-                                    srcset="https://images.bfmtv.com/-UpMxL8P391680ttt5f4U9OxWoY=/0x0:0x0/90x0/podcast/podcasts/principale-255_2.png, https://images.bfmtv.com/PZqlCdxroB-AXUpX_stGvQLmyUg=/0x0:0x0/180x0/podcast/podcasts/principale-255_2.png 2x">
-                                <img
-                                    src="https://images.bfmtv.com/dVZ_TgF9gJ3PfYYd5QzIACJ-cVE=/0x0:0x0/228x0/podcast/podcasts/principale-255_2.png"
-                                    srcset="https://images.bfmtv.com/dVZ_TgF9gJ3PfYYd5QzIACJ-cVE=/0x0:0x0/228x0/podcast/podcasts/principale-255_2.png, https://images.bfmtv.com/t2NRWX_HLkpj-UIY8st8XowBCZs=/0x0:0x0/456x0/podcast/podcasts/principale-255_2.png 2x"
-                                    alt="Pourquoi l'ex-famille royale grecque a-t-elle retrouvé sa nationalité, 30 ans après l'avoir perdue?"
-                                    title="Pourquoi l'ex-famille royale grecque a-t-elle retrouvé sa nationalité, 30 ans après l'avoir perdue?">
-                            </picture>
-                        </a>
-                        <div class="content_picto">
-                            <div class="podcast_item_infos podcast_wrapper_infos"
-                                data-audio-src="https://altice.simplecastaudio.com/64014c94-7808-471c-b37f-af4280cca6ff/episodes/22c394cb-132b-49eb-8292-1d7ddddfcafd/audio/128/default.mp3?awCollectionId=64014c94-7808-471c-b37f-af4280cca6ff&amp;awEpisodeId=22c394cb-132b-49eb-8292-1d7ddddfcafd&amp;category=News&amp;episode_published_at=2025-02-01T05%3A00%3A01&amp;episode_title=Pourquoi+l%27ex-famille+royale+grecque+a-t-elle+retrouv%C3%A9+sa+nationalit%C3%A9%2C+30+ans+apr%C3%A8s+l%27avoir+perdue%3F&amp;network=228028218708&amp;podcast_title=Le+podcast+royal"
-                                data-img-src="https://images.bfmtv.com/PZqlCdxroB-AXUpX_stGvQLmyUg=/0x0:0x0/180x0/podcast/podcasts/principale-255_2.png"
-                                data-title="Pourquoi l'ex-famille royale grecque a-t-elle retrouvé sa nationalité, 30 ans après l'avoir perdue?"
-                                data-id="202502010046" data-podcast-nom="Le podcast royal">
-                                <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
-                                        fill="#FFF" class="pausing">
-                                        <use xlink:href="/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play"></use>
-                                    </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
-                                        <use xlink:href="/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause"></use>
-                                    </svg></div>
-                                <div class="podcast_item_duration">18:47</div><a
-                                    href="podcasts/le-podcast-royal/pourquoi-l-ex-famille-royale-grecque-a-t-elle-retrouve-sa-nationalite-30-ans-apres-l-avoir-perdue_EN-202502010046.html"
-                                    class="podcast_title_container"
-                                    title="Pourquoi l'ex-famille royale grecque a-t-elle retrouvé sa nationalité, 30 ans après l'avoir perdue?">
-                                    <h3 class="content_item_title episode_title">Pourquoi l'ex-famille royale grecque a-t-elle retrouvé
-                                        sa nationalité, 30 ans après l'avoir perdue?</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="content_item carousel_item">
-                    <div class="content_top_episode"><a
-                            href="podcasts/washington-briefing/froid-glacial-popcorn-et-decrets-les-coulisses-de-l-investiture-de-trump-racontees-par-nos-journalistes_EN-202501210898.html"
-                            title="Froid glacial, popcorn et décrets: les coulisses de l’investiture de Trump racontées par nos journalistes">
-                            <picture class="content_item_picture">
-                                <source media="(min-width: 992px)"
-                                    srcset="https://images.bfmtv.com/PtAiV2A_yXP3J5wrBsiVQNuggTg=/0x0:0x0/90x0/podcast/podcasts/principale-357_1.jpg, https://images.bfmtv.com/qwPTQ39ukCsNUSn_N5_ZtJx_u0I=/0x0:0x0/180x0/podcast/podcasts/principale-357_1.jpg 2x">
-                                <source media="(min-width: 641px)"
-                                    srcset="https://images.bfmtv.com/PtAiV2A_yXP3J5wrBsiVQNuggTg=/0x0:0x0/90x0/podcast/podcasts/principale-357_1.jpg, https://images.bfmtv.com/qwPTQ39ukCsNUSn_N5_ZtJx_u0I=/0x0:0x0/180x0/podcast/podcasts/principale-357_1.jpg 2x">
-                                <img
-                                    src="https://images.bfmtv.com/n7rYORv5POaN3P9PdqGyPoYUOJ4=/0x0:0x0/228x0/podcast/podcasts/principale-357_1.jpg"
-                                    srcset="https://images.bfmtv.com/n7rYORv5POaN3P9PdqGyPoYUOJ4=/0x0:0x0/228x0/podcast/podcasts/principale-357_1.jpg, https://images.bfmtv.com/1eaqwtnFy55G_XpomGTS3B3ODkE=/0x0:0x0/456x0/podcast/podcasts/principale-357_1.jpg 2x"
-                                    alt="Froid glacial, popcorn et décrets: les coulisses de l’investiture de Trump racontées par nos journalistes"
-                                    title="Froid glacial, popcorn et décrets: les coulisses de l’investiture de Trump racontées par nos journalistes">
-                            </picture>
-                        </a>
-                        <div class="content_picto">
-                            <div class="podcast_item_infos podcast_wrapper_infos"
-                                data-audio-src="https://altice.simplecastaudio.com/238ab467-9d04-47c8-8556-66adf1897c18/episodes/db44fc14-6630-4ea0-bddb-cd07429018d7/audio/128/default.mp3?awCollectionId=238ab467-9d04-47c8-8556-66adf1897c18&amp;awEpisodeId=db44fc14-6630-4ea0-bddb-cd07429018d7&amp;category=News&amp;episode_published_at=2025-01-21T19%3A36%3A03&amp;episode_title=Froid+glacial%2C+popcorn+et+d%C3%A9crets%3A+les+coulisses+de+l%E2%80%99investiture+de+Trump+racont%C3%A9es+par+nos+journalistes&amp;network=228028218708&amp;podcast_title=Washington+Briefing"
-                                data-img-src="https://images.bfmtv.com/qwPTQ39ukCsNUSn_N5_ZtJx_u0I=/0x0:0x0/180x0/podcast/podcasts/principale-357_1.jpg"
-                                data-title="Froid glacial, popcorn et décrets: les coulisses de l’investiture de Trump racontées par nos journalistes"
-                                data-id="202501210898" data-podcast-nom="Washington Briefing">
-                                <div class="podcast_item_picto" listener="true"><svg viewBox="-11 -10 32 32" width="40" height="40"
-                                        fill="#FFF" class="pausing">
-                                        <use xlink:href="/assets/v11/images/play.a1d51b9aa213d4bf8f86450c6ce71797.svg#play"></use>
-                                    </svg> <svg viewBox="-13 -12 40 40" width="40" height="40" fill="#FFF" class="playing">
-                                        <use xlink:href="/assets/v11/images/pause.b0abca00b2a9fbdac6cebd299fbdea88.svg#pause"></use>
-                                    </svg></div>
-                                <div class="podcast_item_duration">19:14</div><a
-                                    href="podcasts/washington-briefing/froid-glacial-popcorn-et-decrets-les-coulisses-de-l-investiture-de-trump-racontees-par-nos-journalistes_EN-202501210898.html"
-                                    class="podcast_title_container"
-                                    title="Froid glacial, popcorn et décrets: les coulisses de l’investiture de Trump racontées par nos journalistes">
-                                    <h3 class="content_item_title episode_title">Froid glacial, popcorn et décrets: les coulisses de
-                                        l’investiture de Trump racontées par nos journalistes</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
+                    </article>
+                <?php endforeach; ?>
+
+
             </div>
             <div class="nav_holder" id="list_slider_slider_multi_podcasts_1691749734161"></div>
         </div>

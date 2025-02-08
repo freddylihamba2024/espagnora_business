@@ -15,8 +15,10 @@ class Home extends BaseController
     public function homepage()
     {
         $data['latest_news'] = $this->webMediaModel->get_latest_news(6);
-        $data['latest_videos'] = $this->webMediaModel->get_latest_news_by_media_type('Videos', 5);
-        $data['latest_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios', 3);
+        $data['latest_videos'] = $this->webMediaModel->get_latest_news_by_media_type('Videos', 8);
+        $data['lat_videos'] = $this->webMediaModel->get_latest_news_by_media_type('Videos', 4);
+        $data['direct_tv'] = $this->webMediaModel->get_latest_news_by_media_type('Direct TV', 1);
+        $data['latest_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios', 10);
 
         //Sports news
         $data['featured_sport_news'] = $this->webMediaModel->get_latest_news_by_media_type('Actualites', 1, 3);
@@ -85,7 +87,7 @@ class Home extends BaseController
 
             $data['active_data']['active_status'] = ($param == null) ? "actualites" : $param;
             $data['active_data']['categories'] = $this->mediaCategoryModel->get_menu_categorie_list();
-
+            $data['replays']=$this->webMediaModel->get_latest_news_by_media_type('Direct TV', 10);
             // $data['active_data']['active_page']=($data['active_data']['active_status']!=null)?$param:"";
 
             // Define how many results you want per page
@@ -113,6 +115,7 @@ class Home extends BaseController
                 $newMedia['title'] = $media['Title_2'];
                 $newMedia['image'] = $media['Media_Image_4'];
                 $newMedia['category'] = $media_category[0]['Description_1'];
+                $newMedia['description'] = $media['Description_3'];
                 $newMedia['date_creation'] = $media['DateCreat_8'];
                 $newMedia['media_slug'] = $media['Media_Id_1'];
                 $newMedia['media_type'] = $media['Media_type_10'];

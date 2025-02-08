@@ -27,7 +27,7 @@ if (isset($active_data)) {
 ?>
 <header class="main_header" id="main_header">
     <div class="header_top" id="header_top"><button class="header_menu" id="header_menu_show">Menu</button>
-        <h1><a href="index.html" title="ESPAGNORA" class="header_brand"><img src="<?=base_url('espagnora_assets/images/logo.png')?>" alt="ESPAGNORA"
+        <h1><a href="<?=base_url()?>" title="ESPAGNORA" class="header_brand"><img src="<?=base_url('espagnora_assets/images/logo.png')?>" alt="ESPAGNORA"
                     title="ESPAGNORA"></a>
         </h1>
         <div class="header_direct"><a class="header_replay"

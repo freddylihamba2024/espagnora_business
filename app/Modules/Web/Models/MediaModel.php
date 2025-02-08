@@ -67,7 +67,8 @@ class MediaModel extends Model
             $st .= " AND Media_Category_7 = $category";
         }
         $query = $this->select("*")
-            ->where($st);
+            ->where($st)
+            ->orderBy('DateCreat_8 DESC');
         return $query->findAll($limit);
     }
     public function get_latest_news_by_media_category($category, $limit = null)

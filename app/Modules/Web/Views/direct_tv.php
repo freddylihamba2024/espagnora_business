@@ -200,7 +200,7 @@
                             </a></div>
                         <div class="menu_center__title"><span>Parcourir</span></div>
                         <ul id="menu_category_links_left">
-                            <li><a href="videos/index.html" title="Vidéos"><span>Vidéos</span></a></li>
+                            <li><a href="<?=base_url('web/videos')?>" title="Vidéos"><span>Vidéos</span></a></li>
                             <li><a href="replay-emissions/index.html" title="Émissions"><span>Émissions</span></a></li>
                             <li><a href="<?=base_url('web/podcasts')?>" title="Podcasts"><span>Podcasts</span></a></li>
                             <li><a href="longs-formats/index.html" title="Longs Formats"><span>Longs Formats</span></a></li>
@@ -976,7 +976,7 @@
                         <?php foreach($last_videos as $video): ?>
                         <article class="last_videos_item">
                             <a
-                                href="/police-justice/paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_VN-202502040606.html"
+                                href="<?=base_url('web/videos/'.$video['Media_Id_1'])?>"
                                 title="<?=$video['Title_2']?>">
                                 <figure class="meme_sujet_picture">
                                     <picture class="last_videos_item_cover with-js">

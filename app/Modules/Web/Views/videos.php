@@ -1,5 +1,7 @@
 <?php $this->extend('layouts/layout_web') ?>
 
+
+
 <!-- navbar section -->
 <?php $this->section('navbar') ?>
 <?php echo view('Modules\Web\Views\navbar') ?>
@@ -7,17 +9,18 @@
 
 <!-- Content section -->
 <?php $this->section('content') ?>
+<link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/video.9c67b71645d75f2ab425.css')?>">
 <main class="main_wrapper video_wrapper" id="main_wrapper">
-        <div class="grid_wrapper">
-            <div class="grid_column grid_column_ab">
+    <div class="grid_wrapper">
+        <!-- <div class="grid_column grid_column_ab">
                 <article class="content">
                     <header class="content_header" id="content_header">
                         <nav role="breadcrumb" class="breadcrumb" id="breadcrumb">
                             <ul class="list_inbl">
-                                <li class="breadbrumb_home"><a href="/index.html" title="BFMTV"><span>BFMTV</span></a>
+                                <li class="breadbrumb_home"><a href="/index.html" title="BFMTV"><span>Espagnora</span></a>
                                 </li>
                                 <li><a href="index.html" title="Police-Justice"
-                                        id="breadcrumb_last_item"><span>Police-Justice</span></a></li>
+                                        id="breadcrumb_last_item"><span>Vidéos</span></a></li>
                             </ul>
                         </nav>
                         <div class="video_block vjs-pip-container" id="video_player_6368249797112"><video-js
@@ -51,8 +54,8 @@
                         </div>
                     </header>
                 </article>
-            </div>
-            <div class="grid_column grid_column_c aside_column">
+            </div> -->
+        <!-- <div class="grid_column grid_column_c aside_column">
                 <aside class="video_list_c">
                     <h2 class="mvm_title">Les plus vues</h2>
                     <div class="mvm_list" id="liste_simple_droite_1579100668494">
@@ -716,14 +719,14 @@
                         </div>
                     </div>
                 </aside>
-            </div>
-        </div>
-        <div class="grid_wrapper">
-            <div class="grid_column grid_column_abc">
-                <section class="block_video_section" id="liste_simple_outbrain_1579100960768">
-                    <h2 class="section_title">Sur le même sujet</h2>
-                    <div class="last_videos_wrapper">
-                        <article class="last_videos_item active"><a
+            </div> -->
+    </div>
+    <div class="grid_wrapper">
+        <div class="grid_column grid_column_abc">
+            <section class="block_video_section" id="liste_simple_outbrain_1579100960768">
+                <h2 class="section_title">Vidéothèque</h2>
+                <div class="last_videos_wrapper">
+                    <!-- <article class="last_videos_item active"><a
                                 href="paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_VN-202502040606.html"
                                 title="Paris: deux policiers légèrement blessés par un homme devant la préfecture de police">
                                 <figure class="meme_sujet_picture">
@@ -784,73 +787,76 @@
                                 </figure>
                                 <h3 class="last_videos_item_title">Paris: deux policiers légèrement blessés par un homme
                                     devant la préfecture de police</h3>
-                            </a></article>
-                        <div class="OUTBRAIN"
-                            data-src="https://www.bfmtv.com/police-justice/paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_VN-202502040606.html"
-                            data-widget-id="AR_3"></div>
-                        <article class="last_videos_item"><a
-                                href="policiers-blesses-a-paris-l-identite-de-l-auteur-presume-en-cours-de-verification_VN-202502040585.html"
-                                title="Policiers blessés à Paris: l'identité de l'auteur présumé en cours de vérification">
+                            </a></article> -->
+                    <!-- <div class="OUTBRAIN"
+                        data-src="https://www.bfmtv.com/police-justice/paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_VN-202502040606.html"
+                        data-widget-id="AR_3"></div> -->
+                    <?php foreach ($videos as $video): ?>
+                        <article class="last_videos_item">
+                            <a
+                                href="<?= base_url('web/videos/' . $video['Media_Id_1']) ?>"
+                                title="<?= $video['Title_2'] ?>">
                                 <figure class="meme_sujet_picture">
                                     <picture class="last_videos_item_cover with-js">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                            srcset="https://images.bfmtv.com/UsdcY39dtMm05oelu-roI--1cxI=/0x0:1280x720/283x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/wppVZY6SNzQwG6G0_uIjLND_GZM=/0x0:1280x720/566x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
                                             type="image/webp" data-ll-status="entered">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad entered"
-                                            srcset="https://images.bfmtv.com/HG-DoCHlR0q_gYt56Wn9Zo3eE9E=/0x0:1280x720/283x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/M05HHh5QW9kQguVl6G1PchPwcSs=/0x0:1280x720/566x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
                                             type="image/jpeg" data-ll-status="entered">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                            srcset="https://images.bfmtv.com/JfQJ3XoDemxFRWb2Bd6HBelK1jc=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
                                             type="image/webp" data-ll-status="entered">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad entered"
-                                            srcset="https://images.bfmtv.com/Aq5EycKtK6PmKIgwHsG_x7BE3L8=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
                                             type="image/jpeg" data-ll-status="entered">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                            srcset="https://images.bfmtv.com/JfQJ3XoDemxFRWb2Bd6HBelK1jc=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
                                             type="image/webp" data-ll-status="entered">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad entered"
-                                            srcset="https://images.bfmtv.com/Aq5EycKtK6PmKIgwHsG_x7BE3L8=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
                                             type="image/jpeg" data-ll-status="entered">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                            srcset="https://images.bfmtv.com/JfQJ3XoDemxFRWb2Bd6HBelK1jc=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
                                             type="image/webp" data-ll-status="entered">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad entered"
-                                            srcset="https://images.bfmtv.com/Aq5EycKtK6PmKIgwHsG_x7BE3L8=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x"
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x"
                                             type="image/jpeg" data-ll-status="entered"><img width="16" height="9"
                                             class="lozad entered loaded"
-                                            data-srcset="https://images.bfmtv.com/HG-DoCHlR0q_gYt56Wn9Zo3eE9E=/0x0:1280x720/283x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg"
-                                            src="https://images.bfmtv.com/HG-DoCHlR0q_gYt56Wn9Zo3eE9E=/0x0:1280x720/283x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg"
+                                            data-srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>"
+                                            src="<?= base_url('uploads/' . $video['Media_Image_4']) ?>"
                                             alt="Policiers blessés à Paris: l'identité de l'auteur présumé en cours de vérification"
                                             data-ll-status="loaded"
-                                            srcset="https://images.bfmtv.com/HG-DoCHlR0q_gYt56Wn9Zo3eE9E=/0x0:1280x720/283x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg">
+                                            srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>">
                                     </picture><noscript>
                                         <picture class="last_videos_item_cover">
                                             <source type="image/webp" media="(min-width: 441px)"
-                                                srcset="https://images.bfmtv.com/UsdcY39dtMm05oelu-roI--1cxI=/0x0:1280x720/283x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/wppVZY6SNzQwG6G0_uIjLND_GZM=/0x0:1280x720/566x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x">
+                                                srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
                                             <source type="image/jpeg" media="(min-width: 441px)"
-                                                srcset="https://images.bfmtv.com/HG-DoCHlR0q_gYt56Wn9Zo3eE9E=/0x0:1280x720/283x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/M05HHh5QW9kQguVl6G1PchPwcSs=/0x0:1280x720/566x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x">
+                                                srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
                                             <source type="image/webp" media="(min-width: 361px)"
-                                                srcset="https://images.bfmtv.com/5IzceDQjHxzLwUkYe3Lc03buRXk=/0x0:1280x720/63x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/JfQJ3XoDemxFRWb2Bd6HBelK1jc=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x">
+                                                srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
                                             <source type="image/jpeg" media="(min-width: 361px)"
-                                                srcset="https://images.bfmtv.com/16XOAEyzxeOfzfFUw61sg9EdK9s=/0x0:1280x720/63x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/Aq5EycKtK6PmKIgwHsG_x7BE3L8=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x">
+                                                srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
                                             <source type="image/webp" media="(min-width: 321px)"
-                                                srcset="https://images.bfmtv.com/5IzceDQjHxzLwUkYe3Lc03buRXk=/0x0:1280x720/63x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/JfQJ3XoDemxFRWb2Bd6HBelK1jc=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x">
+                                                srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
                                             <source type="image/jpeg" media="(min-width: 321px)"
-                                                srcset="https://images.bfmtv.com/16XOAEyzxeOfzfFUw61sg9EdK9s=/0x0:1280x720/63x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/Aq5EycKtK6PmKIgwHsG_x7BE3L8=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x">
+                                                srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
                                             <source type="image/webp" media="(min-width: 300px)"
-                                                srcset="https://images.bfmtv.com/5IzceDQjHxzLwUkYe3Lc03buRXk=/0x0:1280x720/63x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp, https://images.bfmtv.com/JfQJ3XoDemxFRWb2Bd6HBelK1jc=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.webp 2x">
+                                                srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
                                             <source type="image/jpeg" media="(min-width: 300px)"
-                                                srcset="https://images.bfmtv.com/16XOAEyzxeOfzfFUw61sg9EdK9s=/0x0:1280x720/63x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg, https://images.bfmtv.com/Aq5EycKtK6PmKIgwHsG_x7BE3L8=/0x0:1280x720/126x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg 2x">
-                                            <img src="https://images.bfmtv.com/HG-DoCHlR0q_gYt56Wn9Zo3eE9E=/0x0:1280x720/283x0/images/Policiers-blesses-a-Paris-l-identite-de-l-auteur-presume-en-cours-de-verification-2027122.jpg"
-                                                alt="Policiers blessés à Paris: l&#39;identité de l&#39;auteur présumé en cours de vérification">
+                                                srcset="<?= base_url('uploads/' . $video['Media_Image_4']) ?>, <?= base_url('uploads/' . $video['Media_Image_4']) ?> 2x">
+                                            <img src="<?= base_url('uploads/' . $video['Media_Image_4']) ?>"
+                                                alt="<?= $video['Title_2'] ?>">
                                         </picture>
                                     </noscript>
-                                    <figcaption><span class="video_time_zone">1:52</span></figcaption>
+                                    <!-- <figcaption><span class="video_time_zone">1:52</span></figcaption> -->
                                 </figure>
-                                <h3 class="last_videos_item_title">Policiers blessés à Paris: l'identité de l'auteur
-                                    présumé en cours de vérification</h3>
-                            </a></article>
-                        <article class="last_videos_item"><a
+                                <h3 class="last_videos_item_title"><?= $video['Title_2'] ?></h3>
+                            </a>
+                        </article>
+                    <?php endforeach; ?>
+                    <!-- <article class="last_videos_item"><a
                                 href="les-policiers-sont-les-premieres-cibles-eric-henry-delegue-national-alliance-police-reagit-aux-deux-policiers-blesses-par-un-homme-devant-la-prefecture-de-police-de-paris_VN-202502040563.html"
                                 title="&quot;Les policiers sont les premières cibles&quot;: Eric Henry, délégué national Alliance police, réagit aux deux policiers blessés par un homme devant la préfecture de police de Paris">
                                 <figure class="meme_sujet_picture">
@@ -1689,84 +1695,84 @@
                                 </figure>
                                 <h3 class="last_videos_item_title">Eboulement : la course contre la montre des stations
                                 </h3>
-                            </a></article>
-                    </div>
-                </section>
-                <div class="breadcrumb_parent grid_column_abc" id="breadcrumb_parent"></div>
-            </div>
-        </div><template id="controlPanel_VOD_Desktop">
-            <div class="controlPanel">
-                <div class="playlistArea"><button class="scrollLeft"></button>
-                    <div class="movingScroller"></div><button class="scrollRight"></button>
+                            </a></article> -->
                 </div>
-                <div class="thumbnailPrevious"></div>
-                <div class="thumbnailNext"></div>
-                <div class="bottomBar">
-                    <div class="volumePanel"></div>
-                    <div class="centeredButtons"><button
-                            class="irisBackward vjs-control vjs-button icon-play-previous-button disableButton"
-                            disabled="disabled"></button> <button
-                            class="rewindButton vjs-control vjs-button icon-retour"></button> <button
-                            class="forwardButton vjs-control vjs-button icon-avance"></button> <button
-                            class="irisForward vjs-control vjs-button icon-play-next-button"></button></div>
-                    <div class="rightButtons"></div>
+            </section>
+            <div class="breadcrumb_parent grid_column_abc" id="breadcrumb_parent"></div>
+        </div>
+    </div><template id="controlPanel_VOD_Desktop">
+        <div class="controlPanel">
+            <div class="playlistArea"><button class="scrollLeft"></button>
+                <div class="movingScroller"></div><button class="scrollRight"></button>
+            </div>
+            <div class="thumbnailPrevious"></div>
+            <div class="thumbnailNext"></div>
+            <div class="bottomBar">
+                <div class="volumePanel"></div>
+                <div class="centeredButtons"><button
+                        class="irisBackward vjs-control vjs-button icon-play-previous-button disableButton"
+                        disabled="disabled"></button> <button
+                        class="rewindButton vjs-control vjs-button icon-retour"></button> <button
+                        class="forwardButton vjs-control vjs-button icon-avance"></button> <button
+                        class="irisForward vjs-control vjs-button icon-play-next-button"></button></div>
+                <div class="rightButtons"></div>
+            </div>
+        </div>
+        <div class="topRightButton"></div>
+    </template><template id="previewBlock_Desktop">
+        <div class="previewBlock"><a class="jumpToVideo" target="_blank">
+                <div class="thumbnailContainer"><img class="thumbnailPreview"></div>
+            </a>
+            <div class="descriptionArea">
+                <p class="descriptionPreview"></p>
+            </div>
+        </div>
+    </template><template id="controlPanel_VOD_Mobile">
+        <div class="controlPanel">
+            <div class="VOD_Mobile_Controls">
+                <div class="centeredButtons"><button
+                        class="irisBackward vjs-control vjs-button icon-play-previous-button disableButton"
+                        disabled="disabled"></button> <button
+                        class="rewindButton vjs-control vjs-button icon-retour"></button> <button
+                        class="forwardButton vjs-control vjs-button icon-avance"></button> <button
+                        class="irisForward vjs-control vjs-button icon-play-next-button"></button></div>
+            </div>
+            <div class="bottomControls"></div>
+        </div>
+        <div class="topRightButton"></div>
+        <div class="topLeftButton"><button class="close"
+                data-pagename="paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_VN-202502040606"></button>
+        </div>
+    </template><template id="controlPanel_LIVE_Desktop">
+        <div class="controlPanel">
+            <div class="bottomBar">
+                <div class="directHolder">
+                    <div class="directIcon"></div><span class="directText">DIRECT</span>
                 </div>
+                <div class="volumePanel"></div>
+                <div class="rightButtons"></div>
             </div>
-            <div class="topRightButton"></div>
-        </template><template id="previewBlock_Desktop">
-            <div class="previewBlock"><a class="jumpToVideo" target="_blank">
-                    <div class="thumbnailContainer"><img class="thumbnailPreview"></div>
-                </a>
-                <div class="descriptionArea">
-                    <p class="descriptionPreview"></p>
+        </div>
+        <div class="topRightButton"></div>
+    </template><template id="controlPanel_LIVE_Mobile">
+        <div class="controlPanel">
+            <div class="bottomBar">
+                <div class="directHolder">
+                    <div class="directIcon"></div><span class="directText">DIRECT</span>
                 </div>
+                <div class="rightButtons"></div>
             </div>
-        </template><template id="controlPanel_VOD_Mobile">
-            <div class="controlPanel">
-                <div class="VOD_Mobile_Controls">
-                    <div class="centeredButtons"><button
-                            class="irisBackward vjs-control vjs-button icon-play-previous-button disableButton"
-                            disabled="disabled"></button> <button
-                            class="rewindButton vjs-control vjs-button icon-retour"></button> <button
-                            class="forwardButton vjs-control vjs-button icon-avance"></button> <button
-                            class="irisForward vjs-control vjs-button icon-play-next-button"></button></div>
-                </div>
-                <div class="bottomControls"></div>
-            </div>
-            <div class="topRightButton"></div>
-            <div class="topLeftButton"><button class="close"
-                    data-pagename="paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_VN-202502040606"></button>
-            </div>
-        </template><template id="controlPanel_LIVE_Desktop">
-            <div class="controlPanel">
-                <div class="bottomBar">
-                    <div class="directHolder">
-                        <div class="directIcon"></div><span class="directText">DIRECT</span>
-                    </div>
-                    <div class="volumePanel"></div>
-                    <div class="rightButtons"></div>
-                </div>
-            </div>
-            <div class="topRightButton"></div>
-        </template><template id="controlPanel_LIVE_Mobile">
-            <div class="controlPanel">
-                <div class="bottomBar">
-                    <div class="directHolder">
-                        <div class="directIcon"></div><span class="directText">DIRECT</span>
-                    </div>
-                    <div class="rightButtons"></div>
-                </div>
-            </div>
-            <div class="topRightButton"></div>
-        </template><template id="errorTemplate">
-            <div class="ErrorContainer"><span class="ErrorMessage"></span></div>
-        </template>
-    </main>
+        </div>
+        <div class="topRightButton"></div>
+    </template><template id="errorTemplate">
+        <div class="ErrorContainer"><span class="ErrorMessage"></span></div>
+    </template>
+</main>
 <!-- <div class="container">
     <h4 style="font-weight:bold; font-size:2.4em; margin-top:5px">Nos replays</h4>
     <hr />
     <div class="row">
-        <?php foreach ($replays as $replay): ?>
+        <?php foreach ($videos as $replay): ?>
             <div class="col-md-3 col-sm-12">
                 <a href="<?= base_url("web/article/" . $replay['Media_Id_1']) ?>">
                     <div class="actualite-box">

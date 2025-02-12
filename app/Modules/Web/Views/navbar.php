@@ -45,7 +45,7 @@ if (isset($active_data)) {
     </div>
     <nav role="primary" class="nav_primary">
         <ul>
-            <li><a href="videos/index.html" title="Vidéos">Vidéos</a></li>
+            <li><a href="<?=base_url('web/videos')?>" title="Vidéos">Vidéos</a></li>
             <?php foreach ($active_data['categories'] as $category): ?>
                 <li><a href="<?= base_url('web/actualites/' . $category['Slug_5']) ?>" class="<?= (isset($active_data['active_status']) && $active_data['active_status'] == $category['Slug_5']) ? "navbar-active" : "" ?>"><?= $category['Description_1'] ?></a></li>
             <?php endforeach; ?>
@@ -108,7 +108,7 @@ if (isset($active_data)) {
                         </a></div>
                     <div class="menu_center__title"><span>Parcourir</span></div>
                     <ul id="menu_category_links_left">
-                        <li><a href="videos/index.html" title="Vidéos"><span>Vidéos</span></a></li>
+                        <li><a href="<?=base_url('web/videos')?>" title="Vidéos"><span>Vidéos</span></a></li>
                         <li><a href="replay-emissions/index.html" title="Émissions"><span>Magazines</span></a></li>
                         <li><a href="<?=base_url('web/podcasts')?>" title="Podcasts"><span>Podcasts</span></a></li>
                         <li>

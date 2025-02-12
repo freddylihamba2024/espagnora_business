@@ -1,22 +1,24 @@
 <footer class="footer" id="footer_bottom">
     <div class="footer_container">
       <div class="footer_wrapper_top">
-        <div class="footer_wrapper_top_content"><img width="1" height="1" src="assets/images/icon_blanc.png" alt="BFMTV"
-            title="BFMTV" class="footer_logo">
+        <div class="footer_wrapper_top_content"><img width="1" height="1" src="<?=base_url('espagnora_assets/images/icon_blanc.png')?>" alt="Espagnora"
+            title="Espagnora" class="footer_logo">
           <div class="footer_big_title">Votre Portail des Solutions</div>
           <div class="footer_right_block">
             <ul class="footer_social_media">
-              <li><a href="https://www.facebook.com/BFMTV" target="_blank" title="Facebook"
+              <li><a href="https://www.facebook.com/Espagnorardc?mibextid=ZbWKwL" target="_blank" title="Facebook"
                   class="icon_facebook">Facebook</a></li>
-              <li><a href="https://x.com/bfmtv" target="_blank" title="X" class="icon_twitter">X</a></li>
-              <li><a href="rss/index.html" title="Flux RSS" class="icon_rss">Flux RSS</a></li>
-              <li><a href="newsletters/index.html" title="Newsletters" class="icon_envelop">Newsletters</a></li>
+              <li><a href="#" target="_blank" title="X" class="icon_twitter">X</a></li>
+              <li><a href="https://whatsapp.com/channel/0029VaC4sRWDzgTBmycxJE46" target="_blank" title="Facebook"
+              class="icon_whatsapp">Whatsapp</a></li>
+              <!-- <li><a href="#" title="Flux RSS" class="icon_rss">Flux RSS</a></li> -->
+              <!-- <li><a href="#" title="Newsletters" class="icon_envelop">Newsletters</a></li> -->
             </ul>
             <div class="footer_middle_title">Applications mobiles</div>
             <ul class="footer_application_icon">
-              <li><a href="https://app.adjust.com/t45iq9u" target="_blank" title="Apple" class="icon_appleinc">Apple</a>
+              <li><a href="#" target="_blank" title="Apple" class="icon_appleinc">Apple</a>
               </li>
-              <li><a href="https://app.adjust.com/mqqli6u" target="_blank" title="Android"
+              <li><a href="#" target="_blank" title="Android"
                   class="icon_android">Android</a></li>
             </ul>
           </div>
@@ -51,13 +53,13 @@
           <div class="footer_col block_inline_col footer_col_site">
             <div class="footer_col_title">Les sites du groupe</div>
             <ul>
-              <li><a href="economie/index.html" title="BFM Business">BFM Business</a></li>
-              <li><a href="economie/patrimoine/index.html" title="BFM Patrimoine">BFM Patrimoine</a></li>
+              <li><a href="#" title="BFM Business">Espagnora Business</a></li>
+              <!-- <li><a href="#" title="BFM Patrimoine">BFM Patrimoine</a></li> -->
             </ul>
           </div>
         </div>
       </div>
-      <p class="footer_copyright">&copy; Copyright 2006-2025 ESPAGNORA BUSINESS. Tous droits réservés. Site édité par
+      <p class="footer_copyright">&copy; Copyright 2025 ESPAGNORA BUSINESS. Tous droits réservés. Site édité par
         NMK</p>
     </div>
   </footer>
@@ -84,15 +86,15 @@
     {
       "@context": "https://schema.org/",
       "@type": "WebSite",
-      "name": "BFMTV",
-      "url": "https://www.bfmtv.com/",
+      "name": "Espagnora",
+      "url": "https://www.Espagnora.com/",
       "publisher": {
         "@type": "Organization",
-        "name": "BFMTV",
+        "name": "Espagnora",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.bfmtv.com/assets/v11/images/BFMTV_richSnippets_rectangulaire.5d1957bc4417569da1d093056f864dc6.png",
-          "contentUrl": "https://www.bfmtv.com/assets/v11/images/BFMTV_richSnippets_rectangulaire.5d1957bc4417569da1d093056f864dc6.png",
+          "url": "https://www.Espagnora.com/assets/v11/images/Espagnora_richSnippets_rectangulaire.5d1957bc4417569da1d093056f864dc6.png",
+          "contentUrl": "https://www.Espagnora.com/assets/v11/images/Espagnora_richSnippets_rectangulaire.5d1957bc4417569da1d093056f864dc6.png",
           "width": {
             "@type": "QuantitativeValue",
             "value": 200
@@ -102,7 +104,7 @@
             "value": 200
           }
         },
-        "sameAs": ["https://www.facebook.com/BFMTV", "https://x.com/BFMTV"]
+        "sameAs": ["https://www.facebook.com/Espagnora", "https://x.com/Espagnora"]
       }
     }
   </script>

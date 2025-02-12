@@ -71,9 +71,12 @@ class MediaModel extends Model
             ->orderBy('DateCreat_8 DESC');
         return $query->findAll($limit);
     }
-    public function get_latest_news_by_media_category($category, $limit = null)
+    public function get_latest_news_by_media_category($category, $limit = null, $media_type = null)
     {
         $st = "Media_Category_7  = '" . $category . "' AND Status_9=1";
+        if ($media_type != null) {
+            $st .= " AND Media_type_10='" . $media_type . "'";
+        }
         $query = $this->select("*")
             ->where($st);
         return $query->findAll($limit);

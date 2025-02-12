@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" prefix="og: http://ogp.me/ns#">
+
 <head>
   <meta charset="UTF-8">
   <title>Votre Portail des Solutions - ESPAGNORA</title>
@@ -12,23 +13,29 @@
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="apple-icon-180x180.png">
   <link rel="apple-touch-icon-precomposed" sizes="228x228" href="apple-icon-228x228.png">
   <meta name="description"
-    content="BFMTV - 1ère sur l&#39;info. Retrouvez toute l&#39;actualité en direct, en photo et en vidéo sur l&#39;info politique, sociale, économique, sportive et internationale.">
+    content="Espagnora - 1ère sur l&#39;info. Retrouvez toute l&#39;actualité en direct, en photo et en vidéo sur l&#39;info politique, sociale, économique, sportive et internationale.">
   <link rel="canonical" href="index.html">
   <meta name="robots" content="index, follow, noarchive, max-snippet:-1, max-image-preview:large, max-video-preview:10">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/global.0d6d846e67d093b09245.css')?>">
-  <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/smartadserver.46fde1b8c71a46ead3e8.css')?>">
-  <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/home.09a6da4e980ef8d762a1.css')?>">
-  <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/rubrique.7f0323db7055666601f6.css')?>">
-  <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/podcasts_mosaique.ec77eb141c9eeddb830d.css')?>">
+
+  <link rel="stylesheet" href="<?= base_url('espagnora_assets/libs/fontawesome/css/all.css') ?>" />
+  <link rel="stylesheet" href="<?= base_url('espagnora_assets/bootstrap/css/bootstrap.min.css') ?>" />
+  <link rel="stylesheet" href="<?= base_url('espagnora_assets/css/audio_player.css') ?>" />
+
+  <link rel="stylesheet" href="<?= base_url('templates/news/assets/v11/css/global.0d6d846e67d093b09245.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('templates/news/assets/v11/css/smartadserver.46fde1b8c71a46ead3e8.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('templates/news/assets/v11/css/home.09a6da4e980ef8d762a1.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('templates/news/assets/v11/css/rubrique.7f0323db7055666601f6.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('templates/news/assets/v11/css/podcasts_mosaique.ec77eb141c9eeddb830d.css') ?>">
+  <!-- <link rel="stylesheet" href="<?= base_url('templates/news/assets/v11/css/video.9c67b71645d75f2ab425.css') ?>"> -->
   <script>
-    window.didomiNextConsent = function (vendorId, callback) {
+    window.didomiNextConsent = function(vendorId, callback) {
       window.didomiOnReady = window.didomiOnReady || [];
-      window.didomiOnReady.push((function (Didomi) {
+      window.didomiOnReady.push((function(Didomi) {
         if (typeof Didomi !== undefined) {
           __tcfapi("addEventListener", 2, (tcData, success) => {
             if (tcData && (tcData.eventStatus === "tcloaded" || tcData.eventStatus ===
-              "useractioncomplete")) {
+                "useractioncomplete")) {
               callback()
             }
           }, [vendorId])
@@ -37,10 +44,10 @@
     };
   </script>
   <script>
-    (function (h, o, u, n, d) {
+    (function(h, o, u, n, d) {
       h = h[d] = h[d] || {
         q: [],
-        onReady: function (c) {
+        onReady: function(c) {
           h.q.push(c)
         }
       };
@@ -50,13 +57,13 @@
       n = o.getElementsByTagName(u)[0];
       n.parentNode.insertBefore(d, n)
     })(window, document, "script", "https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js", "DD_RUM");
-    window.DD_RUM.onReady((function () {
+    window.DD_RUM.onReady((function() {
       window.DD_RUM.init({
         clientToken: "pub20ccf26843dc6a436d492382a1474bf4",
         applicationId: "5244f97d-1e7e-4b37-bbb8-6ae9ce3ce190",
         site: "datadoghq.com",
         service: "cleo-site",
-        env: "production-cleo-bfmtv",
+        env: "production-cleo-Espagnora",
         sessionSampleRate: 1,
         sessionReplaySampleRate: 10,
         trackUserInteractions: true,
@@ -66,17 +73,17 @@
       })
     }));
   </script>
-  <script type="application/javascript" src="<?=base_url('templates/news/assets/v11/js/global_top.0f75a716e5135b1856ef.js')?>"></script>
+  <script type="application/javascript" src="<?= base_url('templates/news/assets/v11/js/global_top.0f75a716e5135b1856ef.js') ?>"></script>
   <script>
     window.nextScriptsToExecute = []
   </script>
   <script type="text/javascript">
     var tc_vars = {
       env_work: "prod",
-      site_name: "bfmtv_portail_responsive",
+      site_name: "Espagnora_portail_responsive",
       version_responsive: window.deviceName,
-      verticale: "bfmtv",
-      marque: "bfmtv",
+      verticale: "Espagnora",
+      marque: "Espagnora",
       cookie_consent: "0",
       amp: "0",
       nbr_paragraphes: 0,
@@ -87,14 +94,14 @@
       pagename: "homepage_generale",
       titre_contenu: "homepage_generale",
       type_page: "home",
-      type_contenu: "home_generale_bfmtv",
-      URL_complet: "https://www.bfmtv.com",
+      type_contenu: "home_generale_Espagnora",
+      URL_complet: "https://www.Espagnora.com",
       application: "bfm_actu",
       marque_web: "bfm_actu"
     };
   </script>
-  <script type="text/javascript" src="<?=base_url('templates/news/assets/v11/js/tc_NextInteractive_33.134ac5f969d72178f8c89e1106d349b1.js')?>"></script>
-  <script type="application/javascript" src="<?=base_url('templates/news/assets/v11/js/hubvisor_init.4252cbead53053f6a183.js')?>"></script>
+  <script type="text/javascript" src="<?= base_url('templates/news/assets/v11/js/tc_NextInteractive_33.134ac5f969d72178f8c89e1106d349b1.js') ?>"></script>
+  <script type="application/javascript" src="<?= base_url('templates/news/assets/v11/js/hubvisor_init.4252cbead53053f6a183.js') ?>"></script>
   <script type="application/javascript" src="https://ced-ns.sascdn.com/diff/js/smart.js" async></script>
   <script type="application/javascript">
     var smartInit = true;
@@ -127,8 +134,8 @@
       }
       var sas = sas || {};
       sas.cmd = sas.cmd || [];
-      didomiNextConsent(45, (function () {
-        sas.cmd.push((function () {
+      didomiNextConsent(45, (function() {
+        sas.cmd.push((function() {
           sas.setup({
             networkid: 13,
             domain: "//ww13.smartadserver.com",
@@ -137,14 +144,14 @@
             inSequence: true
           })
         }));
-        sas.cmd.push((function () {
+        sas.cmd.push((function() {
           let eids = [];
           let atid;
           let mtid;
           let firstid;
           const utiqPass = localStorage.utiqPass && JSON.parse(localStorage.utiqPass);
           if (utiqPass && utiqPass.connectId && utiqPass.connectId.idGraph && utiqPass.connectId.idGraph[
-            0]) {
+              0]) {
             atid = utiqPass.connectId.idGraph[0].atid;
             mtid = utiqPass.connectId.idGraph[0].mtid
           }
@@ -192,14 +199,14 @@
           }
           sas.setEids(eids)
         }));
-        Hubvisor("ready", null, (function () {
-          sas.cmd.push((function () {
+        Hubvisor("ready", null, (function() {
+          sas.cmd.push((function() {
             sas.call("onecall", {
               siteId: site_id,
               pageId: page_id,
               formats: format_id,
               target: [versionResponsive,
-                "verticale=bfmtv;marque=bfmtv;type_page=homepage;pagename=homepage_generale;"
+                "verticale=Espagnora;marque=Espagnora;type_page=homepage;pagename=homepage_generale;"
               ].join(";")
             });
             sas.render()
@@ -210,7 +217,7 @@
   </script>
   <script type="didomi/javascript" data-vendor="didomi:google" data-ad-client="ca-pub-5603862283412750" async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <meta property="og:site_name" content="BFMTV">
+  <meta property="og:site_name" content="Espagnora">
   <meta property="og:locale" content="fr_FR">
   <meta property="fb:app_id" content="1763937827231648">
   <meta property="fb:pages" content="114880941889932">
@@ -244,20 +251,21 @@
   <meta property="fb:pages" content="206476639374883">
   <meta property="fb:pages" content="105613852147466">
   <meta property="fb:pages" content="105239862441523">
-  <meta property="og:url" content="https://www.bfmtv.com/">
+  <meta property="og:url" content="https://www.Espagnora.com/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Actualités en continu et info en direct et replay - BFMTV">
+  <meta property="og:title" content="Actualités en continu et info en direct et replay - Espagnora">
   <meta property="og:description"
-    content="BFMTV - 1ère sur l&#39;info. Retrouvez toute l&#39;actualité en direct, en photo et en vidéo sur l&#39;info politique, sociale, économique, sportive et internationale.">
-  <meta property="og:image" content="<?=base_url('templates/news/assets/images/cover.jpg')?>">
+    content="Espagnora - 1ère sur l&#39;info. Retrouvez toute l&#39;actualité en direct, en photo et en vidéo sur l&#39;info politique, sociale, économique, sportive et internationale.">
+  <meta property="og:image" content="<?= base_url('templates/news/assets/images/cover.jpg') ?>">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:height" content="628">
   <meta property="og:image:width" content="1200">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@BFMTV">
-  <meta name="twitter:creator" content="@BFMTV">
-  <meta name="google-play-app" content="app-id=com.nextradiotv.bfmtvandroid"><noscript>
-    <link rel="stylesheet" href="<?=base_url('templates/news/assets/v11/css/no_script.946be4948d357521d1fb.css')?>">
+  <meta name="twitter:site" content="@Espagnora">
+  <meta name="twitter:creator" content="@Espagnora">
+  <meta name="google-play-app" content="app-id=com.nextradiotv.Espagnoraandroid"><noscript>
+    <link rel="stylesheet" href="<?= base_url('templates/news/assets/v11/css/no_script.946be4948d357521d1fb.css') ?>">
   </noscript>
 </head>
-<body class="bfmtv">
+
+<body class="Espagnora">

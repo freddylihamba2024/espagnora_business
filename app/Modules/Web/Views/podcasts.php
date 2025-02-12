@@ -40,7 +40,7 @@
                                             title="<?=$caroussel_podcast['Title_2']?>">
                                     </picture>
                                 </div><a
-                                    href="le-titre-a-la-une/affaire-adele-haenel-le-realisateur-christophe-ruggia-condamne-pour-agressions-sexuelles-sur-mineure_EN-202502030832.html"
+                                    href="<?=base_url('web/podcasts/'.$caroussel_podcast['Media_Id_1'])?>"
                                     class="content_item_picture"
                                     title="<?=$caroussel_podcast['Title_2']?>">
                                     <picture class="content_item_cover with-js">
@@ -74,9 +74,10 @@
                                     </picture>
                                 </a>
                                 <div class="content_item_info">
-                                    <h3 class="content_item_title"><a
-                                            href="le-titre-a-la-une/affaire-adele-haenel-le-realisateur-christophe-ruggia-condamne-pour-agressions-sexuelles-sur-mineure_EN-202502030832.html"
-                                            title="Affaire Adèle Haenel: le réalisateur Christophe Ruggia condamné pour agressions sexuelles sur mineure">
+                                    <h3 class="content_item_title">
+                                        <a
+                                            href="<?=base_url('web/podcasts/'.$caroussel_podcast['Media_Id_1'])?>"
+                                            title="<?=$caroussel_podcast['Title_2']?>">
                                             <?=$caroussel_podcast['Title_2']?></a></h3>
                                     <div class="podcast_item_infos podcast_wrapper_infos"
                                         data-audio-src="<?=base_url('uploads/'.$caroussel_podcast['Media_Link_5'])?>"
@@ -110,7 +111,8 @@
                 <h2 class="section_title">Les podcasts originaux</h2>
                 <?php foreach($original_podcasts as $podcast): ?>
                 <div class="replay_wrapper">
-                    <article class="replay_item"><a href="le-titre-a-la-une/index.html" title="<?=$podcast['Title_2']?>">
+                    <article class="replay_item">
+                        <a href="<?=base_url('web/podcasts/'.$podcast['Media_Id_1'])?>" title="<?=$podcast['Title_2']?>">
                             <figure class="content_item_cover">
                                 <picture>
                                     <source media="(min-width: 441px)" width="1" height="1"

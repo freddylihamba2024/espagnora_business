@@ -10,7 +10,7 @@ class Home extends BaseController
     public function index()
     {
         $data['active_data']['categories'] = $this->mediaCategoryModel->get_menu_categorie_list();
-        return view('layouts/layout_web',$data);
+        return view('layouts/layout_web', $data);
     }
     public function homepage()
     {
@@ -43,6 +43,15 @@ class Home extends BaseController
         $data['active_data']['active_status'] = "home";
         $data['active_data']['categories'] = $this->mediaCategoryModel->get_menu_categorie_list();
 
+        $economie=$this->mediaCategoryModel->get_media_category_id_by_slug('economie');
+        $sport=$this->mediaCategoryModel->get_media_category_id_by_slug('sport');
+        $international=$this->mediaCategoryModel->get_media_category_id_by_slug('international');
+
+        $media_types="'Actualites','Videos'";
+        $data['featured_economie']=$this->webMediaModel->get_media_list_by_media_type($media_types,isset($economie[0]['Id_0'])?$economie[0]['Id_0']:"",3);
+        $data['featured_sport']=$this->webMediaModel->get_media_list_by_media_type($media_types,isset($sport[0]['Id_0'])?$sport[0]['Id_0']:"",3);
+        $data['featured_international']=$this->webMediaModel->get_media_list_by_media_type($media_types,isset($international[0]['Id_0'])?$international[0]['Id_0']:"",3);
+        $data['news_list'] = $this->webMediaModel->get_latest_news_by_media_type('Actualites', 20);
         //capture media category slug by category id
         $category_slugs = $this->mediaCategoryModel->get_media_category_slug_list();
         $data['category_slugs'] = $category_slugs;
@@ -56,7 +65,7 @@ class Home extends BaseController
         if ($obj == 'direct-tv') {
             $media_types = "'Videos'";
             $data['media'] = $this->mediaModel->get_media_direct();
-            $data['last_videos']=$this->webMediaModel->get_media_list_by_media_type($media_types,null,8);
+            $data['last_videos'] = $this->webMediaModel->get_media_list_by_media_type($media_types, null, 8);
             return view('Modules\Web\Views\direct_tv', $data);
         } elseif ($obj == 'login') {
             return view('Modules\Web\Views\login', $this->data);
@@ -64,19 +73,33 @@ class Home extends BaseController
             $this->session->destroy();
             return redirect()->to(base_url("web/login"));
         } elseif ($obj == "podcasts") {
-            $data['caroussel_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios',8);
-            $data['original_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios');
-            return view('Modules\Web\Views\podcasts', $data);
-        }  elseif ($obj == "magazines") {
+            if($param!=null){
+                $data['podcasts'] = $this->webMediaModel->get_media_by_slug($param);
+                $data['similar_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios', 8,$data['podcasts'][0]['Media_Category_7']);
+                return view('Modules\Web\Views\single_podcast',$data);
+            }else{
+                $data['caroussel_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios', 8);
+                $data['original_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios');
+                return view('Modules\Web\Views\podcasts', $data);
+            }
+            
+        } elseif ($obj == "magazines") {
             $data['active_data']['active_status'] = ($param == null) ? "magazines" : $param;
-          
             $data['magazines'] = $this->webMediaModel->get_latest_news_by_media_type('Magazines');
-            return view('Modules\Web\Views\magazines',$data);
+            return view('Modules\Web\Views\magazines', $data);
         } elseif ($obj == "replays") {
-            $data['replays'] = $this->webMediaModel->get_latest_news_by_media_type('Videos');
-            return view('Modules\Web\Views\replays',$data);
-        }elseif ($obj == 'article') {
-
+            $data['replays'] = $this->webMediaModel->get_latest_news_by_media_type('Replays');
+            return view('Modules\Web\Views\replays', $data);
+        } elseif ($obj == "videos") {
+            if ($param != null) {
+                $data['video'] = $this->webMediaModel->get_media_by_slug($param);
+                $data['similar_videos']=$this->webMediaModel->get_latest_news_by_media_category($data['video'][0]['Media_Category_7'],12,"Videos");
+                return view('Modules\Web\Views\single_video', $data);
+            } else {
+                $data['videos'] = $this->webMediaModel->get_latest_news_by_media_type('Videos');
+                return view('Modules\Web\Views\videos', $data);
+            }
+        } elseif ($obj == 'article') {
             $data['active_data']['active_status'] = ($param == null) ? "actualites" : $param;
             $data['active_data']['categories'] = $this->mediaCategoryModel->get_menu_categorie_list();
 
@@ -90,7 +113,7 @@ class Home extends BaseController
 
             $data['active_data']['active_status'] = ($param == null) ? "actualites" : $param;
             $data['active_data']['categories'] = $this->mediaCategoryModel->get_menu_categorie_list();
-            $data['replays']=$this->webMediaModel->get_latest_news_by_media_type('Direct TV', 10);
+            $data['replays'] = $this->webMediaModel->get_latest_news_by_media_type('Direct TV', 10);
             // $data['active_data']['active_page']=($data['active_data']['active_status']!=null)?$param:"";
 
             // Define how many results you want per page
@@ -130,6 +153,8 @@ class Home extends BaseController
             $data['total_pages'] = ceil($data_length / $limit);
             $data['current_page'] = $page_param;
             $data['param'] = $param;
+
+            $data['direct'] = $this->mediaModel->get_media_direct();
 
             return view('Modules\Web\Views\all-news', $data);
         } else {

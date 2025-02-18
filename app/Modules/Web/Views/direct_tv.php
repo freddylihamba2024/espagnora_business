@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Regarder Espagnora en direct : suivez l’actualité française et internationale en continu</title>
+    <title>Regarder Espagnora en direct : suivez l’actualité française et internationale en continu</title>
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
@@ -362,11 +363,11 @@
                                         <picture class="content_item_cover_image"><img
                                                 src="https://images.ESPAGNORA.com/NLFeBYHHMTYsq9vKPz_5nzxoap4=/0x0:0x0/214x0/emission/BFM-Bourse-web-177_9.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/NLFeBYHHMTYsq9vKPz_5nzxoap4=/0x0:0x0/214x0/emission/BFM-Bourse-web-177_9.jpg 1x, https://images.ESPAGNORA.com/15r_pxIxYZ9coAX-aVnq_iI3oIg=/0x0:0x0/428x0/emission/BFM-Bourse-web-177_9.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/NLFeBYHHMTYsq9vKPz_5nzxoap4=/0x0:0x0/214x0/emission/BFM-Bourse-web-177_9.jpg 1x, https://images.Espagnora.com/15r_pxIxYZ9coAX-aVnq_iI3oIg=/0x0:0x0/428x0/emission/BFM-Bourse-web-177_9.jpg 2x"
                                                 alt="BFM Bourse"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/NLFeBYHHMTYsq9vKPz_5nzxoap4=/0x0:0x0/214x0/emission/BFM-Bourse-web-177_9.jpg"
+                                                    src="https://images.Espagnora.com/NLFeBYHHMTYsq9vKPz_5nzxoap4=/0x0:0x0/214x0/emission/BFM-Bourse-web-177_9.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/NLFeBYHHMTYsq9vKPz_5nzxoap4=/0x0:0x0/214x0/emission/BFM-Bourse-web-177_9.jpg, https://images.ESPAGNORA.com/15r_pxIxYZ9coAX-aVnq_iI3oIg=/0x0:0x0/428x0/emission/BFM-Bourse-web-177_9.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/NLFeBYHHMTYsq9vKPz_5nzxoap4=/0x0:0x0/214x0/emission/BFM-Bourse-web-177_9.jpg, https://images.Espagnora.com/15r_pxIxYZ9coAX-aVnq_iI3oIg=/0x0:0x0/428x0/emission/BFM-Bourse-web-177_9.jpg 2x"
                                                     alt="BFM Bourse"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -379,13 +380,13 @@
                                     <div class="contenu_item_image_bg"><img class="cover_image_bg" alt="bfmparis"
                                             src="assets/v11/images/epg_chaine_bfmparis.b1f71a8f78f8018b84749241e5f75f7f.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/csg9dFuArGgQTGki3SxGZ1TqMlk=/0x0:0x0/214x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg"
+                                                src="https://images.Espagnora.com/csg9dFuArGgQTGki3SxGZ1TqMlk=/0x0:0x0/214x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/csg9dFuArGgQTGki3SxGZ1TqMlk=/0x0:0x0/214x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg 1x, https://images.ESPAGNORA.com/H75RvnfYh-McmS884wXz20aFbdQ=/0x0:0x0/428x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/csg9dFuArGgQTGki3SxGZ1TqMlk=/0x0:0x0/214x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg 1x, https://images.Espagnora.com/H75RvnfYh-McmS884wXz20aFbdQ=/0x0:0x0/428x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg 2x"
                                                 alt="Le 12-18"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/csg9dFuArGgQTGki3SxGZ1TqMlk=/0x0:0x0/214x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg"
+                                                    src="https://images.Espagnora.com/csg9dFuArGgQTGki3SxGZ1TqMlk=/0x0:0x0/214x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/csg9dFuArGgQTGki3SxGZ1TqMlk=/0x0:0x0/214x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg, https://images.ESPAGNORA.com/H75RvnfYh-McmS884wXz20aFbdQ=/0x0:0x0/428x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/csg9dFuArGgQTGki3SxGZ1TqMlk=/0x0:0x0/214x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg, https://images.Espagnora.com/H75RvnfYh-McmS884wXz20aFbdQ=/0x0:0x0/428x0/epg/b07d3995680e48bcb6ada4242ed5e1d3.jpg 2x"
                                                     alt="Le 12-18"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -398,13 +399,13 @@
                                     <div class="contenu_item_image_bg"><img class="cover_image_bg" alt="bfmlyon"
                                             src="assets/v11/images/epg_chaine_bfmlyon.7838c717052b9ac4ac64da71e808078d.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/zwo0QNvYqampH1iX3WXxObbQ93U=/0x0:0x0/214x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg"
+                                                src="https://images.Espagnora.com/zwo0QNvYqampH1iX3WXxObbQ93U=/0x0:0x0/214x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/zwo0QNvYqampH1iX3WXxObbQ93U=/0x0:0x0/214x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg 1x, https://images.ESPAGNORA.com/23MuVfEiiXH5mTWFXRHuuqRwwUA=/0x0:0x0/428x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/zwo0QNvYqampH1iX3WXxObbQ93U=/0x0:0x0/214x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg 1x, https://images.Espagnora.com/23MuVfEiiXH5mTWFXRHuuqRwwUA=/0x0:0x0/428x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg 2x"
                                                 alt="Le 12-17"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/zwo0QNvYqampH1iX3WXxObbQ93U=/0x0:0x0/214x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg"
+                                                    src="https://images.Espagnora.com/zwo0QNvYqampH1iX3WXxObbQ93U=/0x0:0x0/214x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/zwo0QNvYqampH1iX3WXxObbQ93U=/0x0:0x0/214x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg, https://images.ESPAGNORA.com/23MuVfEiiXH5mTWFXRHuuqRwwUA=/0x0:0x0/428x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/zwo0QNvYqampH1iX3WXxObbQ93U=/0x0:0x0/214x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg, https://images.Espagnora.com/23MuVfEiiXH5mTWFXRHuuqRwwUA=/0x0:0x0/428x0/epg/2cdbf32de62b44e68678787eaca5fa54.jpg 2x"
                                                     alt="Le 12-17"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -417,13 +418,13 @@
                                     <div class="contenu_item_image_bg"><img class="cover_image_bg" alt="bfmgrandlille"
                                             src="assets/v11/images/epg_chaine_bfmgrandlille.36d463530263f624964a8eb5c7d54d9d.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg"
+                                                src="https://images.Espagnora.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 1x, https://images.ESPAGNORA.com/l80Gy99YibeIqfmnKDq81L3HrJI=/0x0:0x0/428x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 1x, https://images.Espagnora.com/l80Gy99YibeIqfmnKDq81L3HrJI=/0x0:0x0/428x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 2x"
                                                 alt="Le 12-17"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg"
+                                                    src="https://images.Espagnora.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg, https://images.ESPAGNORA.com/l80Gy99YibeIqfmnKDq81L3HrJI=/0x0:0x0/428x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg, https://images.Espagnora.com/l80Gy99YibeIqfmnKDq81L3HrJI=/0x0:0x0/428x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 2x"
                                                     alt="Le 12-17"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -437,13 +438,13 @@
                                             alt="bfmgrandlittoral"
                                             src="assets/v11/images/epg_chaine_bfmgrandlittoral.d660380fd0e491d731ce373bf703e0dc.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg"
+                                                src="https://images.Espagnora.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 1x, https://images.ESPAGNORA.com/l80Gy99YibeIqfmnKDq81L3HrJI=/0x0:0x0/428x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 1x, https://images.Espagnora.com/l80Gy99YibeIqfmnKDq81L3HrJI=/0x0:0x0/428x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 2x"
                                                 alt="Le 12-17"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg"
+                                                    src="https://images.Espagnora.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg, https://images.ESPAGNORA.com/l80Gy99YibeIqfmnKDq81L3HrJI=/0x0:0x0/428x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/yiFxrinrDg3szN2cM00nEzJ4eQU=/0x0:0x0/214x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg, https://images.Espagnora.com/l80Gy99YibeIqfmnKDq81L3HrJI=/0x0:0x0/428x0/epg/66850dbd22a847a0b10f95cbf97bafa0.jpg 2x"
                                                     alt="Le 12-17"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -456,13 +457,13 @@
                                     <div class="contenu_item_image_bg"><img class="cover_image_bg" alt="bfmmarseille"
                                             src="assets/v11/images/epg_chaine_bfmmarseille.c27d0a3ba3216c837595fb39c1d724bf.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/LRp_T4dlmxr9WE5Cfi2Cz6OyF58=/0x0:0x0/214x0/epg/873b52d84f0244c4b4185db343cd6103.jpg"
+                                                src="https://images.Espagnora.com/LRp_T4dlmxr9WE5Cfi2Cz6OyF58=/0x0:0x0/214x0/epg/873b52d84f0244c4b4185db343cd6103.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/LRp_T4dlmxr9WE5Cfi2Cz6OyF58=/0x0:0x0/214x0/epg/873b52d84f0244c4b4185db343cd6103.jpg 1x, https://images.ESPAGNORA.com/bN9X07l2m-WBjvAg75dgcyhHJL4=/0x0:0x0/428x0/epg/873b52d84f0244c4b4185db343cd6103.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/LRp_T4dlmxr9WE5Cfi2Cz6OyF58=/0x0:0x0/214x0/epg/873b52d84f0244c4b4185db343cd6103.jpg 1x, https://images.Espagnora.com/bN9X07l2m-WBjvAg75dgcyhHJL4=/0x0:0x0/428x0/epg/873b52d84f0244c4b4185db343cd6103.jpg 2x"
                                                 alt="Le 12-17"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/LRp_T4dlmxr9WE5Cfi2Cz6OyF58=/0x0:0x0/214x0/epg/873b52d84f0244c4b4185db343cd6103.jpg"
+                                                    src="https://images.Espagnora.com/LRp_T4dlmxr9WE5Cfi2Cz6OyF58=/0x0:0x0/214x0/epg/873b52d84f0244c4b4185db343cd6103.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/LRp_T4dlmxr9WE5Cfi2Cz6OyF58=/0x0:0x0/214x0/epg/873b52d84f0244c4b4185db343cd6103.jpg, https://images.ESPAGNORA.com/bN9X07l2m-WBjvAg75dgcyhHJL4=/0x0:0x0/428x0/epg/873b52d84f0244c4b4185db343cd6103.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/LRp_T4dlmxr9WE5Cfi2Cz6OyF58=/0x0:0x0/214x0/epg/873b52d84f0244c4b4185db343cd6103.jpg, https://images.Espagnora.com/bN9X07l2m-WBjvAg75dgcyhHJL4=/0x0:0x0/428x0/epg/873b52d84f0244c4b4185db343cd6103.jpg 2x"
                                                     alt="Le 12-17"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -477,13 +478,13 @@
                                             alt="bfmdicialpesdusud"
                                             src="assets/v11/images/epg_chaine_bfmdici.0c03c49c160eecc7ba3f01dfef9a4993.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg"
+                                                src="https://images.Espagnora.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 1x, https://images.ESPAGNORA.com/TlLXNpQvrGSy42B4_GMsXhC-ORI=/0x0:0x0/428x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 1x, https://images.Espagnora.com/TlLXNpQvrGSy42B4_GMsXhC-ORI=/0x0:0x0/428x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 2x"
                                                 alt="Bonjour Dici"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg"
+                                                    src="https://images.Espagnora.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg, https://images.ESPAGNORA.com/TlLXNpQvrGSy42B4_GMsXhC-ORI=/0x0:0x0/428x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg, https://images.Espagnora.com/TlLXNpQvrGSy42B4_GMsXhC-ORI=/0x0:0x0/428x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 2x"
                                                     alt="Bonjour Dici"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -498,13 +499,13 @@
                                             alt="bfmdicihauteprovence"
                                             src="assets/v11/images/epg_chaine_bfmdici.0c03c49c160eecc7ba3f01dfef9a4993.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg"
+                                                src="https://images.Espagnora.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 1x, https://images.ESPAGNORA.com/TlLXNpQvrGSy42B4_GMsXhC-ORI=/0x0:0x0/428x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 1x, https://images.Espagnora.com/TlLXNpQvrGSy42B4_GMsXhC-ORI=/0x0:0x0/428x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 2x"
                                                 alt="Bonjour Dici"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg"
+                                                    src="https://images.Espagnora.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg, https://images.ESPAGNORA.com/TlLXNpQvrGSy42B4_GMsXhC-ORI=/0x0:0x0/428x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/O5cLdABuIE4gFHPqRsz7KavInYU=/0x0:0x0/214x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg, https://images.Espagnora.com/TlLXNpQvrGSy42B4_GMsXhC-ORI=/0x0:0x0/428x0/epg/9f88794d2bad44fd9befd8bc3080ef81.jpg 2x"
                                                     alt="Bonjour Dici"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -517,13 +518,13 @@
                                     <div class="contenu_item_image_bg"><img class="cover_image_bg" alt="bfmcotedazur"
                                             src="assets/v11/images/epg_chaine_bfmcotedazur.f1ef2cf867de6fe9c3286eae51615438.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/7QJSYf4XQ3FN1rHqkSL5-XE0Cvs=/0x0:0x0/214x0/epg/94df9be28cd041608e765a304aacd74c.jpg"
+                                                src="https://images.Espagnora.com/7QJSYf4XQ3FN1rHqkSL5-XE0Cvs=/0x0:0x0/214x0/epg/94df9be28cd041608e765a304aacd74c.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/7QJSYf4XQ3FN1rHqkSL5-XE0Cvs=/0x0:0x0/214x0/epg/94df9be28cd041608e765a304aacd74c.jpg 1x, https://images.ESPAGNORA.com/26eidJPMCMSyYnU3O8-r9_B6mWM=/0x0:0x0/428x0/epg/94df9be28cd041608e765a304aacd74c.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/7QJSYf4XQ3FN1rHqkSL5-XE0Cvs=/0x0:0x0/214x0/epg/94df9be28cd041608e765a304aacd74c.jpg 1x, https://images.Espagnora.com/26eidJPMCMSyYnU3O8-r9_B6mWM=/0x0:0x0/428x0/epg/94df9be28cd041608e765a304aacd74c.jpg 2x"
                                                 alt="Le 12-17"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/7QJSYf4XQ3FN1rHqkSL5-XE0Cvs=/0x0:0x0/214x0/epg/94df9be28cd041608e765a304aacd74c.jpg"
+                                                    src="https://images.Espagnora.com/7QJSYf4XQ3FN1rHqkSL5-XE0Cvs=/0x0:0x0/214x0/epg/94df9be28cd041608e765a304aacd74c.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/7QJSYf4XQ3FN1rHqkSL5-XE0Cvs=/0x0:0x0/214x0/epg/94df9be28cd041608e765a304aacd74c.jpg, https://images.ESPAGNORA.com/26eidJPMCMSyYnU3O8-r9_B6mWM=/0x0:0x0/428x0/epg/94df9be28cd041608e765a304aacd74c.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/7QJSYf4XQ3FN1rHqkSL5-XE0Cvs=/0x0:0x0/214x0/epg/94df9be28cd041608e765a304aacd74c.jpg, https://images.Espagnora.com/26eidJPMCMSyYnU3O8-r9_B6mWM=/0x0:0x0/428x0/epg/94df9be28cd041608e765a304aacd74c.jpg 2x"
                                                     alt="Le 12-17"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -536,13 +537,13 @@
                                     <div class="contenu_item_image_bg"><img class="cover_image_bg" alt="bfmvar"
                                             src="assets/v11/images/epg_chaine_bfmvar.7ba095e2643d0b1fcb434648adf5914e.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/XW0-un4uknqx4qeURBbPF2HZxzM=/0x0:0x0/214x0/epg/3a037027309a4da89cd072b337c6cb20.jpg"
+                                                src="https://images.Espagnora.com/XW0-un4uknqx4qeURBbPF2HZxzM=/0x0:0x0/214x0/epg/3a037027309a4da89cd072b337c6cb20.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/XW0-un4uknqx4qeURBbPF2HZxzM=/0x0:0x0/214x0/epg/3a037027309a4da89cd072b337c6cb20.jpg 1x, https://images.ESPAGNORA.com/270y9X6x0n43HD6mZ40IWXFt68M=/0x0:0x0/428x0/epg/3a037027309a4da89cd072b337c6cb20.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/XW0-un4uknqx4qeURBbPF2HZxzM=/0x0:0x0/214x0/epg/3a037027309a4da89cd072b337c6cb20.jpg 1x, https://images.Espagnora.com/270y9X6x0n43HD6mZ40IWXFt68M=/0x0:0x0/428x0/epg/3a037027309a4da89cd072b337c6cb20.jpg 2x"
                                                 alt="Le 12-17"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/XW0-un4uknqx4qeURBbPF2HZxzM=/0x0:0x0/214x0/epg/3a037027309a4da89cd072b337c6cb20.jpg"
+                                                    src="https://images.Espagnora.com/XW0-un4uknqx4qeURBbPF2HZxzM=/0x0:0x0/214x0/epg/3a037027309a4da89cd072b337c6cb20.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/XW0-un4uknqx4qeURBbPF2HZxzM=/0x0:0x0/214x0/epg/3a037027309a4da89cd072b337c6cb20.jpg, https://images.ESPAGNORA.com/270y9X6x0n43HD6mZ40IWXFt68M=/0x0:0x0/428x0/epg/3a037027309a4da89cd072b337c6cb20.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/XW0-un4uknqx4qeURBbPF2HZxzM=/0x0:0x0/214x0/epg/3a037027309a4da89cd072b337c6cb20.jpg, https://images.Espagnora.com/270y9X6x0n43HD6mZ40IWXFt68M=/0x0:0x0/428x0/epg/3a037027309a4da89cd072b337c6cb20.jpg 2x"
                                                     alt="Le 12-17"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -555,13 +556,13 @@
                                     <div class="contenu_item_image_bg"><img class="cover_image_bg" alt="bfmalsace"
                                             src="assets/v11/images/epg_chaine_bfmalsace.b3999bf3422aa28441ca0fc131567d58.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/2rmgE8uXTsxrtFtPuY31-crsdho=/0x0:0x0/214x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg"
+                                                src="https://images.Espagnora.com/2rmgE8uXTsxrtFtPuY31-crsdho=/0x0:0x0/214x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/2rmgE8uXTsxrtFtPuY31-crsdho=/0x0:0x0/214x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg 1x, https://images.ESPAGNORA.com/Wmcaf1pUnROHvpcpBVeEskS2S5I=/0x0:0x0/428x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/2rmgE8uXTsxrtFtPuY31-crsdho=/0x0:0x0/214x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg 1x, https://images.Espagnora.com/Wmcaf1pUnROHvpcpBVeEskS2S5I=/0x0:0x0/428x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg 2x"
                                                 alt="Le 12-17"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/2rmgE8uXTsxrtFtPuY31-crsdho=/0x0:0x0/214x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg"
+                                                    src="https://images.Espagnora.com/2rmgE8uXTsxrtFtPuY31-crsdho=/0x0:0x0/214x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/2rmgE8uXTsxrtFtPuY31-crsdho=/0x0:0x0/214x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg, https://images.ESPAGNORA.com/Wmcaf1pUnROHvpcpBVeEskS2S5I=/0x0:0x0/428x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/2rmgE8uXTsxrtFtPuY31-crsdho=/0x0:0x0/214x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg, https://images.Espagnora.com/Wmcaf1pUnROHvpcpBVeEskS2S5I=/0x0:0x0/428x0/epg/46f7892a89164b8fa829443fe2bdd209.jpg 2x"
                                                     alt="Le 12-17"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -574,13 +575,13 @@
                                     <div class="contenu_item_image_bg"><img class="cover_image_bg" alt="bfmnormandie"
                                             src="assets/v11/images/epg_chaine_bfmnormandie.6985894ab34d0b06b58f33101f03909c.png">
                                         <picture class="content_item_cover_image"><img
-                                                src="https://images.ESPAGNORA.com/lxXH3zILwZYTqcMnlE-v-G1v0zY=/0x0:0x0/214x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg"
+                                                src="https://images.Espagnora.com/lxXH3zILwZYTqcMnlE-v-G1v0zY=/0x0:0x0/214x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg"
                                                 class="lozad"
-                                                data-srcset="https://images.ESPAGNORA.com/lxXH3zILwZYTqcMnlE-v-G1v0zY=/0x0:0x0/214x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg 1x, https://images.ESPAGNORA.com/0igjNkHshhCCUDXirhLaAfxWysA=/0x0:0x0/428x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg 2x"
+                                                data-srcset="https://images.Espagnora.com/lxXH3zILwZYTqcMnlE-v-G1v0zY=/0x0:0x0/214x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg 1x, https://images.Espagnora.com/0igjNkHshhCCUDXirhLaAfxWysA=/0x0:0x0/428x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg 2x"
                                                 alt="Le 12.30 - 17"><noscript><img
-                                                    src="https://images.ESPAGNORA.com/lxXH3zILwZYTqcMnlE-v-G1v0zY=/0x0:0x0/214x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg"
+                                                    src="https://images.Espagnora.com/lxXH3zILwZYTqcMnlE-v-G1v0zY=/0x0:0x0/214x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg"
                                                     class=""
-                                                    srcset="https://images.ESPAGNORA.com/lxXH3zILwZYTqcMnlE-v-G1v0zY=/0x0:0x0/214x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg, https://images.ESPAGNORA.com/0igjNkHshhCCUDXirhLaAfxWysA=/0x0:0x0/428x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg 2x"
+                                                    srcset="https://images.Espagnora.com/lxXH3zILwZYTqcMnlE-v-G1v0zY=/0x0:0x0/214x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg, https://images.Espagnora.com/0igjNkHshhCCUDXirhLaAfxWysA=/0x0:0x0/428x0/epg/4ee7444be5644cf99f73d10ee5f13a2b.jpg 2x"
                                                     alt="Le 12.30 - 17"></noscript></picture>
                                     </div>
                                     <div class="contenu_item_title">
@@ -655,7 +656,7 @@
                             class="description">Deux fois + d&#39;infos</span></div>
                     <div class="direct_vignette">
                         <a href="#" title="Direct "
-                            onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation','clickchapter1':'direct_ESPAGNORA', 'clickchapter2':'bloc_MEA', 'clickname': 'direct_' });"><img
+                            onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation','clickchapter1':'direct_Espagnora', 'clickchapter2':'bloc_MEA', 'clickname': 'direct_' });"><img
                                 height="9" width="16" class="image" alt="Deux fois + d&#39;infos"
                                 title="Deux fois + d&#39;infos"
                                 src="<?= $media[0]['Media_Image_4'] ?>">
@@ -674,51 +675,51 @@
                                 <figure class="meme_sujet_picture">
                                     <picture class="last_videos_item_cover with-js">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/kJbIBDTTNG8MDcI9a7EzQwsB7rc=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.ESPAGNORA.com/Jza6tP1GVS0r-GyM9MncjL1OK4A=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x"
+                                            srcset="https://images.Espagnora.com/kJbIBDTTNG8MDcI9a7EzQwsB7rc=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.Espagnora.com/Jza6tP1GVS0r-GyM9MncjL1OK4A=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.ESPAGNORA.com/lQE1bYeUGs6Nw8djHRqGWJynQ48=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x"
+                                            srcset="https://images.Espagnora.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.Espagnora.com/lQE1bYeUGs6Nw8djHRqGWJynQ48=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x"
+                                            srcset="https://images.Espagnora.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x"
+                                            srcset="https://images.Espagnora.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x"
+                                            srcset="https://images.Espagnora.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x"
+                                            srcset="https://images.Espagnora.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x"
+                                            srcset="https://images.Espagnora.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x"
+                                            srcset="https://images.Espagnora.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x"
                                             type="image/jpeg"><img width="16" height="9" class="lozad"
-                                            data-srcset="https://images.ESPAGNORA.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg"
-                                            src="https://images.ESPAGNORA.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg"
+                                            data-srcset="https://images.Espagnora.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg"
+                                            src="https://images.Espagnora.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg"
                                             alt="François Bayrou déclenche le 49.3 pour faire adopter le budget">
                                     </picture><noscript>
                                         <picture class="last_videos_item_cover">
                                             <source type="image/webp" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/kJbIBDTTNG8MDcI9a7EzQwsB7rc=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.ESPAGNORA.com/Jza6tP1GVS0r-GyM9MncjL1OK4A=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x">
+                                                srcset="https://images.Espagnora.com/kJbIBDTTNG8MDcI9a7EzQwsB7rc=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.Espagnora.com/Jza6tP1GVS0r-GyM9MncjL1OK4A=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.ESPAGNORA.com/lQE1bYeUGs6Nw8djHRqGWJynQ48=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x">
+                                                srcset="https://images.Espagnora.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.Espagnora.com/lQE1bYeUGs6Nw8djHRqGWJynQ48=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x">
                                             <source type="image/webp" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/wlMaL3fzl9OpaDB5KLAktyB5vKA=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.ESPAGNORA.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x">
+                                                srcset="https://images.Espagnora.com/wlMaL3fzl9OpaDB5KLAktyB5vKA=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.Espagnora.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/upBS_ZnzDd_30QW5QwQmfACd7Ps=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.ESPAGNORA.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x">
+                                                srcset="https://images.Espagnora.com/upBS_ZnzDd_30QW5QwQmfACd7Ps=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.Espagnora.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x">
                                             <source type="image/webp" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/wlMaL3fzl9OpaDB5KLAktyB5vKA=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.ESPAGNORA.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x">
+                                                srcset="https://images.Espagnora.com/wlMaL3fzl9OpaDB5KLAktyB5vKA=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.Espagnora.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/upBS_ZnzDd_30QW5QwQmfACd7Ps=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.ESPAGNORA.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x">
+                                                srcset="https://images.Espagnora.com/upBS_ZnzDd_30QW5QwQmfACd7Ps=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.Espagnora.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x">
                                             <source type="image/webp" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/wlMaL3fzl9OpaDB5KLAktyB5vKA=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.ESPAGNORA.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x">
+                                                srcset="https://images.Espagnora.com/wlMaL3fzl9OpaDB5KLAktyB5vKA=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp, https://images.Espagnora.com/SmxC9Us0q1qGf62_Kk0GAyXDdkw=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/upBS_ZnzDd_30QW5QwQmfACd7Ps=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.ESPAGNORA.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x">
-                                            <img src="https://images.ESPAGNORA.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg"
+                                                srcset="https://images.Espagnora.com/upBS_ZnzDd_30QW5QwQmfACd7Ps=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg, https://images.Espagnora.com/SGf31uuPSrRigeP1cWpPlOGOV64=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg 2x">
+                                            <img src="https://images.Espagnora.com/gXtAlbw00n7-MHYUnmq7IsulWZw=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-pour-faire-adopter-le-budget-2026436.jpg"
                                                 alt="François Bayrou déclenche le 49.3 pour faire adopter le budget">
                                         </picture>
                                     </noscript>
@@ -733,51 +734,51 @@
                                 <figure class="meme_sujet_picture">
                                     <picture class="last_videos_item_cover with-js">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/lT51iGSfQuT50K1NbLQhc2Eu1oo=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.ESPAGNORA.com/4eAessnGdtuwSIPxiHaMKwBDduI=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x"
+                                            srcset="https://images.Espagnora.com/lT51iGSfQuT50K1NbLQhc2Eu1oo=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.Espagnora.com/4eAessnGdtuwSIPxiHaMKwBDduI=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.ESPAGNORA.com/cVQIo9s5TVXTs4FYXQZMgmO4_U8=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x"
+                                            srcset="https://images.Espagnora.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.Espagnora.com/cVQIo9s5TVXTs4FYXQZMgmO4_U8=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x"
+                                            srcset="https://images.Espagnora.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x"
+                                            srcset="https://images.Espagnora.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x"
+                                            srcset="https://images.Espagnora.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x"
+                                            srcset="https://images.Espagnora.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x"
+                                            srcset="https://images.Espagnora.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x"
+                                            srcset="https://images.Espagnora.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x"
                                             type="image/jpeg"><img width="16" height="9" class="lozad"
-                                            data-srcset="https://images.ESPAGNORA.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg"
-                                            src="https://images.ESPAGNORA.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg"
+                                            data-srcset="https://images.Espagnora.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg"
+                                            src="https://images.Espagnora.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg"
                                             alt="François Bayrou déclenche le 49.3 sur une partie du projet de loi de financement de la Sécurité sociale">
                                     </picture><noscript>
                                         <picture class="last_videos_item_cover">
                                             <source type="image/webp" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/lT51iGSfQuT50K1NbLQhc2Eu1oo=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.ESPAGNORA.com/4eAessnGdtuwSIPxiHaMKwBDduI=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x">
+                                                srcset="https://images.Espagnora.com/lT51iGSfQuT50K1NbLQhc2Eu1oo=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.Espagnora.com/4eAessnGdtuwSIPxiHaMKwBDduI=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.ESPAGNORA.com/cVQIo9s5TVXTs4FYXQZMgmO4_U8=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x">
+                                                srcset="https://images.Espagnora.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.Espagnora.com/cVQIo9s5TVXTs4FYXQZMgmO4_U8=/0x0:1280x720/566x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x">
                                             <source type="image/webp" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/HRh5rsHnABK04aSlbWE7yOCg1Rs=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.ESPAGNORA.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x">
+                                                srcset="https://images.Espagnora.com/HRh5rsHnABK04aSlbWE7yOCg1Rs=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.Espagnora.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/jy05aaWaMCOTlyL0y0eg87TF0zU=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.ESPAGNORA.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x">
+                                                srcset="https://images.Espagnora.com/jy05aaWaMCOTlyL0y0eg87TF0zU=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.Espagnora.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x">
                                             <source type="image/webp" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/HRh5rsHnABK04aSlbWE7yOCg1Rs=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.ESPAGNORA.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x">
+                                                srcset="https://images.Espagnora.com/HRh5rsHnABK04aSlbWE7yOCg1Rs=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.Espagnora.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/jy05aaWaMCOTlyL0y0eg87TF0zU=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.ESPAGNORA.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x">
+                                                srcset="https://images.Espagnora.com/jy05aaWaMCOTlyL0y0eg87TF0zU=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.Espagnora.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x">
                                             <source type="image/webp" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/HRh5rsHnABK04aSlbWE7yOCg1Rs=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.ESPAGNORA.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x">
+                                                srcset="https://images.Espagnora.com/HRh5rsHnABK04aSlbWE7yOCg1Rs=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp, https://images.Espagnora.com/b5tyQDqRuHxAgD-ef7E674J7iGM=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/jy05aaWaMCOTlyL0y0eg87TF0zU=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.ESPAGNORA.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x">
-                                            <img src="https://images.ESPAGNORA.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg"
+                                                srcset="https://images.Espagnora.com/jy05aaWaMCOTlyL0y0eg87TF0zU=/0x0:1280x720/220x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg, https://images.Espagnora.com/BzMC5GtBT5e-i9r4IXGx-ytRtYs=/0x0:1280x720/440x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg 2x">
+                                            <img src="https://images.Espagnora.com/t0Wz3xQQrCowX2FcqWlRbh31Rys=/0x0:1280x720/283x0/images/Francois-Bayrou-declenche-le-49-3-sur-une-partie-du-projet-de-loi-de-financement-de-la-Securite-sociale-2026452.jpg"
                                                 alt="François Bayrou déclenche le 49.3 sur une partie du projet de loi de financement de la Sécurité sociale">
                                         </picture>
                                     </noscript>
@@ -792,51 +793,51 @@
                                 <figure class="meme_sujet_picture">
                                     <picture class="last_videos_item_cover with-js">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/DYYbSZS1MN7wILr_0CLpxN3T5Yw=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.ESPAGNORA.com/ib6AM26d3mjl3pnyQpzYDfQLmfg=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x"
+                                            srcset="https://images.Espagnora.com/DYYbSZS1MN7wILr_0CLpxN3T5Yw=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.Espagnora.com/ib6AM26d3mjl3pnyQpzYDfQLmfg=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.ESPAGNORA.com/u2EhUx1gHUWooI5zJ3KUhdhHtlE=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x"
+                                            srcset="https://images.Espagnora.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.Espagnora.com/u2EhUx1gHUWooI5zJ3KUhdhHtlE=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x"
+                                            srcset="https://images.Espagnora.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x"
+                                            srcset="https://images.Espagnora.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x"
+                                            srcset="https://images.Espagnora.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x"
+                                            srcset="https://images.Espagnora.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x"
+                                            srcset="https://images.Espagnora.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x"
+                                            srcset="https://images.Espagnora.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x"
                                             type="image/jpeg"><img width="16" height="9" class="lozad"
-                                            data-srcset="https://images.ESPAGNORA.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg"
-                                            src="https://images.ESPAGNORA.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg"
+                                            data-srcset="https://images.Espagnora.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg"
+                                            src="https://images.Espagnora.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg"
                                             alt="Refus du PS de voter la censure: &quot;Ils ont trahi leur programme&quot;, affirme Jean-Philippe Tanguy (RN)">
                                     </picture><noscript>
                                         <picture class="last_videos_item_cover">
                                             <source type="image/webp" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/DYYbSZS1MN7wILr_0CLpxN3T5Yw=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.ESPAGNORA.com/ib6AM26d3mjl3pnyQpzYDfQLmfg=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x">
+                                                srcset="https://images.Espagnora.com/DYYbSZS1MN7wILr_0CLpxN3T5Yw=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.Espagnora.com/ib6AM26d3mjl3pnyQpzYDfQLmfg=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.ESPAGNORA.com/u2EhUx1gHUWooI5zJ3KUhdhHtlE=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x">
+                                                srcset="https://images.Espagnora.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.Espagnora.com/u2EhUx1gHUWooI5zJ3KUhdhHtlE=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x">
                                             <source type="image/webp" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/cW6AcjOo8HzrsFr63DhIcKpfa5c=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.ESPAGNORA.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x">
+                                                srcset="https://images.Espagnora.com/cW6AcjOo8HzrsFr63DhIcKpfa5c=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.Espagnora.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/qvzCoxlCS2MHoX8A1vhYb1k9C7M=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.ESPAGNORA.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x">
+                                                srcset="https://images.Espagnora.com/qvzCoxlCS2MHoX8A1vhYb1k9C7M=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.Espagnora.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x">
                                             <source type="image/webp" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/cW6AcjOo8HzrsFr63DhIcKpfa5c=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.ESPAGNORA.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x">
+                                                srcset="https://images.Espagnora.com/cW6AcjOo8HzrsFr63DhIcKpfa5c=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.Espagnora.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/qvzCoxlCS2MHoX8A1vhYb1k9C7M=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.ESPAGNORA.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x">
+                                                srcset="https://images.Espagnora.com/qvzCoxlCS2MHoX8A1vhYb1k9C7M=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.Espagnora.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x">
                                             <source type="image/webp" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/cW6AcjOo8HzrsFr63DhIcKpfa5c=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.ESPAGNORA.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x">
+                                                srcset="https://images.Espagnora.com/cW6AcjOo8HzrsFr63DhIcKpfa5c=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp, https://images.Espagnora.com/-Vsf9waaA9d_mpIRqa8SQu0cbEA=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/qvzCoxlCS2MHoX8A1vhYb1k9C7M=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.ESPAGNORA.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x">
-                                            <img src="https://images.ESPAGNORA.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg"
+                                                srcset="https://images.Espagnora.com/qvzCoxlCS2MHoX8A1vhYb1k9C7M=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg, https://images.Espagnora.com/2glFwIf7voGfLdtnXxk9U7ihLOc=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg 2x">
+                                            <img src="https://images.Espagnora.com/sxo1bb-RJAvnyTguMGE6xuTEOgQ=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-Ils-ont-trahi-leur-programme-affirme-Jean-Philippe-Tanguy-RN-2026586.jpg"
                                                 alt="Refus du PS de voter la censure: &quot;Ils ont trahi leur programme&quot;, affirme Jean-Philippe Tanguy (RN)">
                                         </picture>
                                     </noscript>
@@ -851,51 +852,51 @@
                                 <figure class="meme_sujet_picture">
                                     <picture class="last_videos_item_cover with-js">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/ojN7HCJuFDSdaZhvtO2k8glnF0A=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.ESPAGNORA.com/hkjlhZ6kzCmv3n1uuYwU8q7a080=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x"
+                                            srcset="https://images.Espagnora.com/ojN7HCJuFDSdaZhvtO2k8glnF0A=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.Espagnora.com/hkjlhZ6kzCmv3n1uuYwU8q7a080=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.ESPAGNORA.com/n0GlDRiU9TI6BaxxoXcYGoT3o4c=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x"
+                                            srcset="https://images.Espagnora.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.Espagnora.com/n0GlDRiU9TI6BaxxoXcYGoT3o4c=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x"
+                                            srcset="https://images.Espagnora.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x"
+                                            srcset="https://images.Espagnora.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x"
+                                            srcset="https://images.Espagnora.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x"
+                                            srcset="https://images.Espagnora.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x"
+                                            srcset="https://images.Espagnora.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x"
+                                            srcset="https://images.Espagnora.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x"
                                             type="image/jpeg"><img width="16" height="9" class="lozad"
-                                            data-srcset="https://images.ESPAGNORA.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg"
-                                            src="https://images.ESPAGNORA.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg"
+                                            data-srcset="https://images.Espagnora.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg"
+                                            src="https://images.Espagnora.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg"
                                             alt="Refus du PS de voter la censure du gouvernement: &quot;On a fait bouger 6 milliards d&#39;euros sur ce budget&quot;, défend Jérôme Guedj (PS)">
                                     </picture><noscript>
                                         <picture class="last_videos_item_cover">
                                             <source type="image/webp" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/ojN7HCJuFDSdaZhvtO2k8glnF0A=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.ESPAGNORA.com/hkjlhZ6kzCmv3n1uuYwU8q7a080=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x">
+                                                srcset="https://images.Espagnora.com/ojN7HCJuFDSdaZhvtO2k8glnF0A=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.Espagnora.com/hkjlhZ6kzCmv3n1uuYwU8q7a080=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.ESPAGNORA.com/n0GlDRiU9TI6BaxxoXcYGoT3o4c=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x">
+                                                srcset="https://images.Espagnora.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.Espagnora.com/n0GlDRiU9TI6BaxxoXcYGoT3o4c=/0x0:1280x720/566x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x">
                                             <source type="image/webp" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/rrYA2EqbQ-wb0X_BK0W-iRzth-o=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.ESPAGNORA.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x">
+                                                srcset="https://images.Espagnora.com/rrYA2EqbQ-wb0X_BK0W-iRzth-o=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.Espagnora.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/QDH4MIP3MRU5BzKWMfTaN20l5Wk=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.ESPAGNORA.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x">
+                                                srcset="https://images.Espagnora.com/QDH4MIP3MRU5BzKWMfTaN20l5Wk=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.Espagnora.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x">
                                             <source type="image/webp" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/rrYA2EqbQ-wb0X_BK0W-iRzth-o=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.ESPAGNORA.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x">
+                                                srcset="https://images.Espagnora.com/rrYA2EqbQ-wb0X_BK0W-iRzth-o=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.Espagnora.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/QDH4MIP3MRU5BzKWMfTaN20l5Wk=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.ESPAGNORA.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x">
+                                                srcset="https://images.Espagnora.com/QDH4MIP3MRU5BzKWMfTaN20l5Wk=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.Espagnora.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x">
                                             <source type="image/webp" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/rrYA2EqbQ-wb0X_BK0W-iRzth-o=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.ESPAGNORA.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x">
+                                                srcset="https://images.Espagnora.com/rrYA2EqbQ-wb0X_BK0W-iRzth-o=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp, https://images.Espagnora.com/MZjwsNQVaNSr6C9BAJarClp-aFE=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/QDH4MIP3MRU5BzKWMfTaN20l5Wk=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.ESPAGNORA.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x">
-                                            <img src="https://images.ESPAGNORA.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg"
+                                                srcset="https://images.Espagnora.com/QDH4MIP3MRU5BzKWMfTaN20l5Wk=/0x0:1280x720/220x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg, https://images.Espagnora.com/O_dAPvnzaTCVtUxujGMJ39IqJFY=/0x0:1280x720/440x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg 2x">
+                                            <img src="https://images.Espagnora.com/mHsc0yALGrpXm0px8EDQgqS9IwE=/0x0:1280x720/283x0/images/Refus-du-PS-de-voter-la-censure-du-gouvernement-On-a-fait-bouger-6-milliards-d-euros-sur-ce-budget-defend-Jerome-Guedj-PS-2026581.jpg"
                                                 alt="Refus du PS de voter la censure du gouvernement: &quot;On a fait bouger 6 milliards d&#39;euros sur ce budget&quot;, défend Jérôme Guedj (PS)">
                                         </picture>
                                     </noscript>
@@ -911,51 +912,51 @@
                                 <figure class="meme_sujet_picture">
                                     <picture class="last_videos_item_cover with-js">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/o8nEa115j1doK2ExOly_fyw5pvw=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.ESPAGNORA.com/IrrraTn4gGzdPLRWnYCWtgFNwR4=/0x0:1280x720/566x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x"
+                                            srcset="https://images.Espagnora.com/o8nEa115j1doK2ExOly_fyw5pvw=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.Espagnora.com/IrrraTn4gGzdPLRWnYCWtgFNwR4=/0x0:1280x720/566x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.ESPAGNORA.com/Kf-W1b72j9dGDJmbEEr493GZeg0=/0x0:1280x720/566x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x"
+                                            srcset="https://images.Espagnora.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.Espagnora.com/Kf-W1b72j9dGDJmbEEr493GZeg0=/0x0:1280x720/566x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x"
+                                            srcset="https://images.Espagnora.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 361px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x"
+                                            srcset="https://images.Espagnora.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x"
+                                            srcset="https://images.Espagnora.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 321px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x"
+                                            srcset="https://images.Espagnora.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x"
                                             type="image/jpeg">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x"
+                                            srcset="https://images.Espagnora.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x"
                                             type="image/webp">
                                         <source media="(min-width: 300px)" width="16" height="9" class="lozad"
-                                            srcset="https://images.ESPAGNORA.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x"
+                                            srcset="https://images.Espagnora.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x"
                                             type="image/jpeg"><img width="16" height="9" class="lozad"
-                                            data-srcset="https://images.ESPAGNORA.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg"
-                                            src="https://images.ESPAGNORA.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg"
+                                            data-srcset="https://images.Espagnora.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg"
+                                            src="https://images.Espagnora.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg"
                                             alt="Motion de censure: &quot;L&#39;extrême droite joue le rôle d&#39;assurance-vie du système&quot;, affirme Mathilde Panot (LFI)">
                                     </picture><noscript>
                                         <picture class="last_videos_item_cover">
                                             <source type="image/webp" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/o8nEa115j1doK2ExOly_fyw5pvw=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.ESPAGNORA.com/IrrraTn4gGzdPLRWnYCWtgFNwR4=/0x0:1280x720/566x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x">
+                                                srcset="https://images.Espagnora.com/o8nEa115j1doK2ExOly_fyw5pvw=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.Espagnora.com/IrrraTn4gGzdPLRWnYCWtgFNwR4=/0x0:1280x720/566x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 441px)"
-                                                srcset="https://images.ESPAGNORA.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.ESPAGNORA.com/Kf-W1b72j9dGDJmbEEr493GZeg0=/0x0:1280x720/566x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x">
+                                                srcset="https://images.Espagnora.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.Espagnora.com/Kf-W1b72j9dGDJmbEEr493GZeg0=/0x0:1280x720/566x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x">
                                             <source type="image/webp" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/-HqzIvtFBx3522ropVOw5yNMKdE=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.ESPAGNORA.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x">
+                                                srcset="https://images.Espagnora.com/-HqzIvtFBx3522ropVOw5yNMKdE=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.Espagnora.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 361px)"
-                                                srcset="https://images.ESPAGNORA.com/lNJtyMRhCw63NMcj76zdlDuDYds=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.ESPAGNORA.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x">
+                                                srcset="https://images.Espagnora.com/lNJtyMRhCw63NMcj76zdlDuDYds=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.Espagnora.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x">
                                             <source type="image/webp" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/-HqzIvtFBx3522ropVOw5yNMKdE=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.ESPAGNORA.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x">
+                                                srcset="https://images.Espagnora.com/-HqzIvtFBx3522ropVOw5yNMKdE=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.Espagnora.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 321px)"
-                                                srcset="https://images.ESPAGNORA.com/lNJtyMRhCw63NMcj76zdlDuDYds=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.ESPAGNORA.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x">
+                                                srcset="https://images.Espagnora.com/lNJtyMRhCw63NMcj76zdlDuDYds=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.Espagnora.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x">
                                             <source type="image/webp" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/-HqzIvtFBx3522ropVOw5yNMKdE=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.ESPAGNORA.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x">
+                                                srcset="https://images.Espagnora.com/-HqzIvtFBx3522ropVOw5yNMKdE=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp, https://images.Espagnora.com/uvfU54xNqshENNuP2rRnWMwpfRE=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.webp 2x">
                                             <source type="image/jpeg" media="(min-width: 300px)"
-                                                srcset="https://images.ESPAGNORA.com/lNJtyMRhCw63NMcj76zdlDuDYds=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.ESPAGNORA.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x">
-                                            <img src="https://images.ESPAGNORA.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg"
+                                                srcset="https://images.Espagnora.com/lNJtyMRhCw63NMcj76zdlDuDYds=/0x0:1280x720/220x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg, https://images.Espagnora.com/9C_QnX-ThJ8aD7O1Fo0LyesWOek=/0x0:1280x720/440x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg 2x">
+                                            <img src="https://images.Espagnora.com/SLMocVxvydpJ8msiQ5uf6NsxnsY=/0x0:1280x720/283x0/images/Motion-de-censure-L-extreme-droite-joue-le-role-d-assurance-vie-du-systeme-affirme-Mathilde-Panot-LFI-2026482.jpg"
                                                 alt="Motion de censure: &quot;L&#39;extrême droite joue le rôle d&#39;assurance-vie du système&quot;, affirme Mathilde Panot (LFI)">
                                         </picture>
                                     </noscript>
@@ -1030,7 +1031,7 @@
                             </a>
                         </article>
                         <?php endforeach; ?>
-                        <div class="obPositionMobile" data-src="https://www.ESPAGNORA.com/en-direct/" data-widget-id="MB_11"
+                        <div class="obPositionMobile" data-src="https://www.espagnora.com/en-direct/" data-widget-id="MB_11"
                             data-widget-md-id="AR_4"></div>
                     </div>
                 </section>
@@ -1040,7 +1041,7 @@
             <nav role="breadcrumb" class="breadcrumb" id="breadcrumb">
                 <ul class="list_inbl">
                     <li class="breadcrumb_item breadbrumb_home"><a href="index.html"
-                            title="ESPAGNORA"><span>Espagnora</span></a></li>
+                            title="Espagnora"><span>Espagnora</span></a></li>
                     <li class="breadcrumb_item breadcrumb_last_item"><span>En direct Espagnora</span></li>
                 </ul>
             </nav>
@@ -1055,9 +1056,9 @@
                     <div class="footer_big_title">Votre Portail des Solutions</div>
                     <div class="footer_right_block">
                         <ul class="footer_social_media">
-                            <li><a href="https://www.facebook.com/ESPAGNORA" target="_blank" title="Facebook"
+                            <li><a href="https://www.facebook.com/Espagnora" target="_blank" title="Facebook"
                                     class="icon_facebook">Facebook</a></li>
-                            <li><a href="https://x.com/ESPAGNORA" target="_blank" title="X" class="icon_twitter">X</a></li>
+                            <li><a href="https://x.com/Espagnora" target="_blank" title="X" class="icon_twitter">X</a></li>
                             <li><a href="rssindex.html" title="Flux RSS" class="icon_rss">Flux RSS</a></li>
                             <li><a href="newslettersindex.html" title="Newsletters" class="icon_envelop">Newsletters</a></li>
                         </ul>
@@ -1135,15 +1136,15 @@
         {
             "@context": "https://schema.org/",
             "@type": "WebSite",
-            "name": "ESPAGNORA",
-            "url": "https://www.ESPAGNORA.com/",
+            "name": "Espagnora",
+            "url": "https://www.Espagnora.com/",
             "publisher": {
                 "@type": "Organization",
-                "name": "ESPAGNORA",
+                "name": "Espagnora",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://www.ESPAGNORA.com/assets/v11/images/ESPAGNORA_richSnippets_rectangulaire.5d1957bc4417569da1d093056f864dc6.png",
-                    "contentUrl": "https://www.ESPAGNORA.com/assets/v11/images/ESPAGNORA_richSnippets_rectangulaire.5d1957bc4417569da1d093056f864dc6.png",
+                    "url": "https://www.Espagnora.com/assets/v11/images/Espagnora_richSnippets_rectangulaire.5d1957bc4417569da1d093056f864dc6.png",
+                    "contentUrl": "https://www.Espagnora.com/assets/v11/images/Espagnora_richSnippets_rectangulaire.5d1957bc4417569da1d093056f864dc6.png",
                     "width": {
                         "@type": "QuantitativeValue",
                         "value": 200
@@ -1153,7 +1154,7 @@
                         "value": 200
                     }
                 },
-                "sameAs": ["https://www.facebook.com/ESPAGNORA", "https://x.com/ESPAGNORA"]
+                "sameAs": ["https://www.facebook.com/Espagnora", "https://x.com/Espagnora"]
             }
         }
     </script>

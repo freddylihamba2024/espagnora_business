@@ -7,7 +7,7 @@
 
 <!-- Content section -->
 <?php $this->section('content') ?>
-<main class="main_wrapper video_wrapper" id="main_wrapper">
+    <main class="main_wrapper video_wrapper" id="main_wrapper">
         <div class="grid_wrapper">
             <div class="grid_column grid_column_ab">
                 <article class="content">
@@ -1762,27 +1762,27 @@
             <div class="ErrorContainer"><span class="ErrorMessage"></span></div>
         </template>
     </main>
-<!-- <div class="container">
-    <h4 style="font-weight:bold; font-size:2.4em; margin-top:5px">Nos replays</h4>
-    <hr />
-    <div class="row">
-        <?php foreach ($replays as $replay): ?>
-            <div class="col-md-3 col-sm-12">
-                <a href="<?= base_url("web/article/" . $replay['Media_Id_1']) ?>">
-                    <div class="actualite-box">
+    <!-- <div class="container">
+        <h4 style="font-weight:bold; font-size:2.4em; margin-top:5px">Nos replays</h4>
+        <hr />
+        <div class="row">
+            <?php foreach ($replays as $replay): ?>
+                <div class="col-md-3 col-sm-12">
+                    <a href="<?= base_url("web/article/" . $replay['Media_Id_1']) ?>">
+                        <div class="actualite-box">
 
-                        <div class="video-box">
-                            <img src="<?= base_url('uploads/' . $replay['Media_Image_4']) ?>" />
-                            <div class="video-box-play">
-                                <span class="fa fa-play"></span>
+                            <div class="video-box">
+                                <img src="<?= base_url('uploads/' . $replay['Media_Image_4']) ?>" />
+                                <div class="video-box-play">
+                                    <span class="fa fa-play"></span>
+                                </div>
                             </div>
+                            <h5><?= $replay['Title_2'] ?></h5>
                         </div>
-                        <h5><?= $replay['Title_2'] ?></h5>
-                    </div>
-                </a>
-            </div>
-        <?php endforeach; ?>
+                    </a>
+                </div>
+            <?php endforeach; ?>
 
-    </div>
-</div> -->
+        </div>
+    </div> -->
 <?php $this->endSection(); ?>

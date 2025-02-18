@@ -56,7 +56,7 @@
                 <h2 class="mvm_title">Les plus vues</h2>
                 <div class="mvm_list" id="liste_simple_droite_1579100668494">
                     <div class="mvm_scroll_zone">
-                        
+
                         <!-- <article class="content_item content_item_small"><a
                                 href="/politique/gouvernement/francois-bayrou-declenche-le-49-3-pour-faire-adopter-le-budget_VN-202502030680.html"
                                 title="François Bayrou déclenche le 49.3 pour faire adopter le budget">
@@ -717,7 +717,7 @@
                     </div>
                 </div>
             </aside>
-        </div> 
+        </div>
     </div>
     <div class="grid_wrapper" style="margin-top: 30px;">
         <div class="grid_column grid_column_abc">
@@ -1698,7 +1698,8 @@
             </section>
             <div class="breadcrumb_parent grid_column_abc" id="breadcrumb_parent"></div>
         </div>
-    </div><template id="controlPanel_VOD_Desktop">
+    </div>
+    <template id="controlPanel_VOD_Desktop">
         <div class="controlPanel">
             <div class="playlistArea"><button class="scrollLeft"></button>
                 <div class="movingScroller"></div><button class="scrollRight"></button>

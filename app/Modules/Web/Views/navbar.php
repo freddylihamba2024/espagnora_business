@@ -27,21 +27,18 @@ if (isset($active_data)) {
 ?>
 <header class="main_header" id="main_header">
     <div class="header_top" id="header_top"><button class="header_menu" id="header_menu_show">Menu</button>
-        <h1><a href="<?=base_url()?>" title="ESPAGNORA" class="header_brand"><img src="<?=base_url('espagnora_assets/images/logo.png')?>" alt="ESPAGNORA"
-                    title="ESPAGNORA"></a>
-        </h1>
-        <div class="header_direct"><a class="header_replay"
-                href="https://www.rmcbfmplay.com/chaine/bfm-tv?subMenuId=RefMenuItem::rmcgo_home_ESPAGNORA" title="Replay"
-                target="_blank">Replay</a> <a class="direct_radio" href="en-direct/bfm-radio/index.html" title="Direct Radio"
-                onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation','clickchapter1':'header', 'clickchapter2':'CTA-direct', 'clickname':'radio_ESPAGNORA'});">
-                <div class="direct_radio_bouton"><img width="21" height="20"
-                        src="<?=base_url('templates/news/assets/v11/images/radio.dee6a7c951465a8cbb208e64f4c09ff6.svg')?>" alt="Direct Radio"></div>Radio
-            </a><a class="direct_tv" href="<?=base_url('web/direct-tv')?>" title="Direct tv"
+        <h1><a href="<?=base_url()?>" title="ESPAGNORA" class="header_brand"><img src="<?=base_url('espagnora_assets/images/logo.png')?>" alt="ESPAGNORA" title="ESPAGNORA"></a></h1>
+        <div class="header_direct">
+            <a class="header_replay" href="https://www.rmcbfmplay.com/chaine/bfm-tv?subMenuId=RefMenuItem::rmcgo_home_ESPAGNORA" title="Replay" target="_blank">Replay</a> <a class="direct_radio" href="en-direct/bfm-radio/index.html" title="Direct Radio" onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation','clickchapter1':'header', 'clickchapter2':'CTA-direct', 'clickname':'radio_ESPAGNORA'});">
+                <div class="direct_radio_bouton"><img width="21" height="20" src="<?=base_url('templates/news/assets/v11/images/radio.dee6a7c951465a8cbb208e64f4c09ff6.svg')?>" alt="Direct Radio"></div>Radio
+            </a>
+            <a class="direct_tv" href="<?=base_url('web/direct-tv')?>" title="Direct tv"
                 onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation', 'clickchapter1':'header', 'clickchapter2':'CTA-direct', 'clickname':'direct-tv_ESPAGNORA'});">
                 <div class="direct_tv_bouton"><img width="16" height="14"
                         src="<?=base_url('templates/news/assets/v11/images/direct_tv.a04f54365fdb12eef5ce900c03db08d4.svg')?>" alt="Direct tv"></div><span
                     class="span_tv">Direct</span>
-            </a></div>
+            </a>
+        </div>
     </div>
     <nav role="primary" class="nav_primary">
         <ul>
@@ -109,7 +106,7 @@ if (isset($active_data)) {
                     <div class="menu_center__title"><span>Parcourir</span></div>
                     <ul id="menu_category_links_left">
                         <li><a href="<?=base_url('web/videos')?>" title="Vidéos"><span>Vidéos</span></a></li>
-                        <li><a href="replay-emissions/index.html" title="Émissions"><span>Magazines</span></a></li>
+                        <li><a href="" title="Émissions"><span>Magazines</span></a></li>
                         <li><a href="<?=base_url('web/podcasts')?>" title="Podcasts"><span>Podcasts</span></a></li>
                         <li>
                             <div class="menu_label_header">
@@ -135,20 +132,16 @@ if (isset($active_data)) {
                     </ul>
 
                     <div class="menu_center__title">Suivez-nous sur</div>
-                    <div class="menu_share_social" id="menu_share_social"><a href="https://www.facebook.com/BFMTV"
-                            target="_blank" class="facebook" title="Facebook"><i class="icon_facebook"></i> </a><a
-                            href="https://x.com/bfmtv" target="_blank" class="twitter" title="X"></a> <a
-                            href="https://www.instagram.com/bfmtv/?hl=fr" target="_blank" class="instagram" title="Instagram"><img
-                                src="assets/v11/images/instagram.6a7fd7797c667fbd899cd2a960baf714.svg" alt="Instagram"> </a><a
-                            href="https://www.youtube.com/c/Bfmtv-actu/videos" target="_blank" class="youtube" title="Youtube"><i
-                                class="icon_youtube"></i> </a><a href="https://fr.linkedin.com/company/bfmtv/" target="_blank"
-                            class="linkedin" title="Linkedin"><i class="icon_linkedin"></i> </a><a href="newsletters/index.html"
-                            class="newsletters" title="Newsletters"><img
-                                src="assets/v11/images/newsletter.3977615e993db64e69a0a169632178b9.svg" alt="Newsletters"> </a><a
-                            href="https://app.adjust.com/2dnslix" target="_blank" class="apple" title="IOS"><img
-                                src="assets/v11/images/apple.e139f47f38d27653ceffcdd25f755d51.svg" alt="IOS"> </a><a
-                            href="https://app.adjust.com/dsokfy1" target="_blank" class="android" title="Android"><img
-                                src="assets/v11/images/android.1f1231e1f7b43ca8c61115c3a81a4529.svg" alt="Android"></a></div>
+                    <div class="menu_share_social" id="menu_share_social">
+                        <a href="" target="_blank" class="facebook" title="Facebook"><i class="icon_facebook"></i> </a>
+                        <a href="" target="_blank" class="twitter" title="X"></a>
+                        <a href="" target="_blank" class="instagram" title="Instagram"><img src="<?= base_url("templates/news/assets/v11/images/instagram.6a7fd7797c667fbd899cd2a960baf714.svg") ?>" alt="Instagram"> </a>
+                        <a href="" target="_blank" class="youtube" title="Youtube"><i class="icon_youtube"></i> </a>
+                        <!--<a href="https://fr.linkedin.com/company/bfmtv/" target="_blank" class="linkedin" title="Linkedin"><i class="icon_linkedin"></i> </a>
+                        <a href="newsletters/index.html" class="newsletters" title="Newsletters"><img src="assets/v11/images/newsletter.3977615e993db64e69a0a169632178b9.svg" alt="Newsletters"> </a>
+                        <a href="https://app.adjust.com/2dnslix" target="_blank" class="apple" title="IOS"><img src="assets/v11/images/apple.e139f47f38d27653ceffcdd25f755d51.svg" alt="IOS"> </a>
+                        <a href="https://app.adjust.com/dsokfy1" target="_blank" class="android" title="Android"><img src="assets/v11/images/android.1f1231e1f7b43ca8c61115c3a81a4529.svg" alt="Android"></a>-->
+                    </div>
                 </div>
             </div>
         </div>

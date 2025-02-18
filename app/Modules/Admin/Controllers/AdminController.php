@@ -26,24 +26,39 @@ class AdminController extends BaseController
 
         public function page($obj = Null, $id = Null)
         {
-                if ($obj == "dashboards") {
+                if ($obj == "dashboards")
+                {
                         $this->data['activeLink'] = "dashboards";
                         echo view("\Modules\Admin\Views\page\dashboards", $this->data);
-                } elseif ($obj == "media") {
+                }
+                elseif ($obj == "media")
+                {
                         $this->data['activeLink'] = "media";
                         $this->data['medias'] = $this->adminModel->get_all_media();
                         $this->data['author'] = $this->adminModel->get_all_author();
                         $this->data['category'] = $this->adminModel->get_all_categorie();
                         echo view("\Modules\Admin\Views\page\media", $this->data);
-                } elseif ($obj == "categorie") {
+                }
+                elseif ($obj == "publicity")
+                {
+                        $this->data['activeLink'] = "publicity";
+                        $this->data['publicity'] = $this->adminModel->get_all_publicity();
+                        echo view("\Modules\Admin\Views\page\publicity", $this->data);
+                }
+                elseif ($obj == "categorie")
+                {
                         $this->data['activeLink'] = "categorie";
                         $this->data["categories"] = $this->adminModel->get_categories();
                         echo view("\Modules\Admin\Views\page\categorie", $this->data);
-                } elseif ($obj == "users") {
+                }
+                elseif ($obj == "users")
+                {
                         $this->data["users"] = $this->adminModel->get_all_users_added();
                         $this->data['activeLink'] = "users";
                         echo view("\Modules\Admin\Views\page\users", $this->data);
-                } elseif ($obj == "user") {
+                }
+                elseif ($obj == "user")
+                {
                         if (!is_null($id)) {
                                 $param = json_decode($this->cryptor->decrypt($id));
                                 if (!empty($param->userid)) {
@@ -54,7 +69,9 @@ class AdminController extends BaseController
                         }
                         $this->data['activeLink'] = "users";
                         echo view("\Modules\Admin\Views\page\_user", $this->data);
-                } elseif ($obj == "categ") {
+                }
+                elseif ($obj == "categ")
+                {
                         if (!is_null($id)) {
                                 $param = json_decode($this->cryptor->decrypt($id));
                                 if (!empty($param->categ)) {
@@ -65,7 +82,9 @@ class AdminController extends BaseController
                         }
                         $this->data['activeLink'] = "categorie";
                         echo view("\Modules\Admin\Views\page\_categorie", $this->data);
-                } elseif ($obj == "newmedia") {
+                }
+                elseif ($obj == "newmedia")
+                {
                         if (!is_null($id)) {
                                 $param = json_decode($this->cryptor->decrypt($id));
                                 if (!empty($param->media)) {
@@ -77,21 +96,41 @@ class AdminController extends BaseController
                         $this->data["categories"] = $this->adminModel->get_categories();
                         $this->data['activeLink'] = "media";
                         echo view("\Modules\Admin\Views\page\_media", $this->data);
-                } elseif ($obj == "basic") {
+                }
+                elseif ($obj == "newpublicity")
+                {
+                        if (!is_null($id)) {
+                                $param = json_decode($this->cryptor->decrypt($id));
+                                if (!empty($param->pubkey)) {
+                                        $this->data["publicity"] = $this->adminModel->get_publicity_by_id($param->pubkey);
+                                } else {
+                                        return redirect()->to(base_url("404"));
+                                }
+                        }
+                        $this->data['activeLink'] = "publicity";
+                        echo view("\Modules\Admin\Views\page\_publicity", $this->data);
+                }
+                elseif ($obj == "basic")
+                {
                         $this->data["user"] = $this->adminModel->get_user_by_id($this->session->userdata["Id_0"]);
                         $this->data['activeLink'] = "profile";
                         echo view("\Modules\Admin\Views\page\basic", $this->data);
-                } elseif ($obj == "param") {
+                }
+                elseif ($obj == "param")
+                {
                         $this->data['activeLink'] = "profile";
                         echo view("\Modules\Admin\Views\page\param", $this->data);
-                } else {
+                }
+                else
+                {
                         return redirect()->to(base_url("404"));
                 }
         }
 
         public function save($obj = Null, $id = Null)
         {
-                if ($obj == "user") {
+                if ($obj == "user")
+                {
                         $data = array();
                         $name = $this->request->getPost("name");
                         $first_name = $this->request->getPost("first_name");
@@ -130,7 +169,9 @@ class AdminController extends BaseController
                         } else {
                                 echo json_encode(array("save" => false, "info" => "Le nom d'utilisateur ou email existe déjà"));
                         }
-                } elseif ($obj == "categorie") {
+                }
+                elseif ($obj == "categorie")
+                {
                         $data = array();
                         $Parent_4 = $this->request->getPost("Parent_4");
                         $Description_1 = $this->request->getPost("Description_1");
@@ -155,7 +196,9 @@ class AdminController extends BaseController
                         } else {
                                 echo json_encode(array("save" => false, "info" => "Bien vérifier les valeurs inserés"));
                         }
-                } elseif ($obj == "login") {
+                }
+                elseif ($obj == "login")
+                {
                         $password = $this->request->getPost('password');
                         $username = $this->request->getPost('username');
                         $user_connected = array();
@@ -176,7 +219,9 @@ class AdminController extends BaseController
                                 $this->session->set(['userdata' => $user_connected]);
                                 echo json_encode(array("login" => true, "redirect" => base_url('admin/page/media')));
                         }
-                } elseif ($obj == "delete_user") {
+                }
+                elseif ($obj == "delete_user")
+                {
                         $data = array();
                         $userid = $this->request->getPost("userid");
                         $data["Status_9"] = 0;
@@ -186,7 +231,9 @@ class AdminController extends BaseController
                         } else {
                                 echo json_encode(array("delete" => false, "info" => "Erreur de suppression"));
                         }
-                } elseif ($obj == "delete_categ") {
+                }
+                elseif ($obj == "delete_categ")
+                {
                         $data = array();
                         $categ = $this->request->getPost("categ");
                         $data["Status_3"] = 0;
@@ -196,7 +243,9 @@ class AdminController extends BaseController
                         } else {
                                 echo json_encode(array("delete" => false, "info" => "Erreur de suppression"));
                         }
-                } elseif ($obj == "delete_media") {
+                }
+                elseif ($obj == "delete_media")
+                {
                         $data = array();
                         $Id_0 = $this->request->getPost("media");
                         $data["Status_9"] = 0;
@@ -206,7 +255,9 @@ class AdminController extends BaseController
                         } else {
                                 echo json_encode(array("delete" => false, "info" => "Erreur de suppression"));
                         }
-                } elseif ($obj == "media") {
+                }
+                elseif ($obj == "media")
+                {
                         $data = array();
                         $Media_Image_4 = $this->request->getFile("Media_Image_4");
                         $Title_2 = $this->request->getPost("Title_2");
@@ -278,7 +329,71 @@ class AdminController extends BaseController
                         } else {
                                 echo json_encode(array("save" => false, "info" => "Bien vérifier les valeurs inserés"));
                         }
-                } elseif ($obj == "param") {
+                }
+                elseif ($obj == "publicity")
+                {
+                        $data = array();
+                        $Image_2 = $this->request->getFile("Media_Image_4");
+
+                        $Id_0 = ($this->request->getPost("Id_0") != 0) ? $this->request->getPost("Id_0") : Null;
+                        $check = $this->adminModel->get_publicity_by_id($Id_0);
+
+                        if (is_null($check) || (!is_null($check) && $Id_0 == $check->Id_0)) {
+
+                                $fileName = (!is_null($check)) ? $check->Image_3 : Null;
+                                if ($Image_2->isValid() && !$Image_2->hasMoved()) {
+                                        $filePath = ROOTPATH . 'uploads/';
+                                        $fileName = $Image_2->getRandomName();
+                                        $Image_2->move($filePath, $fileName);
+                                }
+
+                                $data['Id_0'] = $id;
+                                $data['Type_1'] = $this->request->getPost("Type_1");
+
+                                if (is_null($Id_0)) {
+                                        $data["Creatime_3"] = date("Y-m-d H:i:s");
+                                }
+
+                                $save = $this->adminModel->save_data("publicity", $data, $Id_0);
+
+                                if ($save) {
+                                        echo json_encode(array("save" => true));
+                                } else {
+                                        echo json_encode(array("save" => false, "info" => "Erreur d'enregistrement"));
+                                }
+                        }
+                        else {
+                                echo json_encode(array("save" => false, "info" => "Bien vérifier les valeurs inserés"));
+                        }
+                }
+                elseif ($obj == "delete_publicity")
+                {
+                        $Id_0 = (int) $this->request->getPost("pubkey");
+                        $pub = $this->adminModel->get_publicity_by_id($Id_0);
+
+                        if (!$pub) {
+                                echo json_encode(array("delete" => false, "info" => "Publicité introuvable"));
+                                exit;
+                        }
+
+                        $delete = $this->adminModel->delete_line("publicity", $Id_0);
+
+                        if ($delete) {
+                                $filePath = ROOTPATH . 'uploads/' . $pub->Image_2;
+
+                                if (file_exists($filePath) && is_writable($filePath)) {
+                                        unlink($filePath);
+                                }
+
+                                echo json_encode(array("delete" => true));
+                        }
+                        else
+                        {
+                                echo json_encode(array("delete" => false, "info" => "Erreur de suppression en base"));
+                        }
+                }
+                elseif ($obj == "param")
+                {
                         $userid = $this->session->userdata["Id_0"];
                         $password = $this->request->getPost('password');
                         if (Hush::verify($password, $this->session->userdata["Password_7"]) && $this->request->getPost('newpass') == $this->request->getPost('confirm')) {
@@ -295,7 +410,9 @@ class AdminController extends BaseController
                         } else {
                                 echo json_encode(array("save" => false, "info" => "Vérifiez vos mot de passe svp"));
                         }
-                } elseif ($obj == "basic") {
+                }
+                elseif ($obj == "basic")
+                {
                         $userid = $this->session->userdata["Id_0"];
                         $data = array();
                         $name = $this->request->getPost("name");
@@ -319,10 +436,12 @@ class AdminController extends BaseController
                                         $userdata = $this->adminModel->get_array_user_connected($userid);
                                         $this->session->set(['userdata' => $userdata]);
                                         echo json_encode(array("save" => true));
-                                } else {
+                                }
+                                else {
                                         echo json_encode(array("save" => false, "info" => "Erreur d'enregistrement"));
                                 }
-                        } else {
+                        }
+                        else {
                                 echo json_encode(array("save" => false, "info" => "Le nom d'utilisateur ou email existe déjà"));
                         }
                 }

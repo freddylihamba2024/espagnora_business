@@ -41,6 +41,12 @@
                                     <p>Utilisateurs</p>
                                 </a>
                             </li>
+                            <li class="nav-item <?= ($activeLink == 'publicity')?'active':'' ?>">
+                                <a href="<?= base_url('admin/page/publicity') ?>">
+                                    <i class="fab fa-creative-commons-share"></i>
+                                    <p>Publicité</p>
+                                </a>
+                            </li>
                             <li class="nav-item <?= ($activeLink == 'categorie')?'active':'' ?>">
                                 <a href="<?= base_url('admin/page/categorie') ?>">
                                     <i class="fas fa-tasks"></i>

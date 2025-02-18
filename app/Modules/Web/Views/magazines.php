@@ -25,7 +25,7 @@
             </div>
         </div>
        <?php endforeach; ?>
-        
+
     </div>
 </div>
 <?php $this->endSection(); ?>

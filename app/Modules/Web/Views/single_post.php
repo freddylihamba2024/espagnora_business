@@ -83,8 +83,8 @@
                             </picture>
                         </a> -->
                     </div>
-             
-                    <div class="content_body" style="margin-top: 150px;">
+
+                    <!--<div class="content_body" style="margin-top: 150px;">
                         <div class="content_body_wrapper">
                             <div class="chapo"><?= $media[0]['Title_2'] ?></div>
                             <div id="sas_98_s" class="bloc_center_full"></div>
@@ -116,7 +116,7 @@
                                 <div class="author_wrapper"><span class="author_name">Alexandra Gonzalez avec Fanny Rocher</span>
                                 </div>
                             </div>
-                        </div> -->
+                        </div> --
                             <script>
                                 window.nextScriptsToExecute && window.nextScriptsToExecute.push((function() {
                                     if (window.deviceSize === "L") {
@@ -125,7 +125,7 @@
                                 }));
                             </script>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </article>
             <div class="content_body" id="content_body_bottom">
@@ -154,7 +154,7 @@
                         title="<?= $media[0]['Title_2'] ?>"><?= $media[0]['Title_2'] ?>
                     </a></p>
             </div>
-            <div id="sas_pave1_l" class="sticky_zone publicite bloc_center_full" style="height: 2550px;">
+            <!--<div id="sas_pave1_l" class="sticky_zone publicite bloc_center_full" style="height: 2550px;">
                 <div id="sas_98_container" class="sticky_elt">
                     <div id="sas_98" class="display_ad">
                         <div id="pave-1"></div>
@@ -171,7 +171,7 @@
                         }
                     </script>
                 </div>
-            </div>
+            </div>-->
             <!-- <div id="top_contenus_right">
                 <section class="block block_ordered_article">
                     <h2 class="block_top_title">Les plus lus</h2>
@@ -272,7 +272,7 @@
                         </ol>
                     </div>
                 </section>
-            </div> -->
+            </div> --
             <div id="outbrain_right">
                 <div class="OUTBRAIN"
                     data-src="https://www.bfmtv.com/paris/paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_AN-202502040518.html"
@@ -286,9 +286,10 @@
                         document.querySelector(".aside_column .OUTBRAIN").setAttribute("data-widget-id", "SB_1")
                     }
                 }));
-            </script>
+            </script>-->
         </div>
-    </div><template id="controlPanel_VOD_Desktop">
+    </div>
+    <template id="controlPanel_VOD_Desktop">
         <div class="controlPanel">
             <div class="playlistArea"><button class="scrollLeft"></button>
                 <div class="movingScroller"></div><button class="scrollRight"></button>

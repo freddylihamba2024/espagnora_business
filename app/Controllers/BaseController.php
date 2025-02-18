@@ -6,6 +6,7 @@ use App\Modules\Api\Models\UsersModel;
 use App\Modules\Web\Models\MediaCategoryModel;
 use Modules\Web\Models\MediaModel as ModelsMediaModel;
 use Modules\Api\Models\MediaModel;
+use Modules\Admin\Models\AdminModel;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\IncomingRequest;
@@ -36,7 +37,8 @@ abstract class BaseController extends ResourceController
     protected $webMediaModel;
     protected $mediaCategoryModel;
     protected $usersModel;
-    
+    protected $adminModel;
+
     /**
      * An array of helpers to be loaded automatically upon
      * class instantiation. These helpers will be available
@@ -58,12 +60,10 @@ abstract class BaseController extends ResourceController
     {
         $this->session = $this->data['session'] = \Config\Services::session();
         $this->mediaModel = new MediaModel();
-        $this->webMediaModel=new ModelsMediaModel();
-        $this->usersModel=new UsersModel();
-        $this->mediaCategoryModel=new MediaCategoryModel();
-
-        
-
+        $this->webMediaModel = new ModelsMediaModel();
+        $this->usersModel = new UsersModel();
+        $this->mediaCategoryModel = new MediaCategoryModel();
+        $this->adminModel = new AdminModel();
     }
 
     /**

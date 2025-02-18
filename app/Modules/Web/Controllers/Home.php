@@ -55,6 +55,7 @@ class Home extends BaseController
         //capture media category slug by category id
         $category_slugs = $this->mediaCategoryModel->get_media_category_slug_list();
         $data['category_slugs'] = $category_slugs;
+        $data['publicity'] = $this->adminModel->get_all_publicity();
 
         return view('Modules\Web\Views\home', $data);
     }
@@ -62,6 +63,7 @@ class Home extends BaseController
     {
         $data['active_data']['active_status'] = ($param == null) ? "actualites" : $param;
         $data['active_data']['categories'] = $this->mediaCategoryModel->get_menu_categorie_list();
+        $data['publicity'] = $this->adminModel->get_all_publicity();
         if ($obj == 'direct-tv') {
             $media_types = "'Videos'";
             $data['media'] = $this->mediaModel->get_media_direct();
@@ -82,7 +84,7 @@ class Home extends BaseController
                 $data['original_podcasts'] = $this->webMediaModel->get_latest_news_by_media_type('Audios');
                 return view('Modules\Web\Views\podcasts', $data);
             }
-            
+
         } elseif ($obj == "magazines") {
             $data['active_data']['active_status'] = ($param == null) ? "magazines" : $param;
             $data['magazines'] = $this->webMediaModel->get_latest_news_by_media_type('Magazines');

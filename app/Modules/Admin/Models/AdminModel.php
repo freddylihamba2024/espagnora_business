@@ -82,6 +82,15 @@ class AdminModel extends MY_MEDIADB {
                 return $builder->getResult();
         }
 
+        public function get_all_publicity()
+        {
+                $builder = $this->db->table('publicity')
+                        ->select('publicity.*')
+                        ->orderBy('Id_0', "DESC")
+                        ->get();
+                return $builder->getResult();
+        }
+
         public function get_all_media_by_category($categ)
         {
                 $builder = $this->db->table('media')
@@ -96,6 +105,15 @@ class AdminModel extends MY_MEDIADB {
         {
                 $builder = $this->db->table('media')
                         ->select('media.*')
+                        ->where("Id_0 = '".$id."'")
+                        ->get();
+                return $builder->getRow();
+        }
+
+        public function get_publicity_by_id($id)
+        {
+                $builder = $this->db->table('publicity')
+                        ->select('publicity.*')
                         ->where("Id_0 = '".$id."'")
                         ->get();
                 return $builder->getRow();
@@ -188,7 +206,13 @@ class AdminModel extends MY_MEDIADB {
 
         public function save_data($table, $data, $Id_0)
         {
-            $this->set_table($table, 'Id_0', 'Id_0 DESC');
-            return $this->saveData($data, $Id_0);
+                $this->set_table($table, 'Id_0', 'Id_0 DESC');
+                return $this->saveData($data, $Id_0);
+        }
+
+        public function delete_line($table,$Id_0)
+        {
+                $this->set_table($table, 'Id_0', 'Id_0 DESC');
+                return $this->delete($Id_0);
         }
 }

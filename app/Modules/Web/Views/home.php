@@ -192,21 +192,17 @@
                     <?php endif; ?>
                 <?php endforeach ?>
 
-
                 <div id="sas_120870_s" class="bloc_center_full">
                     <div id="sas_120870_container">
-                        <div id="sas_120870" class="display_ad"></div>
-                        <script type="application/javascript">
-                            if (smartInit) {
-                                didomiNextConsent(45, (function() {
-                                    Hubvisor("ready", null, (function() {
-                                        sas.cmd.push((function() {
-                                            sas.render("120870")
-                                        }))
-                                    }))
-                                }))
+                        <?php
+                            foreach($publicity as $pub){
+                                if($pub->Type_1 == "Centre"){
+                        ?>
+                        <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
+                        <?php
+                                }
                             }
-                        </script>
+                        ?>
                     </div>
                 </div>
 
@@ -552,7 +548,6 @@
                     carouselItem("block_mea_live_1673534397371", ".carousel_item", 1)
                 }));
             </script>
-            <!-- <div id="sas_pave1_l" class="publicite bloc_center_full"></div> -->
              <br/>
              <br/>
              <br/>
@@ -561,19 +556,21 @@
                 <h2 class="block_simple_title">News 24/7</h2>
                 <br/>
                 <br/>
-               
+
                 <h3 class="block_simple_footer" id="block_news24_simple_footer"><a href="news-24-7/index.html"
                         title="toute l&#39;actualité">toute l&#39;actualité</a></h3>
                 <div class="list_news_wrapper" id="list_news_wrapper_fil_info_1579613800738">
                     <div class="list_news">
                         <?php foreach ($news_list as $news): ?>
-                            <article class="content_item"><a
-                                    href="<?= base_url('web/article/' . $news['Media_Id_1']) ?>"
-                                    title="<?= $news['Title_2'] ?>">
-                                    <div class="content_item_time"><time class="content_live_time" itemprop="pubdate" pubdate="pubdate"
-                                            datetime="2025-02-04T16:15:34+01:00"><?= date('h:i', strtotime($news['DateCreat_8'])) ?></time></div>
-                                    <h3 class="content_item_title"><?= $news['Title_2'] ?></h3>
-                                    <picture class="content_item_cover_small with-js">
+                            <article class="content_item">
+                                <a href="<?= base_url('web/article/' . $news['Media_Id_1']) ?>" title="<?= $news['Title_2'] ?>">
+                                    <div style="width:60%;float:right;">
+                                        <div class="content_item_time">
+                                            <time class="content_live_time" itemprop="pubdate" pubdate="pubdate" datetime="2025-02-04T16:15:34+01:00"><?= date('h:i', strtotime($news['DateCreat_8'])) ?></time>
+                                        </div>
+                                        <h3 class="content_item_title" style="font-size:15px;"><?= $news['Title_2'] ?></h3>
+                                    </div>
+                                    <picture class="content_item_cover_small with-js" style="margin:0;padding-top:10px;">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
                                             srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
                                             type="image/webp">
@@ -601,7 +598,8 @@
                                             data-srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
                                             src="<?= base_url('uploads/' . $news['Media_Image_4']) ?>"
                                             alt="<?= $news['Title_2'] ?>">
-                                    </picture><noscript>
+                                    </picture>
+                                    <noscript>
                                         <picture class="content_item_cover_small">
                                             <source type="image/webp" media="(min-width: 441px)"
                                                 srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x">
@@ -624,7 +622,6 @@
                                                 alt="<?= $news['Title_2'] ?>">
                                         </picture>
                                     </noscript>
-                                    <p class="item_chapo"><?= $news['Description_3'] ?></p>
                                 </a>
                             </article>
                         <?php endforeach; ?>
@@ -642,7 +639,17 @@
                     }
                 }));
             </script>
-            <div id="sas_pave2_l" class="bloc_center_full"></div>
+            <div id="sas_pave2_l" class="bloc_center_full">
+                <?php
+                    foreach($publicity as $pub){
+                        if($pub->Type_1 == "Droite"){
+                ?>
+                <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
+                <?php
+                        }
+                    }
+                ?>
+            </div>
         </div>
     </div>
     <script>
@@ -1611,7 +1618,7 @@
     </div>
     </div>
     </div>
-    <div class="display_ads_mobile">
+    <!--<div class="display_ads_mobile">
         <div id="sas_135329_s" class="bloc_center_full">
             <div id="sas_135329_container">
                 <div id="sas_135329" class="display_ad"></div>
@@ -1635,22 +1642,6 @@
                 document.querySelector(".display_ads_mobile").remove()
             }
         }));
-    </script>
+    </script>-->
 </main>
-<div id="sas_291_s" class="bloc_center_full bloc_center_full_bottom">
-    <div id="sas_291_container">
-        <div id="sas_291" class="display_ad"></div>
-        <script type="application/javascript">
-            if (smartInit) {
-                didomiNextConsent(45, (function() {
-                    Hubvisor("ready", null, (function() {
-                        sas.cmd.push((function() {
-                            sas.render("291")
-                        }))
-                    }))
-                }))
-            }
-        </script>
-    </div>
-</div>
 <?php $this->endSection() ?>

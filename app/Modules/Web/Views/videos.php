@@ -1700,7 +1700,8 @@
             </section>
             <div class="breadcrumb_parent grid_column_abc" id="breadcrumb_parent"></div>
         </div>
-    </div><template id="controlPanel_VOD_Desktop">
+    </div>
+    <template id="controlPanel_VOD_Desktop">
         <div class="controlPanel">
             <div class="playlistArea"><button class="scrollLeft"></button>
                 <div class="movingScroller"></div><button class="scrollRight"></button>
@@ -1719,7 +1720,8 @@
             </div>
         </div>
         <div class="topRightButton"></div>
-    </template><template id="previewBlock_Desktop">
+    </template>
+    <template id="previewBlock_Desktop">
         <div class="previewBlock"><a class="jumpToVideo" target="_blank">
                 <div class="thumbnailContainer"><img class="thumbnailPreview"></div>
             </a>
@@ -1727,7 +1729,8 @@
                 <p class="descriptionPreview"></p>
             </div>
         </div>
-    </template><template id="controlPanel_VOD_Mobile">
+    </template>
+    <template id="controlPanel_VOD_Mobile">
         <div class="controlPanel">
             <div class="VOD_Mobile_Controls">
                 <div class="centeredButtons"><button
@@ -1743,7 +1746,8 @@
         <div class="topLeftButton"><button class="close"
                 data-pagename="paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_VN-202502040606"></button>
         </div>
-    </template><template id="controlPanel_LIVE_Desktop">
+    </template>
+    <template id="controlPanel_LIVE_Desktop">
         <div class="controlPanel">
             <div class="bottomBar">
                 <div class="directHolder">
@@ -1754,7 +1758,8 @@
             </div>
         </div>
         <div class="topRightButton"></div>
-    </template><template id="controlPanel_LIVE_Mobile">
+    </template>
+    <template id="controlPanel_LIVE_Mobile">
         <div class="controlPanel">
             <div class="bottomBar">
                 <div class="directHolder">

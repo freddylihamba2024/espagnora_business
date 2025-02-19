@@ -13,6 +13,7 @@ use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use CodeIgniter\RESTful\ResourceController;
+use Modules\Web\Models\PublicityModel;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -38,6 +39,7 @@ abstract class BaseController extends ResourceController
     protected $mediaCategoryModel;
     protected $usersModel;
     protected $adminModel;
+    protected $publicityModel;
 
     /**
      * An array of helpers to be loaded automatically upon
@@ -64,6 +66,7 @@ abstract class BaseController extends ResourceController
         $this->usersModel = new UsersModel();
         $this->mediaCategoryModel = new MediaCategoryModel();
         $this->adminModel = new AdminModel();
+        $this->publicityModel=new PublicityModel();
     }
 
     /**

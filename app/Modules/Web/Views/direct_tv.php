@@ -202,17 +202,9 @@
                         <div class="menu_center__title"><span>Parcourir</span></div>
                         <ul id="menu_category_links_left">
                             <li><a href="<?=base_url('web/videos')?>" title="Vidéos"><span>Vidéos</span></a></li>
-                            <li><a href="replay-emissions/index.html" title="Émissions"><span>Émissions</span></a></li>
+                            <li><a href="" title="Émissions"><span>Magazines</span></a></li>
                             <li><a href="<?=base_url('web/podcasts')?>" title="Podcasts"><span>Podcasts</span></a></li>
-                            <li><a href="longs-formats/index.html" title="Longs Formats"><span>Longs Formats</span></a></li>
-                            <li><a href="newsletters/index.html" title="Newsletters"><span>Newsletters</span></a></li>
-                            <li><a href="https://meteo.ESPAGNORA.com/" title="Météo"><span>Météo</span></a></li>
-                            <li><a href="info-trafic/index.html" title="Trafic"><span>Trafic</span></a></li>
-                            <li><a href="meteo-de-l-energie/index.html" title="Météo de l'Energie"><span>Météo de l'Energie</span></a>
-                            </li>
-                            <li><a href="vrai-faux/index.html" title="Vrai/Faux"><span>Vrai/Faux</span></a></li>
-                            <li><a href="canaux-tv/index.html" title="Canaux TV"><span>Canaux TV</span></a></li>
-                            <li>
+                            <!--<li>
                                 <div class="menu_label_header">
                                     <div class="menu_label">Services</div><span class="show_menu">Voir plus</span>
                                 </div>
@@ -232,7 +224,7 @@
                                     <li><a href="https://annonces-legales.ESPAGNORA.com" title="Annonces légales"><span>Annonces
                                                 légales</span></a></li>
                                 </ul>
-                            </li>
+                            </li>-->
                         </ul>
 
                         <div class="menu_center__title">Suivez-nous sur</div>

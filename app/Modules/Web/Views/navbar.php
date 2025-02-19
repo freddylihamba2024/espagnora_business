@@ -112,7 +112,7 @@ if (isset($active_data)) {
                         <li><a href="<?=base_url('web/videos')?>" title="Vidéos"><span>Vidéos</span></a></li>
                         <li><a href="" title="Émissions"><span>Magazines</span></a></li>
                         <li><a href="<?=base_url('web/podcasts')?>" title="Podcasts"><span>Podcasts</span></a></li>
-                        <li>
+                        <!--<li>
                             <div class="menu_label_header">
                                 <div class="menu_label">Services</div><span class="show_menu">Voir plus</span>
                             </div>
@@ -132,7 +132,7 @@ if (isset($active_data)) {
                                 <li><a href="https://annonces-legales.bfmtv.com" title="Annonces légales"><span>Annonces
                                             légales</span></a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
 
                     <div class="menu_center__title">Suivez-nous sur</div>

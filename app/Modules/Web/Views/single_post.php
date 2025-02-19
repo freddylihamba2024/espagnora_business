@@ -84,7 +84,7 @@
                         </a> -->
                     </div>
 
-                    <div class="content_body" style="margin-top: 150px;">
+                    <div class="content_body" style="margin-top: 15px;">
                         <div class="content_body_wrapper">
                             <div class="chapo"><?= $media[0]['Title_2'] ?></div>
                             <div id="sas_98_s" class="bloc_center_full"></div>

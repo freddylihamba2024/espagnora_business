@@ -2,7 +2,7 @@
     <!-- Logo Header -->
     <div class="logo-header" data-background-color="blue">
 
-        <a href="<?= base_url("web/page/home") ?>" class="logo">
+        <a href="<?= base_url("/") ?>" class="logo">
             <img src="<?= base_url("espagnora_assets/images/logo.png") ?>" alt="Logo espagnora" style="height:50px;"  class="navbar-brand">
         </a>
         <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">

@@ -27,10 +27,10 @@ $routes->match(['get', 'post'],'web/(:any)/(:any)', 'Home::page/$1/$2',['namespa
 
 $routes->set404Override(
     function () {
-        //$clientModel = new \Modules\Client\Models\ClientModel();
-        //$data['cryptor'] = new \App\Libraries\Cryptor();
-        //$data['categories'] = $clientModel->get_categories();
-        echo view('404');
+        $mediaCategoryModel = new \App\Modules\Web\Models\MediaCategoryModel();
+        $data['active_data']['categories'] = $mediaCategoryModel->get_menu_categorie_list();
+        $data['active_data']['active_status'] = "";
+        echo view('404',$data);
     }
 );
 

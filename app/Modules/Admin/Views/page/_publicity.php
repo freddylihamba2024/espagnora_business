@@ -93,7 +93,7 @@
 
             $('#loader').show();
 
-            if (type.length != 0 && files.length != 0) {
+            if (type.length != 0 /*&& files.length != 0*/) {
                 var form = $(this)[0], data = new FormData(form);
 
                 $.ajax({
@@ -105,7 +105,7 @@
                     processData: false,
                     contentType: false,
                     success: function(result) {
-                        swal("Succès", "Vous aviez ajouté un media", {
+                        swal("Succès", "Vous aviez ajouté une image publicitaire", {
                             icon: "success",
                             buttons: {
                                 confirm: {

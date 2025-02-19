@@ -192,22 +192,6 @@
                     <?php endif; ?>
                 <?php endforeach ?>
 
-                <div id="sas_120870_s" class="bloc_center_full">
-                    <div id="sas_120870_container">
-                        <?php
-                            foreach($publicity as $pub){
-                                if($pub->Type_1 == "Centre"){
-                        ?>
-                        <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
-                        <?php
-                                }
-                            }
-                        ?>
-                    </div>
-                </div>
-
-                <div class="bloc_evenement_haut_mobile" id="bloc_evenement_haut_mobile"></div>
-
                 <!-- <article class="duo_liste content_item content_type content_type_article"><a
                         href="police-justice/viols-de-mazan-le-proces-en-appel-se-tiendra-a-partir-du-6-octobre-2025_AN-202502040561.html"
                         title="INFO BFMTV. Viols de Mazan: le procès en appel se tiendra à partir du 6 octobre 2025">
@@ -508,7 +492,22 @@
                         </div>
                     </a></article>-->
             </div>
+            <div id="sas_120870_s" class="bloc_center_full">
+                <div id="bloc_center_full">
+                    <?php
+                        foreach($publicity as $pub){
+                            if($pub->Type_1 == "Centre"){
+                    ?>
+                    <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
+                    <br/>
+                    <?php
+                            }
+                        }
+                    ?>
+                </div>
+            </div>
         </div>
+
         <div class="grid_column grid_column_c grid_aside">
             <div class="mise_en_avant_droite" id="mise_en_avant_droite"></div>
             <div class="block block_direct block_direct_video" id="direct_home_video_1697216323610">
@@ -565,12 +564,12 @@
                             <article class="content_item">
                                 <a href="<?= base_url('web/article/' . $news['Media_Id_1']) ?>" title="<?= $news['Title_2'] ?>">
                                     <div style="width:60%;float:right;">
+                                        <h3 class="content_item_title" style="font-size:14px;margin:0;"><?= $news['Title_2'] ?></h3>
                                         <div class="content_item_time">
                                             <time class="content_live_time" itemprop="pubdate" pubdate="pubdate" datetime="2025-02-04T16:15:34+01:00"><?= date('h:i', strtotime($news['DateCreat_8'])) ?></time>
                                         </div>
-                                        <h3 class="content_item_title" style="font-size:15px;"><?= $news['Title_2'] ?></h3>
                                     </div>
-                                    <picture class="content_item_cover_small with-js" style="margin:0;padding-top:10px;">
+                                    <picture class="content_item_cover_small with-js" style="width:80px;margin:0;">
                                         <source media="(min-width: 441px)" width="16" height="9" class="lozad"
                                             srcset="<?= base_url('uploads/' . $news['Media_Image_4']) ?>, <?= base_url('uploads/' . $news['Media_Image_4']) ?> 2x"
                                             type="image/webp">
@@ -639,12 +638,13 @@
                     }
                 }));
             </script>
-            <div id="sas_pave2_l" class="bloc_center_full">
+            <div id="sas_pave2_l" class="bloc_center_full" style="padding:25px;">
                 <?php
                     foreach($publicity as $pub){
                         if($pub->Type_1 == "Droite"){
                 ?>
                 <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
+                <br/>
                 <?php
                         }
                     }
@@ -652,7 +652,7 @@
             </div>
         </div>
     </div>
-    <script>
+    <!--<script>
         if (["S", "M"].includes(window.deviceSize)) {
             const widgetBlocks = document.querySelectorAll(".widget_jo_block");
             const beforeDuoElement = document.getElementById("before_duo");
@@ -669,7 +669,7 @@
                 else if (megaMax) megaMax.after(scoringBlock)
             }
         }
-    </script>
+    </script>-->
     <div class="grid_column grid_column_abc">
         <!-- <section class="block block_ordered_five icon_middle" id="ordered_list_top_contenus_manuel_1583490815722">
             <div class="block_header">

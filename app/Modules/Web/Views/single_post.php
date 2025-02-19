@@ -84,12 +84,28 @@
                         </a> -->
                     </div>
 
-                    <!--<div class="content_body" style="margin-top: 150px;">
+                    <div class="content_body" style="margin-top: 15px;">
                         <div class="content_body_wrapper">
                             <div class="chapo"><?= $media[0]['Title_2'] ?></div>
                             <div id="sas_98_s" class="bloc_center_full"></div>
                             <p><?= $media[0]['Description_3'] ?></p>
-                            <div id="sas_76194_s" class="bloc_center_full">
+
+                            <div id="sas_120870_s" class="bloc_center_full" style="margin-top:100px;padding:20px 23px 0;">
+                                <div id="bloc_center_full">
+                                    <?php
+                                        foreach($publicity as $pub){
+                                            if($pub->Type_1 == "Centre"){
+                                    ?>
+                                    <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
+                                    <br/>
+                                    <?php
+                                            }
+                                        }
+                                    ?>
+                                </div>
+                            </div>
+
+                            <!--<div id="sas_76194_s" class="bloc_center_full">
                                 <div id="sas_76194_container">
                                     <div id="sas_76194" class="display_ad"></div>
                                     <script type="application/javascript">
@@ -104,7 +120,8 @@
                                         }
                                     </script>
                                 </div>
-                            </div>
+                            </div>-->
+                            <br/>
                             <!-- <h2 class="subheading" id="bbmu2">Une enquête ouverte</h2>
                         <p>L'homme a été conduit en garde à vue, et les policiers blessés ont été pris en charge pour des soins.
                             L'homme a été conduit au commissariat du centre, où il sera examiné par un psychiatre.&nbsp;Il se
@@ -116,16 +133,16 @@
                                 <div class="author_wrapper"><span class="author_name">Alexandra Gonzalez avec Fanny Rocher</span>
                                 </div>
                             </div>
-                        </div> --
+                        </div>
                             <script>
                                 window.nextScriptsToExecute && window.nextScriptsToExecute.push((function() {
                                     if (window.deviceSize === "L") {
                                         document.querySelector(".display_ads_mobile").remove()
                                     }
                                 }));
-                            </script>
+                            </script>-->
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </article>
             <div class="content_body" id="content_body_bottom">
@@ -137,7 +154,7 @@
             </div>
             </article>
         </div>
-        <script>
+        <!--<script>
             window.nextScriptsToExecute && window.nextScriptsToExecute.push((function() {
                 resizeDisplayBlock("block_ordered_parent", ".block_ordered_article", "top_contenus_right",
                     "afterbegin");
@@ -145,14 +162,28 @@
                     lazyload.update()
                 }
             }));
-        </script>
+        </script>-->
         <div class="grid_column grid_column_c aside_column">
             <div class="live_box block">
                 <h2 class="live_button">A la Une</h2>
-                <p><a
-                        href="<?= base_url('web/actualites/' . $media[0]['Media_Id_1']) ?>"
+                <br/>
+                <p>
+                    <a href="<?= base_url('web/actualites/' . $media[0]['Media_Id_1']) ?>"
                         title="<?= $media[0]['Title_2'] ?>"><?= $media[0]['Title_2'] ?>
-                    </a></p>
+                    </a>
+                </p>
+            </div>
+            <div id="sas_pave2_l" class="bloc_center_full" style="padding:35px;">
+                <?php
+                    foreach($publicity as $pub){
+                        if($pub->Type_1 == "Droite"){
+                ?>
+                <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
+                <br/>
+                <?php
+                        }
+                    }
+                ?>
             </div>
             <!--<div id="sas_pave1_l" class="sticky_zone publicite bloc_center_full" style="height: 2550px;">
                 <div id="sas_98_container" class="sticky_elt">
@@ -272,8 +303,8 @@
                         </ol>
                     </div>
                 </section>
-            </div> --
-            <div id="outbrain_right">
+            </div> -->
+            <!--<div id="outbrain_right">
                 <div class="OUTBRAIN"
                     data-src="https://www.bfmtv.com/paris/paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_AN-202502040518.html"
                     data-ob-template="BFMtv" data-widget-id="SB_1"></div>
@@ -289,7 +320,7 @@
             </script>-->
         </div>
     </div>
-    <template id="controlPanel_VOD_Desktop">
+    <!--<template id="controlPanel_VOD_Desktop">
         <div class="controlPanel">
             <div class="playlistArea"><button class="scrollLeft"></button>
                 <div class="movingScroller"></div><button class="scrollRight"></button>
@@ -308,7 +339,8 @@
             </div>
         </div>
         <div class="topRightButton"></div>
-    </template><template id="previewBlock_Desktop">
+    </template>
+    <template id="previewBlock_Desktop">
         <div class="previewBlock"><a class="jumpToVideo" target="_blank">
                 <div class="thumbnailContainer"><img class="thumbnailPreview"></div>
             </a>
@@ -316,7 +348,8 @@
                 <p class="descriptionPreview"></p>
             </div>
         </div>
-    </template><template id="controlPanel_VOD_Mobile">
+    </template>
+    <template id="controlPanel_VOD_Mobile">
         <div class="controlPanel">
             <div class="VOD_Mobile_Controls">
                 <div class="centeredButtons"><button
@@ -332,7 +365,8 @@
         <div class="topLeftButton"><button class="close"
                 data-pagename="paris-deux-policiers-legerement-blesses-par-un-homme-devant-la-prefecture-de-police_AN-202502040518"></button>
         </div>
-    </template><template id="controlPanel_LIVE_Desktop">
+    </template>
+    <template id="controlPanel_LIVE_Desktop">
         <div class="controlPanel">
             <div class="bottomBar">
                 <div class="directHolder">
@@ -343,7 +377,8 @@
             </div>
         </div>
         <div class="topRightButton"></div>
-    </template><template id="controlPanel_LIVE_Mobile">
+    </template>
+    <template id="controlPanel_LIVE_Mobile">
         <div class="controlPanel">
             <div class="bottomBar">
                 <div class="directHolder">
@@ -353,9 +388,10 @@
             </div>
         </div>
         <div class="topRightButton"></div>
-    </template><template id="errorTemplate">
-        <div class="ErrorContainer"><span class="ErrorMessage"></span></div>
     </template>
+    <template id="errorTemplate">
+        <div class="ErrorContainer"><span class="ErrorMessage"></span></div>
+    </template>-->
 </main>
 
 <script type="text/javascript">

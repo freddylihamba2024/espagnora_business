@@ -202,17 +202,9 @@
                         <div class="menu_center__title"><span>Parcourir</span></div>
                         <ul id="menu_category_links_left">
                             <li><a href="<?=base_url('web/videos')?>" title="Vidéos"><span>Vidéos</span></a></li>
-                            <li><a href="replay-emissions/index.html" title="Émissions"><span>Émissions</span></a></li>
+                            <li><a href="" title="Émissions"><span>Magazines</span></a></li>
                             <li><a href="<?=base_url('web/podcasts')?>" title="Podcasts"><span>Podcasts</span></a></li>
-                            <li><a href="longs-formats/index.html" title="Longs Formats"><span>Longs Formats</span></a></li>
-                            <li><a href="newsletters/index.html" title="Newsletters"><span>Newsletters</span></a></li>
-                            <li><a href="https://meteo.ESPAGNORA.com/" title="Météo"><span>Météo</span></a></li>
-                            <li><a href="info-trafic/index.html" title="Trafic"><span>Trafic</span></a></li>
-                            <li><a href="meteo-de-l-energie/index.html" title="Météo de l'Energie"><span>Météo de l'Energie</span></a>
-                            </li>
-                            <li><a href="vrai-faux/index.html" title="Vrai/Faux"><span>Vrai/Faux</span></a></li>
-                            <li><a href="canaux-tv/index.html" title="Canaux TV"><span>Canaux TV</span></a></li>
-                            <li>
+                            <!--<li>
                                 <div class="menu_label_header">
                                     <div class="menu_label">Services</div><span class="show_menu">Voir plus</span>
                                 </div>
@@ -232,7 +224,7 @@
                                     <li><a href="https://annonces-legales.ESPAGNORA.com" title="Annonces légales"><span>Annonces
                                                 légales</span></a></li>
                                 </ul>
-                            </li>
+                            </li>-->
                         </ul>
 
                         <div class="menu_center__title">Suivez-nous sur</div>
@@ -283,7 +275,8 @@
                     <div class="direct_edition_info"><span class="direct_flag">En direct</span>
                         <h2 class="titre_edition"><?= $media[0]['Title_2'] ?></h2>
                     </div>
-                </div><template id="controlPanel_VOD_Desktop">
+                </div>
+                <template id="controlPanel_VOD_Desktop">
                     <div class="controlPanel">
                         <div class="playlistArea"><button class="scrollLeft"></button>
                             <div class="movingScroller"></div><button class="scrollRight"></button>
@@ -302,7 +295,8 @@
                         </div>
                     </div>
                     <div class="topRightButton"></div>
-                </template><template id="previewBlock_Desktop">
+                </template>
+                <template id="previewBlock_Desktop">
                     <div class="previewBlock"><a class="jumpToVideo" target="_blank">
                             <div class="thumbnailContainer"><img class="thumbnailPreview"></div>
                         </a>
@@ -310,7 +304,8 @@
                             <p class="descriptionPreview"></p>
                         </div>
                     </div>
-                </template><template id="controlPanel_VOD_Mobile">
+                </template>
+                <template id="controlPanel_VOD_Mobile">
                     <div class="controlPanel">
                         <div class="VOD_Mobile_Controls">
                             <div class="centeredButtons"><button
@@ -324,7 +319,8 @@
                     </div>
                     <div class="topRightButton"></div>
                     <div class="topLeftButton"><button class="close" data-pagename=""></button></div>
-                </template><template id="controlPanel_LIVE_Desktop">
+                </template>
+                <template id="controlPanel_LIVE_Desktop">
                     <div class="controlPanel">
                         <div class="bottomBar">
                             <div class="directHolder">
@@ -346,7 +342,8 @@
                         </div>
                     </div>
                     <div class="topRightButton"></div>
-                </template><template id="errorTemplate">
+                </template>
+                <template id="errorTemplate">
                     <div class="ErrorContainer"><span class="ErrorMessage"></span></div>
                 </template>
                 <!-- <div class="bloc_autres_chaines scroll_bar" id="block_direct_autres_chaines_1726722001280">
@@ -600,7 +597,7 @@
             <div class="grid_column grid_column_c">
                 <section class="block_news">
                     <div class="block_header_container">
-                        <h2 class="titre">News 24/7</h2><a href="/news-24-7/index.html" title="Toute l’actualité"
+                        <h2 class="titre">News 24/7</h2><a href="" title="Toute l’actualité"
                             class="see_more_link"><span></span></a>
                     </div>
                     <div class="list_news_wrapper" id="list_news_wrapper_fil_info_1726722432297">
@@ -649,7 +646,7 @@
                         </div>
                     </div>
                 </section>
-                <div class="direct_vignette_container">
+                <!--<div class="direct_vignette_container">
                     <div class="direct_vignette_header"><img height="20" width="84" class="vignette_brand"
                             alt="Deux fois + d&#39;infos" title="Deux fois + d&#39;infos"
                             src="<?= base_url('espagnora_assets/images/logo_blanc.png') ?>"> <span
@@ -663,7 +660,7 @@
                             <div class="info"><span class="flag">direct</span> <span class="epg_titre"><?= $media[0]['Title_2'] ?></span></div>
                         </a>
                     </div>
-                </div>
+                </div>-->
             </div>
             <div class="grid_column grid_column_abc" id="grid_column_abc">
                 <!-- <section class="block_video_section block_video_slider" id="direct_commun_1726722860904">

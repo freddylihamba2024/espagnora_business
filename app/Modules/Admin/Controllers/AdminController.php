@@ -333,18 +333,19 @@ class AdminController extends BaseController
                 elseif ($obj == "publicity")
                 {
                         $data = array();
-                        $Image_2 = $this->request->getFile("Media_Image_4");
+                        $Image_2 = $this->request->getFile("Image_2");
 
                         $Id_0 = ($this->request->getPost("Id_0") != 0) ? $this->request->getPost("Id_0") : Null;
                         $check = $this->adminModel->get_publicity_by_id($Id_0);
 
                         if (is_null($check) || (!is_null($check) && $Id_0 == $check->Id_0)) {
 
-                                $fileName = (!is_null($check)) ? $check->Image_3 : Null;
+                                $fileName = (!is_null($check)) ? $check->Image_2 : Null;
                                 if ($Image_2->isValid() && !$Image_2->hasMoved()) {
                                         $filePath = ROOTPATH . 'uploads/';
                                         $fileName = $Image_2->getRandomName();
                                         $Image_2->move($filePath, $fileName);
+                                        $data['Image_2'] = $fileName;
                                 }
 
                                 $data['Id_0'] = $id;

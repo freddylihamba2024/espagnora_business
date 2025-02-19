@@ -27,16 +27,20 @@ if (isset($active_data)) {
 ?>
 <header class="main_header" id="main_header">
     <div class="header_top" id="header_top"><button class="header_menu" id="header_menu_show">Menu</button>
-        <h1><a href="<?=base_url()?>" title="ESPAGNORA" class="header_brand"><img src="<?=base_url('espagnora_assets/images/logo.png')?>" alt="ESPAGNORA" title="ESPAGNORA"></a></h1>
-        <div class="header_direct">
-            <a class="header_replay" href="https://www.rmcbfmplay.com/chaine/bfm-tv?subMenuId=RefMenuItem::rmcgo_home_ESPAGNORA" title="Replay" target="_blank">Replay</a> <a class="direct_radio" href="en-direct/bfm-radio/index.html" title="Direct Radio" onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation','clickchapter1':'header', 'clickchapter2':'CTA-direct', 'clickname':'radio_ESPAGNORA'});">
-                <div class="direct_radio_bouton"><img width="21" height="20" src="<?=base_url('templates/news/assets/v11/images/radio.dee6a7c951465a8cbb208e64f4c09ff6.svg')?>" alt="Direct Radio"></div>Radio
+        <h1><a href="<?= base_url("/") ?>" title="ESPAGNORA" class="header_brand"><img src="<?= base_url("templates/news/assets/images/logo.png") ?>" alt="ESPAGNORA"
+                title="ESPAGNORA"></a>
+        </h1>
+        <div class="header_direct"><a class="header_replay" style="color:#fd0000;"
+            href="<?= base_url("web/replays") ?>" title="Replay">Replay</a> <a class="direct_radio" style="color:#fd0000;" href="<?= base_url("web/direct-radio") ?>" title="Direct Radio"
+                onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation','clickchapter1':'header', 'clickchapter2':'CTA-direct', 'clickname':'radio_ESPAGNORA'});">
+                <div class="direct_radio_bouton"><img width="21" height="20"
+                src="<?= base_url("templates/news/assets/v11/images/radio.dee6a7c951465a8cbb208e64f4c09ff6.svg") ?>" alt="Direct Radio"></div>Radio
             </a>
-            <a class="direct_tv" href="<?=base_url('web/direct-tv')?>" title="Direct tv"
+            <a class="direct_tv" href="<?= base_url("web/direct-tv") ?>" title="Direct tv"
                 onclick="return tc_events_31(this,'click-navigation',{'clicktype':'click.navigation', 'clickchapter1':'header', 'clickchapter2':'CTA-direct', 'clickname':'direct-tv_ESPAGNORA'});">
                 <div class="direct_tv_bouton"><img width="16" height="14"
-                        src="<?=base_url('templates/news/assets/v11/images/direct_tv.a04f54365fdb12eef5ce900c03db08d4.svg')?>" alt="Direct tv"></div><span
-                    class="span_tv">Direct</span>
+                src="<?= base_url("templates/news/assets/v11/images/direct_tv.a04f54365fdb12eef5ce900c03db08d4.svg") ?>" alt="Direct tv"></div><span
+                class="span_tv">Direct</span>
             </a>
         </div>
     </div>
@@ -108,7 +112,7 @@ if (isset($active_data)) {
                         <li><a href="<?=base_url('web/videos')?>" title="Vidéos"><span>Vidéos</span></a></li>
                         <li><a href="" title="Émissions"><span>Magazines</span></a></li>
                         <li><a href="<?=base_url('web/podcasts')?>" title="Podcasts"><span>Podcasts</span></a></li>
-                        <li>
+                        <!--<li>
                             <div class="menu_label_header">
                                 <div class="menu_label">Services</div><span class="show_menu">Voir plus</span>
                             </div>
@@ -128,7 +132,7 @@ if (isset($active_data)) {
                                 <li><a href="https://annonces-legales.bfmtv.com" title="Annonces légales"><span>Annonces
                                             légales</span></a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
 
                     <div class="menu_center__title">Suivez-nous sur</div>

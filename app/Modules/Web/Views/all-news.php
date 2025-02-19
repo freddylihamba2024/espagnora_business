@@ -218,8 +218,34 @@ $slug_cover = $medias[0]['media_slug'];
                 <li><a href="page5/index.html" title="Page 5">5</a></li>
                 <li><a href="page10/index.html" title="Page 10">10</a></li>
                 <li><a href="page20/index.html" title="Page 20">20</a></li>-->
-                <li class="pagination-btn"><a href="#" title="Page suivante" rel="next">&gt;</a></li>
+                <li class="pagination-btn"><a href="page2/index.html" title="Page suivante" rel="next">&gt;</a></li>
             </ul>
+           <!-- <div class="block_ordered_parent" id="block_ordered_parent"></div>
+            <script>
+                window.nextScriptsToExecute && window.nextScriptsToExecute.push((function() {
+                    resizeDisplayBlock("block_ordered_parent", ".block_ordered_article",
+                        "top_contenus_right", "afterbegin");
+                    if (window.deviceSize === "L") {
+                        lazyload.update();
+                        document.querySelector(".display_ads_mobile").remove()
+                    }
+                }));
+            </script>
+            <div class="breadcrumb_parent grid_column_abc" id="breadcrumb_parent"></div>-->
+            <div id="sas_120870_s" class="bloc_center_full">
+                <div id="bloc_center_full">
+                    <?php
+                        foreach($publicity as $pub){
+                            if($pub->Type_1 == "Centre"){
+                    ?>
+                    <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
+                    <br/>
+                    <?php
+                            }
+                        }
+                    ?>
+                </div>
+            </div>
         </div>
         <div class="grid_column grid_column_c aside_column">
             <!-- <div class="mise_en_avant_droite" id="mise_en_avant_droite"></div>
@@ -239,17 +265,6 @@ $slug_cover = $medias[0]['media_slug'];
                     </script>
                 </div>
             </div> -->
-            <div id="sas_pave2_l" class="bloc_center_full">
-                <?php
-                    foreach($publicity as $pub){
-                        if($pub->Type_1 == "Centre"){
-                ?>
-                <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
-                <?php
-                        }
-                    }
-                ?>
-            </div>
             <div id="top_contenus_right">
                 <section class="block block_ordered_article">
                     <h2 class="block_top_title">Les plus lus</h2>
@@ -319,12 +334,13 @@ $slug_cover = $medias[0]['media_slug'];
 
                         </ol>
                     </div>
-                    <div id="sas_pave2_l" class="bloc_center_full">
+                    <div id="sas_pave2_l" class="bloc_center_full" style="padding:5px;">
                         <?php
                             foreach($publicity as $pub){
                                 if($pub->Type_1 == "Droite"){
                         ?>
                         <img src="<?= base_url("uploads") ?>/<?= $pub->Image_2 ?>" style="width:100%;" id="img">
+                        <br/>
                         <?php
                                 }
                             }
@@ -332,8 +348,37 @@ $slug_cover = $medias[0]['media_slug'];
                     </div>
                 </section>
             </div>
+            <!--<div id="sas_pave2_l" class="bloc_center_full" style="height: 2960px;">
+                <div id="sas_289_container" class="sticky_elt">
+                    <div id="sas_289" class="display_ad"></div>
+                    <script type="application/javascript">
+                        if (smartInit) {
+                            didomiNextConsent(45, (function() {
+                                Hubvisor("ready", null, (function() {
+                                    sas.cmd.push((function() {
+                                        sas.render("289")
+                                    }))
+                                }))
+                            }))
+                        }
+                    </script>
+                </div>
+            </div>-->
+        </div>
+        <div class="grid_column grid_column_abc">
         </div>
     </div>
+    <!--<script>
+        if (["S", "M"].includes(window.deviceSize)) {
+            const widgetBlocks = document.querySelectorAll(".widget_jo_block");
+            const beforeDuoElement = document.getElementById("before_duo");
+            if (widgetBlocks.length) {
+                widgetBlocks.forEach(bloc => {
+                    beforeDuoElement.appendChild(bloc)
+                })
+            }
+        }
+    </script>-->
 </main>
 
 <!-- <div class="container">
